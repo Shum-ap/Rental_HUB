@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Бронирование успешно</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f0fdf4; text-align: center; padding: 40px; color: #14532d; }
+        .box { background: white; display: inline-block; padding: 40px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { color: #16a34a; }
+        a { text-decoration: none; color: white; background: #16a34a; padding: 10px 20px; border-radius: 6px; display: inline-block; margin-top: 20px; }
+        a:hover { background: #15803d; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>🎉 Бронирование успешно!</h1>
+        <p>Ваше бронирование № <strong>{{ booking_id }}</strong> было завершено успешно.</p>
+        <a href="/profile/">Перейти в профиль</a>
+    </div>
+</body>
+</html>

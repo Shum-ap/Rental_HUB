@@ -1,0 +1,285 @@
+{% load user_roles %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>🏠 Rental Hub — Аренда жилья</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #1e40af;
+            --accent: #f59e0b;
+            --light: #f8fafc;
+            --dark: #0f172a;
+            --gray: #94a3b8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1566073771259-6a8506099945') center/cover no-repeat;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            padding: 2rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .search-box {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .search-box h2 {
+            color: var(--dark);
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .search-form {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .search-form input,
+        .search-form select,
+        .search-form button {
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .search-form button {
+            background: var(--accent);
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .search-form button:hover {
+            background: #e67e09;
+        }
+
+        .section-title {
+            text-align: center;
+            margin: 3rem 0 1rem;
+            color: var(--dark);
+        }
+
+        .properties-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 0 2rem 3rem;
+        }
+
+        .property-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .property-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .property-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .property-info {
+            padding: 1rem;
+        }
+
+        .property-info h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        .property-meta {
+            display: flex;
+            justify-content: space-between;
+            color: var(--gray);
+            font-size: 0.9rem;
+            margin: 0.5rem 0;
+        }
+
+        .property-price {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .property-rating {
+            color: var(--accent);
+        }
+
+        footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .search-form {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">🏠 Rental Hub</div>
+        <nav>
+            {% if user.is_authenticated %}
+                {% if user|has_role:"landlord" %}
+                    <a href="/properties/add/">➕ Добавить жильё</a>
+                {% endif %}
+                {% if user|has_role:"tenant" %}
+                    <a href="/profile/">📅 Мои бронирования</a>
+                {% endif %}
+                <a href="/profile/">👤 Профиль</a>
+                <a href="/admin/logout/">🚪 Выйти</a>
+            {% else %}
+                <a href="/admin/login/">🔑 Войти</a>
+            {% endif %}
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Найдите идеальное жильё для отдыха</h1>
+            <p>Более 1000 объектов по всему миру. Удобный поиск, гарантия качества.</p>
+        </div>
+    </section>
+
+    <section class="search-section">
+        <div class="search-box">
+            <h2>🔍 Поиск жилья</h2>
+            <form method="get" action="/properties/" class="search-form">
+                <input type="text" name="search" placeholder="📍 Город или адрес">
+                <input type="date" name="start_date" placeholder="📅 Заезд">
+                <input type="date" name="end_date" placeholder="📅 Выезд">
+                <input type="number" name="min_price" placeholder="💰 Мин. цена">
+                <input type="number" name="max_price" placeholder="💰 Макс. цена">
+                <button type="submit">Найти</button>
+            </form>
+        </div>
+    </section>
+
+    <h2 class="section-title">🔥 Популярные объекты</h2>
+    <section class="properties-grid">
+        {% for prop in properties %}
+        <div class="property-card">
+            <a href="/properties/{{ prop.id }}/">
+                {% if prop.image %}
+                    <img src="{{ prop.image.url }}" alt="Фото" class="property-image">
+                {% else %}
+                    <img src="https://via.placeholder.com/300x200?text=No+Image" alt="Нет фото" class="property-image">
+                {% endif %}
+            </a>
+            <div class="property-info">
+                <h3>{{ prop.title }}</h3>
+                <p>{{ prop.location }}</p>
+                <div class="property-meta">
+                    <span>Комн. {{ prop.rooms }}</span>
+                    <span>{{ prop.property_type }}</span>
+                </div>
+                <div class="property-meta">
+                    <span class="property-price">{{ prop.price }} руб./ночь</span>
+                    {% if prop.average_rating %}
+                        <span class="property-rating">⭐ {{ prop.average_rating }}</span>
+                    {% endif %}
+                    <span class="property-reviews">💬 {{ prop.review_count }} отзывов</span>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </section>
+
+    <footer>
+        <p>&copy; 2025 RentalHub. Все права защищены.</p>
+        <p>Сделано с ❤️ на Django</p>
+    </footer>
+</body>
+</html>

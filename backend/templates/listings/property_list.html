@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список объектов</title>
+</head>
+<body>
+    <h1>Список доступных объектов</h1>
+    {% if properties %}
+        <ul>
+        {% for property in properties %}
+            <li>
+                <strong>{{ property.title }}</strong><br>
+                {{ property.description|truncatewords:30 }}<br>
+                Локация: {{ property.location }}<br>
+                Цена: {{ property.price }}<br>
+                Комн.{{ property.rooms }}<br>
+                Тип: {{ property.property_type }}<br>
+                <a href="/api/v1/rental/html/{{ property.id }}/">Подробнее</a>
+            </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>Нет доступных объектов.</p>
+    {% endif %}
+</body>
+</html>

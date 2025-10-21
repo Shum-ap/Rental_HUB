@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Подтверждение бронирования — RentalHub</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f8fafc;
+            color: #0f172a;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2563eb, #1e40af);
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            color: #1e3a8a;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 15px;
+        }
+
+        li {
+            padding: 5px 0;
+        }
+
+        .price {
+            color: #16a34a;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #1e40af;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #0f172a;
+            color: white;
+            margin-top: 40px;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 10px;
+            color: #1e3a8a;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">🏠 RentalHub</div>
+        <nav>
+            {% if user.is_authenticated %}
+                <a href="/profile/" style="color:white;">👤 Профиль</a>
+                <a href="/admin/logout/" style="color:white;">🚪 Выйти</a>
+            {% else %}
+                <a href="/admin/login/" style="color:white;">🔑 Войти</a>
+            {% endif %}
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Подтверждение бронирования</h1>
+
+        <p>Здравствуйте, <strong>{{ booking.user.username }}</strong>!</p>
+        <p>Ваше бронирование успешно создано 🎉</p>
+
+        <h2>Детали бронирования:</h2>
+        <ul>
+            <li><strong>🏠 Объект:</strong> {{ booking.rental_property.title }}</li>
+            <li><strong>📍 Адрес:</strong> {{ booking.rental_property.location }}</li>
+            <li><strong>📅 Даты:</strong> {{ booking.start_date }} — {{ booking.end_date }}</li>
+            <li><strong>⏱ Количество ночей:</strong> {{ booking.nights }}</li>
+            <li><strong>💰 Цена за ночь:</strong> {{ booking.rental_property.price }} руб.</li>
+            <li class="price"><strong>💵 Итоговая сумма:</strong> {{ booking.total_price }} руб.</li>
+        </ul>
+
+        <p>Чтобы завершить бронирование, перейдите к оплате:</p>
+        <a href="/booking/{{ booking.id }}/pay/" class="btn">💳 Перейти к оплате</a>
+
+        <br>
+        <a href="/properties/" class="back-link">← Вернуться к списку объектов</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 RentalHub. Все права защищены.</p>
+    </footer>
+</body>
+</html>

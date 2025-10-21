@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Оплата бронирования</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f9fafb; text-align: center; padding: 40px; color: #0f172a; }
+        .box {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            display: inline-block;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            min-width: 350px;
+        }
+        h1 { color: #2563eb; margin-bottom: 20px; }
+        label { display: block; text-align: left; margin: 10px 0 5px; font-weight: 600; }
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #cbd5e1;
+            border-radius: 5px;
+        }
+        .btn {
+            background: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 10px 20px;
+            margin-top: 20px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .btn:hover { background: #1e40af; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>💳 Оплата бронирования № {{ booking_id }}</h1>
+
+        <form method="post" action="">
+            {% csrf_token %}
+            <label>Номер карты:</label>
+            <input type="text" name="card_number" placeholder="1234 5678 9012 3456" required>
+
+            <label>Имя на карте:</label>
+            <input type="text" name="card_name" placeholder="IVAN IVANOV" required>
+
+            <label>Срок действия:</label>
+            <input type="text" name="expiry_date" placeholder="MM/YY" required>
+
+            <label>CVV:</label>
+            <input type="number" name="cvv" placeholder="123" required>
+
+            <button type="submit" class="btn">Оплатить</button>
+        </form>
+
+        <p style="margin-top:20px;">
+            <a href="/booking/{{ booking_id }}/confirmation/">Назад к подтверждению</a>
+        </p>
+    </div>
+</body>
+</html>

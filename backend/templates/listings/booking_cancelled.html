@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Бронирование отменено</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 40px; background: #fef2f2; color: #7f1d1d; }
+        .box { background: white; display: inline-block; padding: 40px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        h1 { color: #dc2626; }
+        a { display: inline-block; background: #dc2626; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; margin-top: 20px; }
+        a:hover { background: #b91c1c; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>❌ Бронирование отменено</h1>
+        <p>Ваше бронирование № <strong>{{ booking_id }}</strong> было отменено.</p>
+        <a href="/properties/">Вернуться к списку объектов</a>
+    </div>
+</body>
+</html>

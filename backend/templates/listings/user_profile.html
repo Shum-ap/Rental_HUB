@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Личный кабинет</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1, h2 { color: #1e40af; }
+        .bookings, .payments { margin-top: 20px; }
+        .booking, .payment { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; border-radius: 5px; background: #f8fafc; }
+        .cancel-form { display: inline; }
+        .cancel-form button { background: red; color: white; border: none; padding: 5px 10px; cursor: pointer; border-radius: 3px; }
+        .cancel-form button:hover { background: darkred; }
+        a { color: #2563eb; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>Личный кабинет</h1>
+    <p><strong>Пользователь:</strong> {{ user.username }}</p>
+    <p><strong>Email:</strong> {{ user.email }}</p>
+
+    <h2>Мои бронирования</h2>
+    <div class="bookings">
+        {% for booking in bookings %}
+        <div class="booking">
+            <p><strong>Объект:</strong> <a href="/properties/{{ booking.rental_property.id }}/">{{ booking.rental_property.title }}</a></p>
+            <p><strong>Даты:</strong> {{ booking.start_date }} — {{ booking.end_date }}</p>
+            <p><strong>Сумма:</strong> {{ booking.total_price }} руб.</p>
+            <p><strong>Статус:</strong> {{ booking.get_status_display|default:"Неизвестен" }}</p>
+            <p><strong>Дата создания:</strong> {{ booking.created_at|date:"d.m.Y H:i" }}</p>
+
+            {% if booking.status == 'pending' %}
+            <form method="post" action="/api/v1/bookings/{{ booking.id }}/cancel/" class="cancel-form">
+                {% csrf_token %}
+                <button type="submit">Отменить</button>
+            </form>
+            {% endif %}
+        </div>
+        {% empty %}
+        <p>У вас пока нет бронирований.</p>
+        {% endfor %}
+    </div>
+
+    <h2>История платежей</h2>
+    <div class="payments">
+        {% for payment in payments %}
+        <div class="payment">
+            <p><strong>Бронирование:</strong> #{{ payment.booking.id }}</p>
+            <p><strong>Сумма:</strong> {{ payment.amount }} руб.</p>
+            <p><strong>Статус:</strong> {{ payment.get_status_display|default:"Неизвестен" }}</p>
+            <p><strong>Дата:</strong> {{ payment.created_at|date:"d.m.Y H:i" }}</p>
+        </div>
+        {% empty %}
+        <p>У вас пока нет платежей.</p>
+        {% endfor %}
+    </div>
+
+    <p><a href="/properties/">← Назад к списку объектов</a></p>
+</body>
+</html>

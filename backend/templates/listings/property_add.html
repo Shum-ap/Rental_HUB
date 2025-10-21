@@ -1,0 +1,135 @@
+{% load static user_roles %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Добавить жильё — Rental Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2563eb, #1e40af);
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+        }
+
+        h1 {
+            color: #1e40af;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        form {
+            display: grid;
+            gap: 1rem;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 0.7rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        button {
+            background: #2563eb;
+            color: white;
+            border: none;
+            padding: 0.8rem;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background: #1e40af;
+        }
+
+        .back-link {
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        .back-link a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="logo">🏠 Rental Hub</div>
+    <nav>
+        <a href="/">🏡 Главная</a>
+        <a href="/profile/">👤 Профиль</a>
+        <a href="/admin/logout/">🚪 Выйти</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h1>Добавить новое жильё</h1>
+
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label>Название объекта:</label>
+        <input type="text" name="title" required>
+
+        <label>Описание:</label>
+        <textarea name="description" rows="5" required></textarea>
+
+        <label>Адрес / Локация:</label>
+        <input type="text" name="location" required>
+
+        <label>Цена (руб./ночь):</label>
+        <input type="number" name="price" step="0.01" required>
+
+        <label>Количество комнат:</label>
+        <input type="number" name="rooms" min="1" required>
+
+        <label>Тип жилья:</label>
+        <select name="property_type" required>
+            <option value="apartment">Квартира</option>
+            <option value="house">Дом</option>
+            <option value="studio">Студия</option>
+        </select>
+
+        <label>Изображение (опционально):</label>
+        <input type="file" name="image" accept="image/*">
+
+        <button type="submit">💾 Сохранить</button>
+    </form>
+
+    <div class="back-link">
+        <a href="/">← Вернуться на главную</a>
+    </div>
+</div>
+</body>
+</html>
