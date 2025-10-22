@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib import messages
 from django.utils import timezone
+from django.urls import reverse
 from apps.listings.models import Property
 from apps.bookings.models import Booking
 from apps.reviews.models import Review
@@ -17,14 +18,16 @@ def property_detail_html(request, pk):
     """Страница объекта — просмотр, бронирование и добавление отзывов."""
     property_obj = get_object_or_404(Property, pk=pk, is_active=True)
 
-    # --- Создание бронирования ---
+
     if request.method == "POST" and "book" in request.POST:
         if not request.user.is_authenticated:
             messages.error(request, "Сначала войдите в систему.")
-            return redirect("/admin/login/")
+            return redirect(reverse("admin:login"))
 
         start_date = request.POST.get("start_date")
         end_date = request.POST.get("end_date")
+        check_in_time = request.POST.get("check_in_time") or "12:00"
+        check_out_time = request.POST.get("check_out_time") or "16:00"
 
         if not start_date or not end_date:
             messages.error(request, "Укажите даты заезда и выезда.")
@@ -45,20 +48,26 @@ def property_detail_html(request, pk):
             messages.error(request, "Дата выезда должна быть позже даты заезда.")
             return redirect(request.path)
 
+
         booking = Booking.objects.create(
             user=request.user,
             rental_property=property_obj,
             start_date=start_date_parsed,
             end_date=end_date_parsed,
         )
-        messages.success(request, "Бронирование успешно создано!")
+
+
+        booking.total_price = booking.total_price
+        booking.save(update_fields=["updated_at"])
+
+        messages.success(request, f"Бронирование создано! Итоговая сумма: {booking.total_price} руб.")
         return redirect("booking-confirmation", pk=booking.id)
 
-    # --- Добавление отзыва ---
+
     elif request.method == "POST" and "review" in request.POST:
         if not request.user.is_authenticated:
             messages.error(request, "Авторизуйтесь, чтобы оставить отзыв.")
-            return redirect("/admin/login/")
+            return redirect(reverse("admin:login"))
 
         try:
             rating = int(request.POST.get("rating"))
@@ -80,7 +89,7 @@ def property_detail_html(request, pk):
         messages.success(request, "Отзыв успешно сохранён.")
         return redirect(request.path)
 
-    # --- Отображение страницы ---
+
     return render(request, "listings/property_detail.html", {"property": property_obj})
 
 
@@ -107,8 +116,9 @@ def payment_form(request, pk):
     booking = get_object_or_404(Booking, pk=pk)
 
     if request.method == "POST":
-        # Здесь можно подключить реальную обработку платежа
-        messages.success(request, "Оплата успешно проведена.")
+
+        booking.confirm()
+        messages.success(request, "Оплата успешно проведена, бронирование подтверждено.")
         return redirect("payment-success", pk=booking.id)
 
     return render(request, "listings/payment_form.html", {"booking": booking})
@@ -136,6 +146,12 @@ def property_add(request):
             messages.error(request, "Заполните все обязательные поля.")
             return redirect(request.path)
 
+        try:
+            price = float(price)
+        except ValueError:
+            messages.error(request, "Цена должна быть числом.")
+            return redirect(request.path)
+
         property_obj = Property.objects.create(
             title=title,
             description=description,
@@ -150,6 +166,6 @@ def property_add(request):
         )
 
         messages.success(request, f"Объявление «{property_obj.title}» успешно добавлено!")
-        return redirect("/")
+        return redirect("property-list-html")
 
     return render(request, "listings/property_add.html")
