@@ -1,23 +1,32 @@
 import factory
-from django.contrib.auth.models import User
-from django.contrib.auth.hashers import make_password
-from .models import UserProfile
+from django.contrib.auth import get_user_model
+from apps.users.models import UserProfile
+
+User = get_user_model()
+
 
 class UserFactory(factory.django.DjangoModelFactory):
     class Meta:
         model = User
 
-    username = factory.Faker('user_name')
-    email = factory.Faker('email')
-    first_name = factory.Faker('first_name')
-    last_name = factory.Faker('last_name')
-    password = factory.PostGenerationMethodCall('set_password', 'defaultpassword123')  # Установим общий пароль
+    first_name = factory.Faker("first_name")
+    last_name = factory.Faker("last_name")
+    email = factory.LazyAttribute(
+        lambda obj: f"{obj.first_name.lower()}.{obj.last_name.lower()}@example.com"
+    )
+    is_active = True
+
+    @factory.post_generation
+    def password(self, create, extracted, **kwargs):
+        password = extracted or "test12345"
+        self.set_password(password)
+        if create:
+            self.save()
+
 
 class UserProfileFactory(factory.django.DjangoModelFactory):
     class Meta:
         model = UserProfile
 
     user = factory.SubFactory(UserFactory)
-    bio = factory.Faker('text', max_nb_chars=200)
-    location = factory.Faker('city')
-    birth_date = factory.Faker('date_of_birth', minimum_age=18, maximum_age=65)
+    role = factory.Iterator(["tenant", "landlord"])

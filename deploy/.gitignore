@@ -1,0 +1,49 @@
+# Python / Django
+__pycache__/
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.log
+*.pot
+*.py[cod]
+*$py.class
+celerydb.sqlite
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment files
+.env
+.env.*
+*.env
+.env.dev
+.env.prod
+.env.stading
+
+
+# Media & static (user-uploaded)
+media/
+staticfiles/
+
+# IDE & system
+../.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+htmlcov/
+.coverage
+*.cover
+.cache
+nosetests.xml
+coverage.xml
+*.spec
+
+*.sh

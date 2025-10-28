@@ -1,4 +1,6 @@
-from .property import Property
-from .view_log import ViewLog
-from .rental import Rental
+# Auto-generated model imports
+from .choices import *
+from .listing import *
+from .rental import *
+from .validators import *
 

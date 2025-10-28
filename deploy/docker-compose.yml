@@ -13,6 +13,7 @@ services:
       - "3307:3306"
     volumes:
       - mysql_data:/var/lib/mysql
+    command: --default-authentication-plugin=mysql_native_password
 
   redis:
     image: redis:alpine
@@ -21,7 +22,8 @@ services:
       - "6379:6379"
 
   backend:
-    build: ../backend
+    build:
+      context: ../backend
     restart: always
     env_file:
       - ../backend/${ENV_FILE:-.env.dev}
@@ -33,12 +35,15 @@ services:
     ports:
       - "8000:8000"
     command: >
-      sh -c "python manage.py migrate &&
-             python manage.py collectstatic --noinput &&
-             gunicorn myproject.wsgi:application --bind 0.0.0.0:8000"
+      sh -c "
+        python manage.py migrate &&
+        python manage.py collectstatic --noinput &&
+        gunicorn myproject.wsgi:application --bind 0.0.0.0:8000
+      "
 
   celery:
-    build: ../backend
+    build:
+      context: ../backend
     restart: always
     env_file:
       - ../backend/${ENV_FILE:-.env.dev}
@@ -53,7 +58,7 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
       - ../backend/staticfiles:/static
       - ../backend/media:/media
     depends_on:

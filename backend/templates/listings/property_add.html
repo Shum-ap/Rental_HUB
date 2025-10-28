@@ -1,9 +1,9 @@
-{% load static user_roles %}
+{% load static user_roles i18n %}
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="{{ LANGUAGE_CODE }}">
 <head>
     <meta charset="UTF-8">
-    <title>Добавить жильё — Rental Hub</title>
+    <title>{% trans "Add New Property" %} — Rental Hub</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -82,53 +82,73 @@
         .back-link a:hover {
             text-decoration: underline;
         }
+
+        .lang-form select {
+            padding: 6px 10px;
+            border-radius: 5px;
+            border: none;
+            font-size: 0.9rem;
+        }
     </style>
 </head>
 <body>
 <header>
     <div class="logo">🏠 Rental Hub</div>
+    <form action="{% url 'set_language' %}" method="post" class="lang-form">
+        {% csrf_token %}
+        <select name="language" onchange="this.form.submit()">
+            {% get_current_language as LANGUAGE_CODE %}
+            {% get_available_languages as LANGUAGES %}
+            {% for lang_code, lang_name in LANGUAGES %}
+                <option value="{{ lang_code }}" {% if lang_code == LANGUAGE_CODE %}selected{% endif %}>
+                    {% if lang_code == 'ru' %}🇷🇺 Русский{% elif lang_code == 'en' %}🇬🇧 English{% elif lang_code == 'de' %}🇩🇪 Deutsch{% else %}{{ lang_name }}{% endif %}
+                </option>
+            {% endfor %}
+        </select>
+    </form>
     <nav>
-        <a href="/">🏡 Главная</a>
-        <a href="/profile/">👤 Профиль</a>
-        <a href="/admin/logout/">🚪 Выйти</a>
+        <a href="/">{% trans "🏡 Home" %}</a>
+        <a href="/profile/">{% trans "👤 Profile" %}</a>
+        <a href="/admin/logout/">{% trans "🚪 Logout" %}</a>
     </nav>
 </header>
 
 <div class="container">
-    <h1>Добавить новое жильё</h1>
+    <h1>{% trans "Add a New Property" %}</h1>
 
     <form method="post" enctype="multipart/form-data">
         {% csrf_token %}
-        <label>Название объекта:</label>
-        <input type="text" name="title" required>
 
-        <label>Описание:</label>
-        <textarea name="description" rows="5" required></textarea>
+        <label for="title">{% trans "Property Title" %}:</label>
+        <input type="text" id="title" name="title" required>
 
-        <label>Адрес / Локация:</label>
-        <input type="text" name="location" required>
+        <label for="description">{% trans "Description" %}:</label>
+        <textarea id="description" name="description" rows="5" required></textarea>
 
-        <label>Цена (руб./ночь):</label>
-        <input type="number" name="price" step="0.01" required>
+        <label for="location">{% trans "Address / Location" %}:</label>
+        <input type="text" id="location" name="location" required>
 
-        <label>Количество комнат:</label>
-        <input type="number" name="rooms" min="1" required>
+        <label for="price_eur">{% trans "Price (€ / night)" %}:</label>
+        <input type="number" id="price_eur" name="price_eur" step="0.01" required>
 
-        <label>Тип жилья:</label>
-        <select name="property_type" required>
-            <option value="apartment">Квартира</option>
-            <option value="house">Дом</option>
-            <option value="studio">Студия</option>
+        <label for="rooms">{% trans "Number of Rooms" %}:</label>
+        <input type="number" id="rooms" name="rooms" min="1" required>
+
+        <label for="listing_type">{% trans "Property Type" %}:</label>
+        <select id="listing_type" name="listing_type" required>
+            <option value="apartment">{% trans "Apartment" %}</option>
+            <option value="house">{% trans "House" %}</option>
+            <option value="studio">{% trans "Studio" %}</option>
         </select>
 
-        <label>Изображение (опционально):</label>
-        <input type="file" name="image" accept="image/*">
+        <label for="image">{% trans "Image (optional)" %}:</label>
+        <input type="file" id="image" name="image" accept="image/*">
 
-        <button type="submit">💾 Сохранить</button>
+        <button type="submit">💾 {% trans "Save" %}</button>
     </form>
 
     <div class="back-link">
-        <a href="/">← Вернуться на главную</a>
+        <a href="/">{% trans "← Back to Home" %}</a>
     </div>
 </div>
 </body>

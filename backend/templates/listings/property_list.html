@@ -1,27 +1,95 @@
+{% load i18n %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ LANGUAGE_CODE }}">
 <head>
     <meta charset="UTF-8">
-    <title>Список объектов</title>
+    <title>{% trans "List of Properties" %}</title>
+    <style>
+        body {font-family: Arial, sans-serif; margin: 20px; background: #f7f9fb;}
+        header {
+            display: flex; justify-content: space-between; align-items: center;
+            background: #0078d7; color: white; padding: 15px 30px; border-radius: 6px;
+        }
+        .lang-form select {padding: 6px 10px; border-radius: 5px; border: none;}
+        form.filter-form {
+            display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 20px 0;
+        }
+        form.filter-form input,
+        form.filter-form select {
+            padding: 8px; border: 1px solid #ccc; border-radius: 6px; min-width: 140px;
+        }
+        form.filter-form button {
+            padding: 8px 16px; background: #0078d7; color: white; border: none; border-radius: 6px;
+            cursor: pointer;
+        }
+        ul {display: flex; flex-wrap: wrap; gap: 20px; list-style: none; justify-content: center;}
+        li {background: white; border: 1px solid #ddd; border-radius: 8px; width: 280px; padding: 15px;}
+        li img {width: 100%; height: 180px; object-fit: cover; border-radius: 6px;}
+        a {display: inline-block; margin-top: 10px; background: #0078d7; color: white; padding: 8px 12px; border-radius: 5px; text-decoration: none;}
+        a:hover {background: #005fa3;}
+    </style>
 </head>
 <body>
-    <h1>Список доступных объектов</h1>
-    {% if properties %}
-        <ul>
-        {% for property in properties %}
-            <li>
-                <strong>{{ property.title }}</strong><br>
-                {{ property.description|truncatewords:30 }}<br>
-                Локация: {{ property.location }}<br>
-                Цена: {{ property.price }}<br>
-                Комн.{{ property.rooms }}<br>
-                Тип: {{ property.property_type }}<br>
-                <a href="/api/v1/rental/html/{{ property.id }}/">Подробнее</a>
-            </li>
+<header>
+    <div class="logo">🏠 Rental Hub</div>
+    <form action="{% url 'set_language' %}" method="post" class="lang-form">
+        {% csrf_token %}
+        <select name="language" onchange="this.form.submit()">
+            {% get_current_language as LANGUAGE_CODE %}
+            {% get_available_languages as LANGUAGES %}
+            {% for lang_code, lang_name in LANGUAGES %}
+                <option value="{{ lang_code }}" {% if lang_code == LANGUAGE_CODE %}selected{% endif %}>
+                    {% if lang_code == 'ru' %}🇷🇺 Русский{% elif lang_code == 'en' %}🇬🇧 English{% elif lang_code == 'de' %}🇩🇪 Deutsch{% else %}{{ lang_name }}{% endif %}
+                </option>
+            {% endfor %}
+        </select>
+    </form>
+</header>
+
+<h1 style="text-align:center;">{% trans "Available Properties" %}</h1>
+
+<!-- ✅ Filter Form -->
+<form method="get" class="filter-form">
+    <input type="text" name="search" placeholder="{% trans 'Search...' %}" value="{{ request.GET.search }}">
+
+    <select name="listing_type">
+        <option value="">{% trans "All Types" %}</option>
+        {% for key, label in listing_type_choices %}
+            <option value="{{ key }}" {% if request.GET.listing_type == key %}selected{% endif %}>
+                {{ label }}
+            </option>
         {% endfor %}
-        </ul>
-    {% else %}
-        <p>Нет доступных объектов.</p>
-    {% endif %}
+    </select>
+
+    <input type="number" name="min_price" placeholder="{% trans 'Min Price' %}" value="{{ request.GET.min_price }}">
+    <input type="number" name="max_price" placeholder="{% trans 'Max Price' %}" value="{{ request.GET.max_price }}">
+
+    <button type="submit">{% trans "Filter" %}</button>
+</form>
+
+{% if listings %}
+<ul>
+    {% for property in listings %}
+    <li>
+        {% if property.image %}
+            <img src="{{ property.image.url }}" alt="{{ property.title }}">
+        {% else %}
+            <img src="https://via.placeholder.com/300x180?text={% trans 'No Image' %}" alt="{% trans 'No Image' %}">
+        {% endif %}
+        <strong>{{ property.title }}</strong><br>
+        <p>{{ property.get_listing_type_display }} — {{ property.location }}</p>
+        <p>💰 {{ property.price_eur }} € / {% trans "night" %}</p>
+        <p>🛏 {% trans "Rooms" %}: {{ property.rooms }}</p>
+        <a href="{% url 'property-detail-html' property.id %}">{% trans "View Details" %}</a>
+    </li>
+    {% endfor %}
+</ul>
+{% else %}
+<p style="text-align:center;">{% trans "No available listings." %}</p>
+{% endif %}
+
+<footer style="text-align:center; margin-top:40px;">
+    © 2025 Rental Hub — {% trans "Find your perfect stay" %}
+</footer>
 </body>
 </html>

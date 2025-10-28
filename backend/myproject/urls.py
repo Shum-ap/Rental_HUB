@@ -1,3 +1,5 @@
+from django.conf.urls.i18n import i18n_patterns
+from django.utils.translation import gettext_lazy as _
 from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
@@ -9,30 +11,25 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView, Sp
 from myproject import views
 
 urlpatterns = [
-    # Главная страница
+    path("i18n/", include("django.conf.urls.i18n")),
+]
+
+urlpatterns += i18n_patterns(
     path("", views.home, name="home"),
-
-    # HTML-страницы объявлений
-    path("", include("apps.listings.urls_html")),
-
-    # Админка
+    path('api/', include('apps.listings.urls')),
+    path('en/', include('apps.listings.urls_html')),
     path("admin/", admin.site.urls),
-
-    # API
     path("api/v1/", include(router.urls)),
     path("api/v1/users/", include("apps.users.urls")),
-    path("api/v1/bookings/", include("apps.bookings.urls")),
-    path("payments/", include("apps.payments.urls")),
-
-    # JWT токены
+    path("api/v1/reservations/", include("apps.reservations.urls")),
+    path("transactions/", include("apps.transactions.urls")),
+    path("log/", include("apps.log.urls")),
     path("api/token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
     path("api/token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
-
-    # Документация API
     path("api/schema/", SpectacularAPIView.as_view(), name="schema"),
     path("api/schema/swagger-ui/", SpectacularSwaggerView.as_view(url_name="schema"), name="swagger-ui"),
     path("api/schema/redoc/", SpectacularRedocView.as_view(url_name="schema"), name="redoc"),
-]
+)
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

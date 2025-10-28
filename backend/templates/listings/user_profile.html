@@ -1,61 +1,98 @@
+{% load i18n %}
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="{{ LANGUAGE_CODE }}">
 <head>
     <meta charset="UTF-8">
-    <title>Личный кабинет</title>
+    <title>{% trans "My Profile" %} — RentalHub</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        h1, h2 { color: #1e40af; }
-        .bookings, .payments { margin-top: 20px; }
-        .booking, .payment { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; border-radius: 5px; background: #f8fafc; }
-        .cancel-form { display: inline; }
-        .cancel-form button { background: red; color: white; border: none; padding: 5px 10px; cursor: pointer; border-radius: 3px; }
-        .cancel-form button:hover { background: darkred; }
-        a { color: #2563eb; text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        body { font-family: Arial, sans-serif; background: #f4f6f8; margin: 20px; }
+        header, footer {
+            background: #0078d7; color: white; padding: 15px 30px;
+            display: flex; justify-content: space-between; align-items: center;
+            border-radius: 6px;
+        }
+        main { max-width: 960px; margin: 30px auto; background: white; padding: 30px; border-radius: 8px; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 30px; }
+        th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+        th { background: #e2e8f0; }
+        h2 { color: #1a202c; margin-top: 40px; }
+        .lang-form select { padding: 6px 10px; border-radius: 5px; border: none; }
+        .empty { font-style: italic; color: #888; }
     </style>
 </head>
 <body>
-    <h1>Личный кабинет</h1>
-    <p><strong>Пользователь:</strong> {{ user.username }}</p>
-    <p><strong>Email:</strong> {{ user.email }}</p>
+<header>
+    <div class="logo">🏠 RentalHub</div>
+    <form action="{% url 'set_language' %}" method="post" class="lang-form">
+        {% csrf_token %}
+        <select name="language" onchange="this.form.submit()">
+            {% get_current_language as LANGUAGE_CODE %}
+            {% get_available_languages as LANGUAGES %}
+            {% for lang_code, lang_name in LANGUAGES %}
+                <option value="{{ lang_code }}" {% if lang_code == LANGUAGE_CODE %}selected{% endif %}>
+                    {% if lang_code == 'ru' %}🇷🇺 Русский{% elif lang_code == 'en' %}🇬🇧 English{% elif lang_code == 'de' %}🇩🇪 Deutsch{% else %}{{ lang_name }}{% endif %}
+                </option>
+            {% endfor %}
+        </select>
+    </form>
+</header>
 
-    <h2>Мои бронирования</h2>
-    <div class="bookings">
-        {% for booking in bookings %}
-        <div class="booking">
-            <p><strong>Объект:</strong> <a href="/properties/{{ booking.rental_property.id }}/">{{ booking.rental_property.title }}</a></p>
-            <p><strong>Даты:</strong> {{ booking.start_date }} — {{ booking.end_date }}</p>
-            <p><strong>Сумма:</strong> {{ booking.total_price }} руб.</p>
-            <p><strong>Статус:</strong> {{ booking.get_status_display|default:"Неизвестен" }}</p>
-            <p><strong>Дата создания:</strong> {{ booking.created_at|date:"d.m.Y H:i" }}</p>
+<main>
+    <h1>{% trans "Welcome," %} {{ user.first_name }}</h1>
 
-            {% if booking.status == 'pending' %}
-            <form method="post" action="/api/v1/bookings/{{ booking.id }}/cancel/" class="cancel-form">
-                {% csrf_token %}
-                <button type="submit">Отменить</button>
-            </form>
-            {% endif %}
-        </div>
-        {% empty %}
-        <p>У вас пока нет бронирований.</p>
-        {% endfor %}
-    </div>
+    <h2>{% trans "Your Reservations" %}</h2>
+    {% if reservations %}
+        <table>
+            <thead>
+                <tr>
+                    <th>{% trans "Property" %}</th>
+                    <th>{% trans "Start Date" %}</th>
+                    <th>{% trans "End Date" %}</th>
+                    <th>{% trans "Status" %}</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for res in reservations %}
+                <tr>
+                    <td>{{ res.rental_property.title }}</td>
+                    <td>{{ res.start_date }}</td>
+                    <td>{{ res.end_date }}</td>
+                    <td>{{ res.status }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p class="empty">{% trans "No reservations found." %}</p>
+    {% endif %}
 
-    <h2>История платежей</h2>
-    <div class="payments">
-        {% for payment in payments %}
-        <div class="payment">
-            <p><strong>Бронирование:</strong> #{{ payment.booking.id }}</p>
-            <p><strong>Сумма:</strong> {{ payment.amount }} руб.</p>
-            <p><strong>Статус:</strong> {{ payment.get_status_display|default:"Неизвестен" }}</p>
-            <p><strong>Дата:</strong> {{ payment.created_at|date:"d.m.Y H:i" }}</p>
-        </div>
-        {% empty %}
-        <p>У вас пока нет платежей.</p>
-        {% endfor %}
-    </div>
+    <h2>{% trans "Your Transactions" %}</h2>
+    {% if transactions %}
+        <table>
+            <thead>
+                <tr>
+                    <th>{% trans "Amount (€)" %}</th>
+                    <th>{% trans "Status" %}</th>
+                    <th>{% trans "Created At" %}</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for tx in transactions %}
+                <tr>
+                    <td>{{ tx.amount_eur }}</td>
+                    <td>{{ tx.status }}</td>
+                    <td>{{ tx.created_at }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p class="empty">{% trans "No transactions found." %}</p>
+    {% endif %}
+</main>
 
-    <p><a href="/properties/">← Назад к списку объектов</a></p>
+<footer>
+    <p>© 2025 RentalHub — {% trans "Your travel starts here" %}</p>
+</footer>
 </body>
 </html>

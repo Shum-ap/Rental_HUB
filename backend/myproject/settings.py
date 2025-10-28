@@ -1,3 +1,7 @@
+"""
+Django settings for Rental HUB — unified and production-ready configuration.
+"""
+
 import os
 import socket
 from pathlib import Path
@@ -5,10 +9,12 @@ from datetime import timedelta
 from django.utils.translation import gettext_lazy as _
 from decouple import Config, RepositoryEnv
 
+# === Base project paths ===
 BASE_DIR = Path(__file__).resolve().parent.parent
+AUTH_USER_MODEL = 'users.User'
 
+# === Environment detection ===
 hostname = socket.gethostname()
-
 if "prod" in hostname or "production" in hostname:
     env_file = ".env.prod"
 elif "stage" in hostname or "staging" in hostname:
@@ -20,22 +26,28 @@ env_file = os.getenv("ENV_FILE", env_file)
 env_path = BASE_DIR / env_file
 config = Config(RepositoryEnv(env_path))
 
-SECRET_KEY = config('SECRET_KEY', default='mxkmvy-zj_a0eb(2*$kj3ti#*n%k)p0ywagrlbzi=g3pqh35eh')
+# === Core Django settings ===
+SECRET_KEY = config('SECRET_KEY', default='dev-secret-key')
 DEBUG = config('DEBUG', default=True, cast=bool)
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='*').split(',')
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='127.0.0.1,localhost').split(',')
+
 CSRF_TRUSTED_ORIGINS = [
-    f"http://{host}" for host in ALLOWED_HOSTS if host != '*'
+    f"http://{h}" for h in ALLOWED_HOSTS if h != '*'
 ] + [
-    f"https://{host}" for host in ALLOWED_HOSTS if host != '*'
+    f"https://{h}" for h in ALLOWED_HOSTS if h != '*'
 ]
 
+# === Installed Apps ===
 INSTALLED_APPS = [
+    # --- Django Core ---
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # --- Third-party ---
     'rest_framework',
     'rest_framework_simplejwt',
     'corsheaders',
@@ -43,21 +55,25 @@ INSTALLED_APPS = [
     'django_extensions',
     'djcelery_email',
     'django_filters',
-    'apps.core',
-    'apps.listings',
-    'apps.bookings',
-    'apps.reviews.apps.ReviewsConfig',
+    'storages',
+
+    # --- Project Apps ---
+    'apps.core.apps.CoreConfig',
+    'apps.listings.apps.ListingsConfig',
+    'apps.reservations.apps.ReservationsConfig',
+    'apps.feedbacks.apps.FeedbacksConfig',
     'apps.users.apps.UsersConfig',
-    'apps.log',
-    'apps.payments',
+    'apps.log.apps.LogConfig',
+    'apps.transactions.apps.TransactionsConfig',
 ]
 
+# === Middleware ===
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -66,6 +82,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'myproject.urls'
 
+# === Templates ===
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -84,8 +101,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'myproject.wsgi.application'
 
-db_engine = config('DB_ENGINE', default='mysql')
-
+# === Database ===
+db_engine = config('DB_ENGINE', default='sqlite')
 if db_engine == 'sqlite':
     DATABASES = {
         'default': {
@@ -97,14 +114,15 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': config('DB_NAME', default='rental_hub'),
-            'USER': config('DB_USER', default='user'),
+            'NAME': config('DB_NAME', default='rentalhub'),
+            'USER': config('DB_USER', default='root'),
             'PASSWORD': config('DB_PASSWORD', default='password'),
-            'HOST': config('DB_HOST', default='db'),
+            'HOST': config('DB_HOST', default='localhost'),
             'PORT': config('DB_PORT', default='3306'),
         }
     }
 
+# === Password Validation ===
 AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator'},
     {'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator'},
@@ -112,24 +130,46 @@ AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator'},
 ]
 
+# === Internationalization ===
 LANGUAGES = [
     ('en', _('English')),
     ('de', _('German')),
     ('ru', _('Russian')),
 ]
-
-LANGUAGE_CODE = 'ru'
+LANGUAGE_CODE = 'en'
 TIME_ZONE = 'UTC'
 USE_I18N = True
 USE_TZ = True
+DATETIME_FORMAT = "Y-m-d H:i"
+DATE_FORMAT = "Y-m-d"
+TIME_FORMAT = "H:i"
 LOCALE_PATHS = [BASE_DIR / 'locale']
+LANGUAGE_COOKIE_NAME = 'django_language'
+LANGUAGE_COOKIE_AGE = 31536000  # 1 year
 
+# === Static & Media ===
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# === AWS S3 Storage (for production) ===
+USE_S3 = not DEBUG
+if USE_S3:
+    AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID', default='')
+    AWS_SECRET_ACCESS_KEY = config('AWS_SECRET_ACCESS_KEY', default='')
+    AWS_STORAGE_BUCKET_NAME = config('AWS_STORAGE_BUCKET_NAME', default='rentalhub-media')
+    AWS_S3_REGION_NAME = config('AWS_S3_REGION_NAME', default='eu-central-1')
+    AWS_S3_SIGNATURE_VERSION = 's3v4'
+    AWS_S3_CUSTOM_DOMAIN = f"{AWS_STORAGE_BUCKET_NAME}.s3.{AWS_S3_REGION_NAME}.amazonaws.com"
+
+    STATICFILES_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
+    DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
+    STATIC_URL = f"https://{AWS_S3_CUSTOM_DOMAIN}/static/"
+    MEDIA_URL = f"https://{AWS_S3_CUSTOM_DOMAIN}/media/"
+
+# === REST Framework ===
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
@@ -148,22 +188,9 @@ SIMPLE_JWT = {
     'UPDATE_LAST_LOGIN': True,
 }
 
-CORS_ALLOW_ALL_ORIGINS = True
-
-SPECTACULAR_SETTINGS = {
-    'TITLE': 'Rental Hub API',
-    'DESCRIPTION': 'API for rental hub project',
-    'VERSION': '1.0.0',
-    'SERVE_INCLUDE_SCHEMA': False,
-}
-
+# === Caching ===
 if DEBUG:
-    CACHES = {
-        'default': {
-            'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
-            'LOCATION': 'unique-snowflake',
-        }
-    }
+    CACHES = {'default': {'BACKEND': 'django.core.cache.backends.locmem.LocMemCache'}}
 else:
     CACHES = {
         'default': {
@@ -172,13 +199,17 @@ else:
         }
     }
 
-CELERY_BROKER_URL = config('CELERY_BROKER_URL', default='redis://localhost:6379/0')
-CELERY_RESULT_BACKEND = config('CELERY_RESULT_BACKEND', default='redis://localhost:6379/0')
+# === Celery ===
+CELERY_BROKER_URL = 'sqla+sqlite:///celerydb.sqlite'
+CELERY_RESULT_BACKEND = 'db+sqlite:///celerydb.sqlite'
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
 CELERY_TIMEZONE = 'UTC'
+if DEBUG:
+    CELERY_TASK_ALWAYS_EAGER = True
 
+# === Email ===
 EMAIL_BACKEND = 'djcelery_email.backends.CeleryEmailBackend'
 EMAIL_HOST = config('EMAIL_HOST', default='smtp.mailtrap.io')
 EMAIL_HOST_USER = config('EMAIL_HOST_USER', default='')
@@ -187,21 +218,46 @@ EMAIL_PORT = config('EMAIL_PORT', default=2525, cast=int)
 EMAIL_USE_TLS = config('EMAIL_USE_TLS', default=True, cast=bool)
 DEFAULT_FROM_EMAIL = 'noreply@rentalhub.com'
 SERVER_EMAIL = 'admin@rentalhub.com'
-
 if DEBUG:
-    CELERY_TASK_ALWAYS_EAGER = True
-    CELERY_TASK_EAGER_PROPAGATES = True
-    CELERY_BROKER_URL = 'memory://'
-    CELERY_RESULT_BACKEND = 'cache+memory://'
+    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# === Logging ===
+LOG_DIR = BASE_DIR / "logs"
+LOG_DIR.mkdir(exist_ok=True)
 
 LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'handlers': {
-        'console': {'class': 'logging.StreamHandler'},
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "verbose": {"format": "[{asctime}] {levelname} — {name}: {message}", "style": "{"},
+        "simple": {"format": "{levelname}: {message}", "style": "{"},
     },
-    'root': {
-        'handlers': ['console'],
-        'level': 'INFO',
+    "handlers": {
+        "console": {"class": "logging.StreamHandler", "formatter": "simple"},
+        "file_general": {
+            "class": "logging.FileHandler",
+            "filename": os.path.join(LOG_DIR, "general.log"),
+            "formatter": "verbose",
+            "encoding": "utf-8",
+        },
+        "file_views": {
+            "class": "logging.FileHandler",
+            "filename": os.path.join(LOG_DIR, "views.log"),
+            "formatter": "verbose",
+            "encoding": "utf-8",
+        },
+        "file_errors": {
+            "class": "logging.FileHandler",
+            "filename": os.path.join(LOG_DIR, "errors.log"),
+            "level": "ERROR",
+            "formatter": "verbose",
+            "encoding": "utf-8",
+        },
     },
+    "loggers": {
+        "django": {"handlers": ["console", "file_general"], "level": "INFO", "propagate": True},
+        "django.request": {"handlers": ["file_errors"], "level": "ERROR", "propagate": False},
+        "log_views": {"handlers": ["console", "file_views"], "level": "INFO", "propagate": False},
+    },
+    "root": {"handlers": ["console", "file_general"], "level": "WARNING"},
 }

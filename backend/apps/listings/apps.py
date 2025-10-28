@@ -6,8 +6,8 @@ from django.utils.html import strip_tags
 
 @shared_task
 def send_booking_confirmation_email(booking_id):
-    from apps.bookings.models import Booking
-    booking = Booking.objects.get(id=booking_id)
+    from apps.reservations.models import Reservation
+    booking = Reservation.objects.get(id=booking_id)
 
     subject = f"Подтверждение бронирования {booking.rental_property.title}"
     html_message = render_to_string('emails/../../templates/listings/booking_confirmation.html', {'booking': booking})
@@ -19,8 +19,8 @@ def send_booking_confirmation_email(booking_id):
 
 @shared_task
 def send_booking_cancelled_email(booking_id):
-    from apps.bookings.models import Booking
-    booking = Booking.objects.get(id=booking_id)
+    from apps.reservations.models import Reservation
+    booking = Reservation.objects.get(id=booking_id)
 
     subject = f"Бронирование отменено: {booking.rental_property.title}"
     html_message = render_to_string('emails/../../templates/listings/booking_cancelled.html', {'booking': booking})
@@ -32,8 +32,8 @@ def send_booking_cancelled_email(booking_id):
 
 @shared_task
 def send_payment_success_email(booking_id):
-    from apps.bookings.models import Booking
-    booking = Booking.objects.get(id=booking_id)
+    from apps.reservations.models import Reservation
+    booking = Reservation.objects.get(id=booking_id)
 
     subject = f"Оплата прошла успешно: {booking.rental_property.title}"
     html_message = render_to_string('emails/../../templates/listings/payment_success.html', {'booking': booking})

@@ -1,10 +1,10 @@
 from django.db.models.signals import post_save
 from django.dispatch import receiver
-from apps.listings.models import Property
+from apps.listings.models import Listing
 from apps.listings.utils import send_new_property_notification
 
 
-@receiver(post_save, sender=Property)
+@receiver(post_save, sender=Listing)
 def notify_new_property(sender, instance, created, **kwargs):
     """
     При создании нового объекта отправляем уведомление.

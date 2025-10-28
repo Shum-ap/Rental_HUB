@@ -1,7 +1,11 @@
-from django.urls import path
-from .views import SearchHistoryListView, SearchHistoryCreateView
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from .views import SearchHistoryViewSet, ViewLogViewSet
+
+router = DefaultRouter()
+router.register(r"search-history", SearchHistoryViewSet, basename="search-history")
+router.register(r"views", ViewLogViewSet, basename="view-log")
 
 urlpatterns = [
-    path('search-history/list/', SearchHistoryListView.as_view(), name='search-history-list'),
-    path('search-history/create/', SearchHistoryCreateView.as_view(), name='search-history-create'),
+    path("", include(router.urls)),
 ]

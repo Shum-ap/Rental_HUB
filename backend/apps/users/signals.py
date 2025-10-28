@@ -21,9 +21,10 @@ def create_or_update_user_profile(sender, instance, created, **kwargs):
 
         tenant_group, _ = Group.objects.get_or_create(name="Tenant")
         instance.groups.add(tenant_group)
-        print(f"[SIGNAL] Новый пользователь {instance.username} добавлен в группу Tenant.")
+        print(f"[SIGNAL] Новый пользователь {instance.email} добавлен в группу Tenant.")
+
     else:
-        # При обновлении пользователя — обновляем профиль
+
         if hasattr(instance, "profile"):
             instance.profile.save()
 
@@ -38,7 +39,7 @@ def sync_user_group_with_usertype(sender, instance, **kwargs):
     if not user:
         return
 
-    # Удаляем из всех ролей-групп, чтобы не было дубликатов
+
     role_groups = ["Tenant", "Host", "Admin", "Moderator"]
     user.groups.remove(*Group.objects.filter(name__in=role_groups))
 
@@ -46,4 +47,5 @@ def sync_user_group_with_usertype(sender, instance, **kwargs):
     if user_type_name in role_groups:
         group, _ = Group.objects.get_or_create(name=user_type_name)
         user.groups.add(group)
-        print(f"[SIGNAL] Пользователь {user.username} перемещён в группу {user_type_name}.")
+        print(f"[SIGNAL] Пользователь {user.email} перемещён в группу {user_type_name}.")
+

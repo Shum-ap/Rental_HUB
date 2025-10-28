@@ -1,21 +1,21 @@
 from django import forms
-from apps.bookings.models import Booking
-from apps.reviews.models  import Review
+from apps.reservations.models import Reservation
+from apps.feedbacks.models  import Feedback
 
 
 
-class BookingForm(forms.ModelForm):
+class ReservationForm(forms.ModelForm):
     class Meta:
-        model = Booking
+        model = Reservation
         fields = ['start_date', 'end_date']
         widgets = {
             'start_date': forms.DateInput(attrs={'type': 'date'}),
             'end_date': forms.DateInput(attrs={'type': 'date'}),
         }
 
-class ReviewForm(forms.ModelForm):
+class FeedbackForm(forms.ModelForm):
     class Meta:
-        model = Review
+        model = Feedback
         fields = ['rating', 'comment']
         widgets = {
             'rating': forms.NumberInput(attrs={'min': 1, 'max': 5}),

@@ -1,167 +1,195 @@
+#  Rental Hub — Listing Rental Platform / Платформа аренды жилья
 
-Rental Hub — Платформа аренды жилья
+---
 
-Rental Hub — это современное веб-приложение для аренды недвижимости.
-Платформа позволяет пользователям искать жильё, бронировать, оплачивать и оставлять отзывы.
+## 🇬🇧 English Version
 
------------ Основные возможности
+###  Overview
+**Rental Hub** is a modern web platform for property rentals, inspired by Airbnb.  
+It allows users to search, book, pay for rentals, and leave feedbacks — all in one intuitive Django-based system.
 
-Поиск жилья по датам, цене и удобствам
+###  Key Features
+- Listing search and filtering  
+- Reservation management  
+- Secure online transactions  
+- JWT authentication (login & refresh)  
+- User registration and profiles  
+- Feedbacks and ratings  
+- Django Admin panel  
+- REST API + HTML interface  
+- API documentation (Swagger / ReDoc)  
+- Multi-language support  
+- Email notifications  
 
-Онлайн-бронирование и оплата
+###  Technologies
+- Python 3.13  
+- Django 5.2  
+- Django REST Framework  
+- SQLite3 (default DB)  
+- JWT via `rest_framework_simplejwt`  
+- Swagger / ReDoc via `drf_spectacular`  
+- HTML / CSS frontend  
 
-Добавление и управление объявлениями (для арендодателей)
-
-Отзывы и рейтинги
-
-Личный кабинет пользователя
-
-Панель администратора
-
-Уведомления по электронной почте
-
-Документация API (Swagger / ReDoc)
-
-JWT-аутентификация для безопасного доступа
-
------------- Технологический стек
-Компонент	Технология
-Язык	Python 3.13
-Фреймворк	Django 5.2
-API	Django REST Framework
-База данных	SQLite3
-Аутентификация	JWT (rest_framework_simplejwt)
-Документация	Swagger / ReDoc (drf_spectacular)
-Email	Mailtrap (SMTP Sandbox)
-Верстка	HTML / CSS (адаптивная)
---------- Установка и запуск
-1. Клонируйте репозиторий
-git clone https://github.com/your_username/Rental_Hub.git
-cd Rental_Hub/backend
-
-2. Создайте виртуальное окружение
+###  Installation
+```bash
+git clone https://github.com/Shum-ap/Rental_HUB.git
+cd Rental_HUB
 python -m venv .venv
-
-
-Активируйте окружение:
-
-# Windows
 .venv\Scripts\activate
-
-# Linux / Mac
-source .venv/bin/activate
-
-3. Установите зависимости
 pip install -r requirements.txt
-
-4. Примените миграции
 python manage.py migrate
-
-5. Создайте суперпользователя
 python manage.py createsuperuser
-
-6. Запустите сервер
 python manage.py runserver
+ Available Pages
+Page	URL	Description
+Home	http://127.0.0.1:8000/	Main property list
+Listing Details	/listings/<id>/	Individual listing page
+Add Listing	/listings/add/	Add a new rental listing
+Reservation Success	/booking/<id>/success/	Successful booking
+Reservation Confirmation	/booking/<id>/confirmation/	Confirmation page
+Reservation Cancelled	/booking/<id>/cancelled/	Cancelled booking
+Transaction	/booking/<id>/pay/	Transaction page
+Transaction Success	/booking/<id>/paid/	Transaction success page
+Admin Panel	http://127.0.0.1:8000/admin/	Django Admin
 
+ REST API Endpoints
+Resource	Method	URL
+JWT Token	POST	/api/token/
+Refresh Token	POST	/api/token/refresh/
+Users	GET / POST	/api/v1/users/
+Properties	GET / POST	/api/v1/listings/
+Reservations	GET / POST	/api/v1/reservations/
+Transactions	GET / POST	/api/v1/transactions/
+Feedbacks	GET / POST	/api/v1/feedbacks/
+Search History	GET	/api/v1/search-history/
 
-После запуска приложение будет доступно по адресу:
- http://127.0.0.1:8000/
+ API Documentation
+Type	URL
+Swagger UI	http://127.0.0.1:8000/api/schema/swagger-ui/
+ReDoc	http://127.0.0.1:8000/api/schema/redoc/
 
--------Основные страницы
-Страница	URL	Описание
-Главная	http://127.0.0.1:8000/
-	Поиск и популярные объекты
-Админка	http://127.0.0.1:8000/admin/
-	Панель администратора
-Список объектов (HTML)	http://127.0.0.1:8000/html/
-	Все доступные объекты
-Детали объекта	http://127.0.0.1:8000/html/1/
-	Просмотр и бронирование
-Подтверждение брони	http://127.0.0.1:8000/booking/1/confirmation/
-	Подтверждение бронирования
-Оплата	http://127.0.0.1:8000/booking/1/pay/
-	Форма оплаты
-------- API Endpoints
-Категория	Endpoint	Метод	Описание
-JWT-аутентификация	/api/token/	POST	Получить JWT токен
-JWT обновление	/api/token/refresh/	POST	Обновить токен
-Список объектов	/api/v1/properties/	GET	Получить список объектов
-Детали объекта	/api/v1/properties/{id}/	GET	Получить детали конкретного объекта
-Бронирования	/api/v1/bookings/	POST/GET	Создание и просмотр бронирований
-Оплата	/payments/	POST	Проведение оплаты
-Пользователи	/api/v1/users/	GET/POST	Регистрация, список, профиль
----------- Примеры API-запросов
-
-Получение JWT токена
-
+ Example API Requests
+Obtain a Token
+bash
+Копировать код
 curl -X POST http://127.0.0.1:8000/api/token/ \
   -H "Content-Type: application/json" \
   -d '{"username": "admin", "password": "admin"}'
-
-
-Создание бронирования
-
-curl -X POST http://127.0.0.1:8000/api/v1/bookings/ \
-  -H "Authorization: Bearer <ваш_токен>" \
+Create a Reservation
+bash
+Копировать код
+curl -X POST http://127.0.0.1:8000/api/v1/reservations/ \
+  -H "Authorization: Bearer <your_token>" \
   -H "Content-Type: application/json" \
   -d '{
-    "rental_property": 1,
-    "start_date": "2025-10-01",
-    "end_date": "2025-10-05"
-  }'
-
---------- Документация API
-Тип документации	Ссылка
-Swagger UI	http://127.0.0.1:8000/api/schema/swagger-ui/
-
-ReDoc	http://127.0.0.1:8000/api/schema/redoc/
-
-JSON Schema	http://127.0.0.1:8000/api/schema/
-👥 Роли пользователей
-Роль	Возможности
-Администратор	Полный доступ ко всем данным, управлению пользователями, объектами, отзывами и бронированиями
-Арендодатель (Landlord)	Добавление и редактирование своих объектов, управление бронированиями, просмотр отзывов
-Арендатор (Tenant)	Поиск и бронирование жилья, оставление отзывов
-Модератор	Проверка и удаление отзывов, контроль качества контента
-Гость	Просмотр объектов и отзывов без авторизации
------------ Структура проекта
-backend/
-├── apps/
-│   ├── listings/
-│   │   ├── models.py
-│   │   ├── views_html.py
-│   │   ├── urls_html.py
-│   │   └── templates/listings/
-│   ├── bookings/
-│   │   ├── models.py
-│   │   ├── views.py
-│   │   └── urls.py
-│   ├── payments/
-│   ├── users/
-│   ├── reviews/
-│   └── core/
-│
-├── templates/
-│   └── listings/
-│       ├── property_list.html
-│       ├── property_detail.html
-│       ├── booking_confirmation.html
-│       ├── booking_success.html
-│       ├── payment_form.html
-│       └── payment_success.html
-│
-├── media/           
-│   └── properties/
-│
-├── staticfiles/            
-├── manage.py
+        "rental_property": 1,
+        "start_date": "2025-10-25",
+        "end_date": "2025-10-28"
+      }'
+ Project Structure
+bash
+Копировать код
+Rental_HUB/
+├── backend/
+│   ├── apps/
+│   │   ├── listings/
+│   │   ├── reservations/
+│   │   ├── feedbacks/
+│   │   ├── users/
+│   │   ├── transactions/
+│   │   └── log/
+│   ├── myproject/
+│   │   ├── urls.py
+│   │   ├── routers.py
+│   │   └── settings.py
+│   ├── templates/
+│   ├── media/
+│   ├── staticfiles/
+│   └── manage.py
 ├── requirements.txt
 └── README.md
-
---------- Тестирование
-python manage.py test
-
---------- Контакты
-
-Автор проекта: ICH
+ Contributing
+bash
+Копировать код
+git checkout -b feature/new-feature
+git commit -m "Add new feature"
+git push origin feature/new-feature
+ Contact
+Author: Shum-ap
 Email: apet5685@gmail.com
+
+🇷🇺 Русская версия
+ Обзор
+Rental Hub — это современная платформа для аренды жилья, созданная на Django.
+Позволяет пользователям искать жильё, бронировать, оплачивать и оставлять отзывы.
+
+ Основные возможности
+Поиск и фильтрация жилья
+
+Создание и управление бронированиями
+
+Онлайн-оплата
+
+JWT-аутентификация
+
+Личный кабинет пользователя
+
+Добавление отзывов
+
+Панель администратора Django
+
+REST API и HTML-интерфейс
+
+Документация Swagger / ReDoc
+
+Многоязычная поддержка
+
+Email-уведомления
+
+ Установка
+bash
+Копировать код
+git clone https://github.com/Shum-ap/Rental_HUB.git
+cd Rental_HUB
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+ Основные страницы
+Страница	URL	Описание
+Главная	http://127.0.0.1:8000/	Список объектов
+Объявление	/listings/<id>/	Страница жилья
+Добавить объект	/listings/add/	Добавление жилья
+Бронирование — успех	/booking/<id>/success/	Успешное бронирование
+Подтверждение	/booking/<id>/confirmation/	Подтверждение брони
+Отмена	/booking/<id>/cancelled/	Отмена бронирования
+Оплата	/booking/<id>/pay/	Страница оплаты
+Оплата — успех	/booking/<id>/paid/	Успешная оплата
+Админка	http://127.0.0.1:8000/admin/	Django Admin
+
+ REST API
+Ресурс	Метод	URL
+JWT токен	POST	/api/token/
+Обновить токен	POST	/api/token/refresh/
+Пользователи	GET / POST	/api/v1/users/
+Объявления	GET / POST	/api/v1/listings/
+Бронирования	GET / POST	/api/v1/reservations/
+Платежи	GET / POST	/api/v1/transactions/
+Отзывы	GET / POST	/api/v1/feedbacks/
+История поиска	GET	/api/v1/search-history/
+
+ Документация API
+Тип	URL
+Swagger UI	http://127.0.0.1:8000/api/schema/swagger-ui/
+ReDoc	http://127.0.0.1:8000/api/schema/redoc/
+
+ Контакты
+Автор: Shum-ap
+Email: apet5685@gmail.com
+
+
+
+
+

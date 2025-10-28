@@ -5,8 +5,8 @@ register = template.Library()
 @register.simple_tag(takes_context=True)
 def user_role(context):
     """
-    Возвращает тип пользователя (tenant, landlord, admin, moderator)
-    Пример: {% user_role as role %} → {{ role }}
+    Returns user's role (tenant, landlord, admin, moderator).
+    Example: {% user_role as role %} → {{ role }}
     """
     request = context.get("request")
     user = getattr(request, "user", None)
@@ -23,7 +23,7 @@ def user_role(context):
 @register.filter
 def has_role(user, role_name):
     """
-    Фильтр для проверки роли в шаблоне:
+    Template filter to check role:
     {% if user|has_role:"landlord" %}
         ...
     {% endif %}

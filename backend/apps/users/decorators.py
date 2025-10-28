@@ -30,7 +30,6 @@ def role_required(allowed_roles):
     return decorator
 
 
-# --- Удобные сокращения ---
 
 def tenant_required(view_func):
     return role_required(["tenant", "admin", "moderator"])(view_func)

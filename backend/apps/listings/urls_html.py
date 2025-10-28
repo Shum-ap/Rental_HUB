@@ -16,9 +16,9 @@ urlpatterns = [
     path("", views.home, name="home"),
 
     # Список и детали объектов
-    path("properties/", property_list_html, name="property-list-html"),
-    path("properties/<int:pk>/", property_detail_html, name="property-detail-html"),
-    path("properties/add/", property_add, name="property-add"),
+    path("listings/", property_list_html, name="listing-list-html"),
+    path("listings/<int:pk>/", property_detail_html, name="listing-detail-html"),
+    path("listings/add/", property_add, name="listing-add"),
 
     # Страницы бронирования
     path("booking/<int:pk>/success/", booking_success, name="booking-success"),
@@ -30,6 +30,6 @@ urlpatterns = [
     # Личный кабинет
     path("profile/", views.user_profile, name="user-profile"),
 
-    # Оплата
+    # Оплата (резерв)
     path("payment/", views.payment_form, name="payment-form"),
 ]
