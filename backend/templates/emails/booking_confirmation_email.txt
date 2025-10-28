@@ -1,0 +1,21 @@
+Reservation Confirmation — RentalHub
+
+Hello, {{ booking.user.username }}!
+Your booking has been successfully created 🎉
+
+Reservation Details:
+🏠 Listing: {{ booking.rental_property.title }}
+📍 Address: {{ booking.rental_property.location }}
+📅 Dates: {{ booking.start_date }} — {{ booking.end_date }}
+⏱ Nights: {{ booking.nights }}
+💰 Price per night: €{{ booking.rental_property.price_eur }}
+💵 Total: €{{ booking.total_price_eur }}
+
+To confirm your booking, please proceed to payment:
+{{ site_url }}/booking/{{ booking.id }}/pay/
+
+Back to listings:
+{{ site_url }}/listings/
+
+---
+© 2025 RentalHub. All rights reserved.

@@ -1,0 +1,228 @@
+[2025-10-25 22:05:11,796] ERROR � django.request: Internal Server Error: /ru/
+Traceback (most recent call last):
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\myproject\views.py", line 18, in home
+    Listing.objects.filter(is_active=True, is_available=True)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\query.py", line 1493, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\query.py", line 1511, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\query.py", line 1518, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1526, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1333, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1806, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'is_available' into field. Choices are: average_rating, reservations, created_at, deleted_at, description, id, image, is_active, is_deleted, location, owner, owner_id, price_eur, listing_type, rentals, feedbacks, rooms, status, title, updated_at, view_count, view_logs
+[2025-10-27 16:55:33,717] ERROR — django.request: Internal Server Error: /en/
+Traceback (most recent call last):
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\myproject\views.py", line 28, in home
+    return render(request, "index.html", {"listings": listings})
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'property-detail-html' not found. 'property-detail-html' is not a valid view function or pattern name.
+[2025-10-27 17:50:43,564] ERROR — django.request: Internal Server Error: /en/
+Traceback (most recent call last):
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\myproject\views.py", line 28, in home
+    return render(request, "home.html", {"listings": listings})
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'listing-detail-html' not found. 'listing-detail-html' is not a valid view function or pattern name.
+[2025-10-27 23:42:08,996] ERROR — django.request: Internal Server Error: /en/en/listings/2/
+Traceback (most recent call last):
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\listings\views_html.py", line 97, in property_detail_html
+    booking = Reservation.objects.create(
+        user=request.user,
+    ...<2 lines>...
+        end_date=end_date_parsed,
+    )
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\reservations\models\booking.py", line 78, in save
+    super().save(*args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\base.py", line 1023, in save_base
+    post_save.send(
+    ~~~~~~~~~~~~~~^
+        sender=origin,
+        ^^^^^^^^^^^^^^
+    ...<4 lines>...
+        using=using,
+        ^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\reservations\signals.py", line 24, in update_property_availability_on_booking
+    property_obj.save(update_fields=["is_available"])
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\listings\models\listing.py", line 105, in save
+    super().save(*args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\base.py", line 880, in save
+    raise ValueError(
+    ...<3 lines>...
+    )
+ValueError: The following fields do not exist in this model, are m2m fields, primary keys, or are non-concrete fields: is_available
+[2025-10-28 00:16:28,844] ERROR — django.request: Internal Server Error: /ru/en/listings/8/
+Traceback (most recent call last):
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\listings\views_html.py", line 97, in property_detail_html
+    booking = Reservation.objects.create(
+        user=request.user,
+    ...<2 lines>...
+        end_date=end_date_parsed,
+    )
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\reservations\models\booking.py", line 78, in save
+    super().save(*args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\base.py", line 1023, in save_base
+    post_save.send(
+    ~~~~~~~~~~~~~~^
+        sender=origin,
+        ^^^^^^^^^^^^^^
+    ...<4 lines>...
+        using=using,
+        ^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\reservations\signals.py", line 24, in update_property_availability_on_booking
+    property_obj.status = Listing.AvailabilityStatus.RESERVED
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'AvailabilityStatus' has no attribute 'RESERVED'

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reservation Completed — RentalHub</title>
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; background-color: #f8fafc; color: #0f172a; }
+    .container { max-width: 700px; margin: 40px auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    h1 { color: #16a34a; }
+    .btn { display: inline-block; background: #2563eb; color: white; padding: 10px 18px; border-radius: 6px; text-decoration: none; margin-top: 20px; }
+    footer { text-align: center; padding: 2rem; background: #0f172a; color: white; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Reservation Completed</h1>
+    <p>Hello, <strong>{{ booking.user.username }}</strong>!</p>
+    <p>Your stay at <strong>{{ booking.rental_property.title }}</strong> has been successfully completed.</p>
+
+    <p>We hope you had a great experience! 🌟</p>
+    <p>Please take a minute to leave a review for this property:</p>
+    <a href="{{ site_url }}/listings/{{ booking.rental_property.id }}/review/" class="btn">📝 Leave a Feedback</a>
+  </div>
+  <footer>
+    <p>&copy; 2025 RentalHub. All rights reserved.</p>
+  </footer>
+</body>
+</html>

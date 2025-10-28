@@ -1,0 +1,18 @@
+Transaction Successful — RentalHub
+
+Hello, {{ booking.user.username }}!
+Your payment for "{{ booking.rental_property.title }}" has been successfully processed.
+
+Reservation Details:
+🏠 Listing: {{ booking.rental_property.title }}
+📍 Location: {{ booking.rental_property.location }}
+📅 Dates: {{ booking.start_date }} — {{ booking.end_date }}
+💵 Total Paid: €{{ booking.total_price_eur }}
+
+You can view your booking here:
+{{ site_url }}/reservations/{{ booking.id }}/
+
+← Browse more listings:
+{{ site_url }}/listings/
+
+© 2025 RentalHub. All rights reserved.

@@ -1,0 +1,24 @@
+from django.core.mail import EmailMultiAlternatives
+from django.template.loader import render_to_string
+from django.conf import settings
+
+def send_booking_confirmation_email(booking):
+    """Send HTML + plain-text booking confirmation email."""
+    subject = f"Reservation Confirmation — {booking.rental_property.title}"
+    from_email = settings.DEFAULT_FROM_EMAIL
+    to = [booking.user.email]
+
+    nights = (booking.end_date - booking.start_date).days
+
+    context = {
+        "booking": booking,
+        "nights": nights,
+        "site_url": "https://rentalhub.com" if not settings.DEBUG else "http://localhost:8000",
+    }
+
+    text_content = render_to_string("emails/booking_confirmation_email.txt", context)
+    html_content = render_to_string("emails/booking_confirmation_email.html", context)
+
+    msg = EmailMultiAlternatives(subject, text_content, from_email, to)
+    msg.attach_alternative(html_content, "text/html")
+    msg.send()

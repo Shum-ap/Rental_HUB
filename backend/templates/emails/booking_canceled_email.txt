@@ -1,0 +1,9 @@
+Reservation Canceled — RentalHub
+
+Hello, {{ booking.user.username }}.
+Your booking for "{{ booking.rental_property.title }}" has been canceled.
+
+If this was a mistake, please visit your profile to create a new booking:
+{{ site_url }}/listings/
+
+© 2025 RentalHub. All rights reserved.

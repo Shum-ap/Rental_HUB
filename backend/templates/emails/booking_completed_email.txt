@@ -1,0 +1,10 @@
+Reservation Completed — RentalHub
+
+Hello, {{ booking.user.username }}!
+Your stay at "{{ booking.rental_property.title }}" has been successfully completed.
+
+We hope you had a great experience! 🌟
+You can leave a review here:
+{{ site_url }}/listings/{{ booking.rental_property.id }}/review/
+
+© 2025 RentalHub. All rights reserved.

@@ -1,0 +1,1353 @@
+[2025-10-27 10:52:58,734] INFO � log_views: SearchHistory saved | user=tenant1@rentalhub.com query='2 bedrooms' location=Hamburg price_eur_range=(N/A-2000)
+[2025-10-27 10:52:58,755] INFO � log_views: SearchHistory saved | user=tenant1@rentalhub.com query='city center' location=Cologne price_eur_range=(400-1000)
+[2025-10-27 10:52:58,765] INFO � log_views: SearchHistory saved | user=tenant1@rentalhub.com query='sea view' location=Dresden price_eur_range=(400-1000)
+[2025-10-27 10:52:58,773] INFO � log_views: SearchHistory saved | user=tenant2@rentalhub.com query='sea view' location=Munich price_eur_range=(N/A-2000)
+[2025-10-27 10:52:58,783] INFO � log_views: SearchHistory saved | user=tenant2@rentalhub.com query='city center' location=Berlin price_eur_range=(N/A-2000)
+[2025-10-27 10:52:58,803] INFO � log_views: SearchHistory saved | user=tenant2@rentalhub.com query='cheap apartment' location=Berlin price_eur_range=(200-1000)
+[2025-10-27 10:52:58,812] INFO � log_views: SearchHistory saved | user=tenant3@rentalhub.com query='house with garden' location=Frankfurt price_eur_range=(200-1000)
+[2025-10-27 10:52:58,820] INFO � log_views: SearchHistory saved | user=tenant3@rentalhub.com query='pet friendly' location=Berlin price_eur_range=(N/A-1000)
+[2025-10-27 10:52:58,827] INFO � log_views: SearchHistory saved | user=tenant3@rentalhub.com query='2 bedrooms' location=Frankfurt price_eur_range=(400-600)
+[2025-10-27 10:52:58,835] INFO � log_views: SearchHistory saved | user=tenant4@rentalhub.com query='house with garden' location=Cologne price_eur_range=(N/A-2000)
+[2025-10-27 10:52:58,842] INFO � log_views: SearchHistory saved | user=tenant4@rentalhub.com query='city center' location=Cologne price_eur_range=(N/A-2000)
+[2025-10-27 10:52:58,849] INFO � log_views: SearchHistory saved | user=tenant4@rentalhub.com query='student flat' location=Berlin price_eur_range=(N/A-600)
+[2025-10-27 10:52:58,857] INFO � log_views: SearchHistory saved | user=tenant5@rentalhub.com query='2 bedrooms' location=Berlin price_eur_range=(200-1000)
+[2025-10-27 10:52:58,863] INFO � log_views: SearchHistory saved | user=tenant5@rentalhub.com query='house with garden' location=Munich price_eur_range=(N/A-1000)
+[2025-10-27 10:52:58,870] INFO � log_views: SearchHistory saved | user=tenant5@rentalhub.com query='pet friendly' location=Frankfurt price_eur_range=(200-2000)
+[2025-10-27 10:52:58,877] INFO � log_views: SearchHistory saved | user=tenant6@rentalhub.com query='villa' location=Hamburg price_eur_range=(200-2000)
+[2025-10-27 10:52:58,884] INFO � log_views: SearchHistory saved | user=tenant6@rentalhub.com query='city center' location=Berlin price_eur_range=(200-600)
+[2025-10-27 10:52:58,891] INFO � log_views: SearchHistory saved | user=tenant6@rentalhub.com query='house with garden' location=Berlin price_eur_range=(400-1000)
+[2025-10-27 10:52:58,910] INFO � log_views: SearchHistory saved | user=tenant7@rentalhub.com query='2 bedrooms' location=Berlin price_eur_range=(200-1000)
+[2025-10-27 10:52:58,920] INFO � log_views: SearchHistory saved | user=tenant7@rentalhub.com query='sea view' location=Dresden price_eur_range=(400-600)
+[2025-10-27 10:52:58,929] INFO � log_views: SearchHistory saved | user=tenant7@rentalhub.com query='student flat' location=Hamburg price_eur_range=(200-600)
+[2025-10-27 10:52:58,944] INFO � log_views: SearchHistory saved | user=tenant8@rentalhub.com query='house with garden' location=Dresden price_eur_range=(200-2000)
+[2025-10-27 10:52:58,957] INFO � log_views: SearchHistory saved | user=tenant8@rentalhub.com query='pet friendly' location=Cologne price_eur_range=(400-2000)
+[2025-10-27 10:52:58,967] INFO � log_views: SearchHistory saved | user=tenant8@rentalhub.com query='villa' location=Dresden price_eur_range=(400-2000)
+[2025-10-27 10:52:58,975] INFO � log_views: SearchHistory saved | user=tenant9@rentalhub.com query='student flat' location=Munich price_eur_range=(400-2000)
+[2025-10-27 10:52:58,982] INFO � log_views: SearchHistory saved | user=tenant9@rentalhub.com query='city center' location=Munich price_eur_range=(200-1000)
+[2025-10-27 10:52:59,004] INFO � log_views: SearchHistory saved | user=tenant9@rentalhub.com query='sea view' location=Dresden price_eur_range=(N/A-600)
+[2025-10-27 10:52:59,014] INFO � log_views: SearchHistory saved | user=tenant10@rentalhub.com query='2 bedrooms' location=Cologne price_eur_range=(200-600)
+[2025-10-27 10:52:59,022] INFO � log_views: SearchHistory saved | user=tenant10@rentalhub.com query='cheap apartment' location=Berlin price_eur_range=(N/A-2000)
+[2025-10-27 10:52:59,028] INFO � log_views: SearchHistory saved | user=tenant10@rentalhub.com query='student flat' location=Berlin price_eur_range=(200-1000)
+[2025-10-27 11:26:20,081] INFO � log_views: Listing saved | id=1 title='Provident sunt.' owner=landlord3@rentalhub.com status=available price_eur=448.00�
+[2025-10-27 11:26:20,097] INFO � log_views: Listing saved | id=3 title='Iste fuga corporis.' owner=landlord4@rentalhub.com status=available price_eur=83.00�
+[2025-10-27 11:26:20,100] INFO � log_views: Listing saved | id=4 title='Fin gauche habitant.' owner=landlord5@rentalhub.com status=available price_eur=166.00�
+[2025-10-27 11:26:20,102] INFO � log_views: Listing saved | id=5 title='Was baden wo.' owner=landlord3@rentalhub.com status=available price_eur=425.00�
+[2025-10-27 11:26:20,111] INFO � log_views: Listing saved | id=7 title='Corrupti deserunt delectus.' owner=landlord3@rentalhub.com status=available price_eur=439.00�
+[2025-10-27 11:26:20,114] INFO � log_views: Listing saved | id=8 title='Holen zwei einige kochen.' owner=landlord3@rentalhub.com status=available price_eur=149.00�
+[2025-10-27 11:26:20,117] INFO � log_views: Listing saved | id=9 title='Cupiditate voluptas consequuntur magnam.' owner=landlord1@rentalhub.com status=available price_eur=279.00�
+[2025-10-27 11:26:20,119] INFO � log_views: Listing saved | id=10 title='Damit Freude lieb Onkel.' owner=landlord3@rentalhub.com status=available price_eur=112.00�
+[2025-10-27 11:26:20,122] INFO � log_views: Listing saved | id=11 title='Delectus assumenda.' owner=landlord2@rentalhub.com status=available price_eur=421.00�
+[2025-10-27 11:26:20,124] INFO � log_views: Listing saved | id=12 title='Dolorum magni laborum.' owner=landlord2@rentalhub.com status=available price_eur=257.00�
+[2025-10-27 11:26:20,129] INFO � log_views: Listing saved | id=13 title='Molestias atque natus exercitationem modi.' owner=landlord4@rentalhub.com status=available price_eur=285.00�
+[2025-10-27 11:26:20,132] INFO � log_views: Listing saved | id=14 title='Beatae ea voluptatem maiores.' owner=landlord4@rentalhub.com status=available price_eur=179.00�
+[2025-10-27 11:26:20,134] INFO � log_views: Listing saved | id=15 title='Sapiente laudantium voluptatem veritatis.' owner=landlord2@rentalhub.com status=available price_eur=346.00�
+[2025-10-27 11:26:20,141] INFO � log_views: Listing saved | id=17 title='Veritatis illo reprehenderit at commodi.' owner=landlord2@rentalhub.com status=available price_eur=399.00�
+[2025-10-27 11:26:20,144] INFO � log_views: Listing saved | id=18 title='Rerum vitae suscipit cum ex.' owner=landlord2@rentalhub.com status=available price_eur=79.00�
+[2025-10-27 11:26:20,147] INFO � log_views: Listing saved | id=19 title='Quaerat fuga soluta necessitatibus cupiditate.' owner=landlord4@rentalhub.com status=available price_eur=176.00�
+[2025-10-27 11:26:20,149] INFO � log_views: Listing saved | id=20 title='Earum hic odit.' owner=landlord1@rentalhub.com status=available price_eur=108.00�
+[2025-10-27 11:26:20,152] INFO � log_views: Listing saved | id=21 title='Tempore explicabo quidem in.' owner=landlord3@rentalhub.com status=available price_eur=216.00�
+[2025-10-27 11:26:20,154] INFO � log_views: Listing saved | id=22 title='Pied fier tache content.' owner=landlord2@rentalhub.com status=available price_eur=377.00�
+[2025-10-27 11:26:20,156] INFO � log_views: Listing saved | id=23 title='Voluptatibus rem magnam recusandae.' owner=landlord2@rentalhub.com status=available price_eur=188.00�
+[2025-10-27 11:26:20,159] INFO � log_views: Listing saved | id=24 title='Minima consectetur assumenda voluptatibus.' owner=landlord2@rentalhub.com status=available price_eur=344.00�
+[2025-10-27 11:26:20,161] INFO � log_views: Listing saved | id=25 title='Iure voluptas.' owner=landlord2@rentalhub.com status=available price_eur=96.00�
+[2025-10-27 11:26:20,163] INFO � log_views: Listing saved | id=26 title='Cumque in.' owner=landlord4@rentalhub.com status=available price_eur=127.00�
+[2025-10-27 11:26:20,165] INFO � log_views: Listing saved | id=27 title='Quod ex eaque voluptate.' owner=landlord4@rentalhub.com status=available price_eur=189.00�
+[2025-10-27 11:26:20,167] INFO � log_views: Listing saved | id=28 title='Blanditiis ex vitae.' owner=landlord5@rentalhub.com status=available price_eur=210.00�
+[2025-10-27 11:26:20,183] ERROR � log_views: Error saving listing 'Veritatis illo reprehenderit at commodi.' (owner=landlord2@rentalhub.com): The following fields do not exist in this model, are m2m fields, primary keys, or are non-concrete fields: is_available
+[2025-10-27 11:26:20,184] ERROR � log_views: Error saving booking (user=tenant1@rentalhub.com listing=17): The following fields do not exist in this model, are m2m fields, primary keys, or are non-concrete fields: is_available
+[2025-10-27 11:26:20,194] INFO � log_views: Listing saved | id=1 title='Provident sunt.' owner=landlord3@rentalhub.com status=available price_eur=448.00�
+[2025-10-27 11:26:20,196] INFO � log_views: Listing saved | id=1 title='Provident sunt.' owner=landlord3@rentalhub.com status=available price_eur=448.00�
+[2025-10-27 11:26:20,201] INFO � log_views: Feedback saved | user=tenant1@rentalhub.com listing=Provident sunt. rating=3
+[2025-10-27 11:26:20,238] INFO � log_views: Listing saved | id=4 title='Fin gauche habitant.' owner=landlord5@rentalhub.com status=available price_eur=166.00�
+[2025-10-27 11:26:20,241] INFO � log_views: Listing saved | id=4 title='Fin gauche habitant.' owner=landlord5@rentalhub.com status=available price_eur=166.00�
+[2025-10-27 11:26:20,244] INFO � log_views: Feedback saved | user=tenant1@rentalhub.com listing=Fin gauche habitant. rating=3
+[2025-10-27 11:26:20,252] INFO � log_views: Listing saved | id=24 title='Minima consectetur assumenda voluptatibus.' owner=landlord2@rentalhub.com status=available price_eur=344.00�
+[2025-10-27 11:26:20,255] INFO � log_views: Listing saved | id=24 title='Minima consectetur assumenda voluptatibus.' owner=landlord2@rentalhub.com status=available price_eur=344.00�
+[2025-10-27 11:26:20,260] INFO � log_views: Feedback saved | user=tenant1@rentalhub.com listing=Minima consectetur assumenda voluptatibus. rating=4
+[2025-10-27 11:26:20,269] INFO � log_views: Listing saved | id=20 title='Earum hic odit.' owner=landlord1@rentalhub.com status=available price_eur=108.00�
+[2025-10-27 11:26:20,271] INFO � log_views: Listing saved | id=20 title='Earum hic odit.' owner=landlord1@rentalhub.com status=available price_eur=108.00�
+[2025-10-27 11:26:20,276] INFO � log_views: Feedback saved | user=tenant1@rentalhub.com listing=Earum hic odit. rating=4
+[2025-10-27 11:26:20,283] INFO � log_views: Listing saved | id=4 title='Fin gauche habitant.' owner=landlord5@rentalhub.com status=available price_eur=166.00�
+[2025-10-27 11:26:20,286] INFO � log_views: Listing saved | id=4 title='Fin gauche habitant.' owner=landlord5@rentalhub.com status=available price_eur=166.00�
+[2025-10-27 11:26:20,291] INFO � log_views: Feedback saved | user=tenant2@rentalhub.com listing=Fin gauche habitant. rating=5
+[2025-10-27 11:26:20,297] INFO � log_views: Listing saved | id=22 title='Pied fier tache content.' owner=landlord2@rentalhub.com status=available price_eur=377.00�
+[2025-10-27 11:26:20,301] INFO � log_views: Listing saved | id=22 title='Pied fier tache content.' owner=landlord2@rentalhub.com status=available price_eur=377.00�
+[2025-10-27 11:26:20,305] INFO � log_views: Feedback saved | user=tenant2@rentalhub.com listing=Pied fier tache content. rating=3
+[2025-10-27 11:26:20,311] INFO � log_views: Listing saved | id=21 title='Tempore explicabo quidem in.' owner=landlord3@rentalhub.com status=available price_eur=216.00�
+[2025-10-27 11:26:20,315] INFO � log_views: Listing saved | id=21 title='Tempore explicabo quidem in.' owner=landlord3@rentalhub.com status=available price_eur=216.00�
+[2025-10-27 11:26:20,319] INFO � log_views: Feedback saved | user=tenant2@rentalhub.com listing=Tempore explicabo quidem in. rating=3
+[2025-10-27 11:26:20,325] INFO � log_views: Listing saved | id=24 title='Minima consectetur assumenda voluptatibus.' owner=landlord2@rentalhub.com status=available price_eur=344.00�
+[2025-10-27 11:26:20,328] INFO � log_views: Listing saved | id=24 title='Minima consectetur assumenda voluptatibus.' owner=landlord2@rentalhub.com status=available price_eur=344.00�
+[2025-10-27 11:26:20,333] INFO � log_views: Feedback saved | user=tenant2@rentalhub.com listing=Minima consectetur assumenda voluptatibus. rating=5
+[2025-10-27 11:26:20,339] INFO � log_views: Listing saved | id=28 title='Blanditiis ex vitae.' owner=landlord5@rentalhub.com status=available price_eur=210.00�
+[2025-10-27 11:26:20,342] INFO � log_views: Listing saved | id=28 title='Blanditiis ex vitae.' owner=landlord5@rentalhub.com status=available price_eur=210.00�
+[2025-10-27 11:26:20,346] INFO � log_views: Feedback saved | user=tenant2@rentalhub.com listing=Blanditiis ex vitae. rating=3
+[2025-10-27 11:26:20,405] INFO � log_views: Listing saved | id=15 title='Sapiente laudantium voluptatem veritatis.' owner=landlord2@rentalhub.com status=available price_eur=346.00�
+[2025-10-27 11:26:20,409] INFO � log_views: Listing saved | id=15 title='Sapiente laudantium voluptatem veritatis.' owner=landlord2@rentalhub.com status=available price_eur=346.00�
+[2025-10-27 11:26:20,413] INFO � log_views: Feedback saved | user=tenant3@rentalhub.com listing=Sapiente laudantium voluptatem veritatis. rating=4
+[2025-10-27 11:26:20,419] INFO � log_views: Listing saved | id=24 title='Minima consectetur assumenda voluptatibus.' owner=landlord2@rentalhub.com status=available price_eur=344.00�
+[2025-10-27 11:26:20,422] INFO � log_views: Listing saved | id=24 title='Minima consectetur assumenda voluptatibus.' owner=landlord2@rentalhub.com status=available price_eur=344.00�
+[2025-10-27 11:26:20,425] INFO � log_views: Feedback saved | user=tenant3@rentalhub.com listing=Minima consectetur assumenda voluptatibus. rating=5
+[2025-10-27 11:26:20,432] INFO � log_views: Listing saved | id=23 title='Voluptatibus rem magnam recusandae.' owner=landlord2@rentalhub.com status=available price_eur=188.00�
+[2025-10-27 11:26:20,434] INFO � log_views: Listing saved | id=23 title='Voluptatibus rem magnam recusandae.' owner=landlord2@rentalhub.com status=available price_eur=188.00�
+[2025-10-27 11:26:20,438] INFO � log_views: Feedback saved | user=tenant3@rentalhub.com listing=Voluptatibus rem magnam recusandae. rating=4
+[2025-10-27 11:26:20,445] INFO � log_views: Listing saved | id=28 title='Blanditiis ex vitae.' owner=landlord5@rentalhub.com status=available price_eur=210.00�
+[2025-10-27 11:26:20,448] INFO � log_views: Listing saved | id=28 title='Blanditiis ex vitae.' owner=landlord5@rentalhub.com status=available price_eur=210.00�
+[2025-10-27 11:26:20,451] INFO � log_views: Feedback saved | user=tenant4@rentalhub.com listing=Blanditiis ex vitae. rating=5
+[2025-10-27 11:26:20,485] INFO � log_views: Listing saved | id=13 title='Molestias atque natus exercitationem modi.' owner=landlord4@rentalhub.com status=available price_eur=285.00�
+[2025-10-27 11:26:20,488] INFO � log_views: Listing saved | id=13 title='Molestias atque natus exercitationem modi.' owner=landlord4@rentalhub.com status=available price_eur=285.00�
+[2025-10-27 11:26:20,493] INFO � log_views: Feedback saved | user=tenant4@rentalhub.com listing=Molestias atque natus exercitationem modi. rating=4
+[2025-10-27 11:26:20,499] INFO � log_views: Listing saved | id=23 title='Voluptatibus rem magnam recusandae.' owner=landlord2@rentalhub.com status=available price_eur=188.00�
+[2025-10-27 11:26:20,503] INFO � log_views: Listing saved | id=23 title='Voluptatibus rem magnam recusandae.' owner=landlord2@rentalhub.com status=available price_eur=188.00�
+[2025-10-27 11:26:20,506] INFO � log_views: Feedback saved | user=tenant4@rentalhub.com listing=Voluptatibus rem magnam recusandae. rating=5
+[2025-10-27 11:26:20,568] INFO � log_views: Listing saved | id=20 title='Earum hic odit.' owner=landlord1@rentalhub.com status=available price_eur=108.00�
+[2025-10-27 11:26:20,571] INFO � log_views: Listing saved | id=20 title='Earum hic odit.' owner=landlord1@rentalhub.com status=available price_eur=108.00�
+[2025-10-27 11:26:20,575] INFO � log_views: Feedback saved | user=tenant5@rentalhub.com listing=Earum hic odit. rating=3
+[2025-10-27 11:26:20,583] INFO � log_views: Listing saved | id=11 title='Delectus assumenda.' owner=landlord2@rentalhub.com status=available price_eur=421.00�
+[2025-10-27 11:26:20,585] INFO � log_views: Listing saved | id=11 title='Delectus assumenda.' owner=landlord2@rentalhub.com status=available price_eur=421.00�
+[2025-10-27 11:26:20,589] INFO � log_views: Feedback saved | user=tenant5@rentalhub.com listing=Delectus assumenda. rating=4
+[2025-10-27 11:26:20,596] INFO � log_views: Listing saved | id=14 title='Beatae ea voluptatem maiores.' owner=landlord4@rentalhub.com status=available price_eur=179.00�
+[2025-10-27 11:26:20,599] INFO � log_views: Listing saved | id=14 title='Beatae ea voluptatem maiores.' owner=landlord4@rentalhub.com status=available price_eur=179.00�
+[2025-10-27 11:26:20,602] INFO � log_views: Feedback saved | user=tenant5@rentalhub.com listing=Beatae ea voluptatem maiores. rating=4
+[2025-10-27 11:26:20,608] INFO � log_views: Listing saved | id=19 title='Quaerat fuga soluta necessitatibus cupiditate.' owner=landlord4@rentalhub.com status=available price_eur=176.00�
+[2025-10-27 11:26:20,611] INFO � log_views: Listing saved | id=19 title='Quaerat fuga soluta necessitatibus cupiditate.' owner=landlord4@rentalhub.com status=available price_eur=176.00�
+[2025-10-27 11:26:20,615] INFO � log_views: Feedback saved | user=tenant5@rentalhub.com listing=Quaerat fuga soluta necessitatibus cupiditate. rating=5
+[2025-10-27 11:26:20,622] INFO � log_views: Listing saved | id=26 title='Cumque in.' owner=landlord4@rentalhub.com status=available price_eur=127.00�
+[2025-10-27 11:26:20,625] INFO � log_views: Listing saved | id=26 title='Cumque in.' owner=landlord4@rentalhub.com status=available price_eur=127.00�
+[2025-10-27 11:26:20,630] INFO � log_views: Feedback saved | user=tenant6@rentalhub.com listing=Cumque in. rating=5
+[2025-10-27 11:26:20,637] INFO � log_views: Listing saved | id=19 title='Quaerat fuga soluta necessitatibus cupiditate.' owner=landlord4@rentalhub.com status=available price_eur=176.00�
+[2025-10-27 11:26:20,640] INFO � log_views: Listing saved | id=19 title='Quaerat fuga soluta necessitatibus cupiditate.' owner=landlord4@rentalhub.com status=available price_eur=176.00�
+[2025-10-27 11:26:20,645] INFO � log_views: Feedback saved | user=tenant6@rentalhub.com listing=Quaerat fuga soluta necessitatibus cupiditate. rating=5
+[2025-10-27 11:26:20,653] INFO � log_views: Listing saved | id=13 title='Molestias atque natus exercitationem modi.' owner=landlord4@rentalhub.com status=available price_eur=285.00�
+[2025-10-27 11:26:20,656] INFO � log_views: Listing saved | id=13 title='Molestias atque natus exercitationem modi.' owner=landlord4@rentalhub.com status=available price_eur=285.00�
+[2025-10-27 11:26:20,663] INFO � log_views: Feedback saved | user=tenant6@rentalhub.com listing=Molestias atque natus exercitationem modi. rating=3
+[2025-10-27 11:26:20,696] INFO � log_views: Listing saved | id=4 title='Fin gauche habitant.' owner=landlord5@rentalhub.com status=available price_eur=166.00�
+[2025-10-27 11:26:20,700] INFO � log_views: Listing saved | id=4 title='Fin gauche habitant.' owner=landlord5@rentalhub.com status=available price_eur=166.00�
+[2025-10-27 11:26:20,703] INFO � log_views: Feedback saved | user=tenant6@rentalhub.com listing=Fin gauche habitant. rating=3
+[2025-10-27 11:26:20,710] INFO � log_views: Listing saved | id=5 title='Was baden wo.' owner=landlord3@rentalhub.com status=available price_eur=425.00�
+[2025-10-27 11:26:20,713] INFO � log_views: Listing saved | id=5 title='Was baden wo.' owner=landlord3@rentalhub.com status=available price_eur=425.00�
+[2025-10-27 11:26:20,717] INFO � log_views: Feedback saved | user=tenant7@rentalhub.com listing=Was baden wo. rating=3
+[2025-10-27 11:26:20,723] INFO � log_views: Listing saved | id=22 title='Pied fier tache content.' owner=landlord2@rentalhub.com status=available price_eur=377.00�
+[2025-10-27 11:26:20,727] INFO � log_views: Listing saved | id=22 title='Pied fier tache content.' owner=landlord2@rentalhub.com status=available price_eur=377.00�
+[2025-10-27 11:26:20,733] INFO � log_views: Feedback saved | user=tenant7@rentalhub.com listing=Pied fier tache content. rating=3
+[2025-10-27 11:26:20,740] INFO � log_views: Listing saved | id=7 title='Corrupti deserunt delectus.' owner=landlord3@rentalhub.com status=available price_eur=439.00�
+[2025-10-27 11:26:20,744] INFO � log_views: Listing saved | id=7 title='Corrupti deserunt delectus.' owner=landlord3@rentalhub.com status=available price_eur=439.00�
+[2025-10-27 11:26:20,749] INFO � log_views: Feedback saved | user=tenant7@rentalhub.com listing=Corrupti deserunt delectus. rating=3
+[2025-10-27 11:26:20,784] INFO � log_views: Listing saved | id=24 title='Minima consectetur assumenda voluptatibus.' owner=landlord2@rentalhub.com status=available price_eur=344.00�
+[2025-10-27 11:26:20,787] INFO � log_views: Listing saved | id=24 title='Minima consectetur assumenda voluptatibus.' owner=landlord2@rentalhub.com status=available price_eur=344.00�
+[2025-10-27 11:26:20,791] INFO � log_views: Feedback saved | user=tenant7@rentalhub.com listing=Minima consectetur assumenda voluptatibus. rating=5
+[2025-10-27 11:26:20,797] INFO � log_views: Listing saved | id=9 title='Cupiditate voluptas consequuntur magnam.' owner=landlord1@rentalhub.com status=available price_eur=279.00�
+[2025-10-27 11:26:20,801] INFO � log_views: Listing saved | id=9 title='Cupiditate voluptas consequuntur magnam.' owner=landlord1@rentalhub.com status=available price_eur=279.00�
+[2025-10-27 11:26:20,804] INFO � log_views: Feedback saved | user=tenant8@rentalhub.com listing=Cupiditate voluptas consequuntur magnam. rating=3
+[2025-10-27 11:26:20,811] INFO � log_views: Listing saved | id=22 title='Pied fier tache content.' owner=landlord2@rentalhub.com status=available price_eur=377.00�
+[2025-10-27 11:26:20,815] INFO � log_views: Listing saved | id=22 title='Pied fier tache content.' owner=landlord2@rentalhub.com status=available price_eur=377.00�
+[2025-10-27 11:26:20,819] INFO � log_views: Feedback saved | user=tenant8@rentalhub.com listing=Pied fier tache content. rating=5
+[2025-10-27 11:26:20,826] INFO � log_views: Listing saved | id=21 title='Tempore explicabo quidem in.' owner=landlord3@rentalhub.com status=available price_eur=216.00�
+[2025-10-27 11:26:20,829] INFO � log_views: Listing saved | id=21 title='Tempore explicabo quidem in.' owner=landlord3@rentalhub.com status=available price_eur=216.00�
+[2025-10-27 11:26:20,834] INFO � log_views: Feedback saved | user=tenant8@rentalhub.com listing=Tempore explicabo quidem in. rating=4
+[2025-10-27 11:26:20,868] INFO � log_views: Listing saved | id=20 title='Earum hic odit.' owner=landlord1@rentalhub.com status=available price_eur=108.00�
+[2025-10-27 11:26:20,871] INFO � log_views: Listing saved | id=20 title='Earum hic odit.' owner=landlord1@rentalhub.com status=available price_eur=108.00�
+[2025-10-27 11:26:20,876] INFO � log_views: Feedback saved | user=tenant8@rentalhub.com listing=Earum hic odit. rating=5
+[2025-10-27 11:26:20,883] INFO � log_views: Listing saved | id=11 title='Delectus assumenda.' owner=landlord2@rentalhub.com status=available price_eur=421.00�
+[2025-10-27 11:26:20,886] INFO � log_views: Listing saved | id=11 title='Delectus assumenda.' owner=landlord2@rentalhub.com status=available price_eur=421.00�
+[2025-10-27 11:26:20,890] INFO � log_views: Feedback saved | user=tenant9@rentalhub.com listing=Delectus assumenda. rating=4
+[2025-10-27 11:26:20,896] INFO � log_views: Listing saved | id=10 title='Damit Freude lieb Onkel.' owner=landlord3@rentalhub.com status=available price_eur=112.00�
+[2025-10-27 11:26:20,900] INFO � log_views: Listing saved | id=10 title='Damit Freude lieb Onkel.' owner=landlord3@rentalhub.com status=available price_eur=112.00�
+[2025-10-27 11:26:20,904] INFO � log_views: Feedback saved | user=tenant9@rentalhub.com listing=Damit Freude lieb Onkel. rating=5
+[2025-10-27 11:26:20,911] INFO � log_views: Listing saved | id=4 title='Fin gauche habitant.' owner=landlord5@rentalhub.com status=available price_eur=166.00�
+[2025-10-27 11:26:20,914] INFO � log_views: Listing saved | id=4 title='Fin gauche habitant.' owner=landlord5@rentalhub.com status=available price_eur=166.00�
+[2025-10-27 11:26:20,918] INFO � log_views: Feedback saved | user=tenant9@rentalhub.com listing=Fin gauche habitant. rating=5
+[2025-10-27 11:26:20,950] INFO � log_views: Listing saved | id=5 title='Was baden wo.' owner=landlord3@rentalhub.com status=available price_eur=425.00�
+[2025-10-27 11:26:20,954] INFO � log_views: Listing saved | id=5 title='Was baden wo.' owner=landlord3@rentalhub.com status=available price_eur=425.00�
+[2025-10-27 11:26:20,958] INFO � log_views: Feedback saved | user=tenant9@rentalhub.com listing=Was baden wo. rating=4
+[2025-10-27 11:26:20,968] INFO � log_views: Listing saved | id=1 title='Provident sunt.' owner=landlord3@rentalhub.com status=available price_eur=448.00�
+[2025-10-27 11:26:20,972] INFO � log_views: Listing saved | id=1 title='Provident sunt.' owner=landlord3@rentalhub.com status=available price_eur=448.00�
+[2025-10-27 11:26:20,976] INFO � log_views: Feedback saved | user=tenant10@rentalhub.com listing=Provident sunt. rating=3
+[2025-10-27 11:26:20,983] INFO � log_views: Listing saved | id=9 title='Cupiditate voluptas consequuntur magnam.' owner=landlord1@rentalhub.com status=available price_eur=279.00�
+[2025-10-27 11:26:20,985] INFO � log_views: Listing saved | id=9 title='Cupiditate voluptas consequuntur magnam.' owner=landlord1@rentalhub.com status=available price_eur=279.00�
+[2025-10-27 11:26:20,989] INFO � log_views: Feedback saved | user=tenant10@rentalhub.com listing=Cupiditate voluptas consequuntur magnam. rating=5
+[2025-10-27 11:26:20,995] INFO � log_views: Listing saved | id=23 title='Voluptatibus rem magnam recusandae.' owner=landlord2@rentalhub.com status=available price_eur=188.00�
+[2025-10-27 11:26:20,998] INFO � log_views: Listing saved | id=23 title='Voluptatibus rem magnam recusandae.' owner=landlord2@rentalhub.com status=available price_eur=188.00�
+[2025-10-27 11:26:21,002] INFO � log_views: Feedback saved | user=tenant10@rentalhub.com listing=Voluptatibus rem magnam recusandae. rating=5
+[2025-10-27 11:26:21,009] INFO � log_views: Listing saved | id=15 title='Sapiente laudantium voluptatem veritatis.' owner=landlord2@rentalhub.com status=available price_eur=346.00�
+[2025-10-27 11:26:21,012] INFO � log_views: Listing saved | id=15 title='Sapiente laudantium voluptatem veritatis.' owner=landlord2@rentalhub.com status=available price_eur=346.00�
+[2025-10-27 11:26:21,016] INFO � log_views: Feedback saved | user=tenant10@rentalhub.com listing=Sapiente laudantium voluptatem veritatis. rating=5
+[2025-10-27 11:26:21,023] INFO � log_views: Listing saved | id=22 title='Pied fier tache content.' owner=landlord2@rentalhub.com status=available price_eur=377.00�
+[2025-10-27 11:26:21,025] INFO � log_views: Listing saved | id=22 title='Pied fier tache content.' owner=landlord2@rentalhub.com status=available price_eur=377.00�
+[2025-10-27 11:26:21,030] INFO � log_views: Feedback saved | user=tenant10@rentalhub.com listing=Pied fier tache content. rating=4
+[2025-10-27 11:26:21,033] INFO � log_views: SearchHistory saved | user=tenant1@rentalhub.com query='2 bedrooms' location=Hamburg price_eur_range=(200-600)
+[2025-10-27 11:26:21,037] INFO � log_views: SearchHistory saved | user=tenant1@rentalhub.com query='student flat' location=Berlin price_eur_range=(200-1000)
+[2025-10-27 11:26:21,039] INFO � log_views: SearchHistory saved | user=tenant1@rentalhub.com query='pet friendly' location=Munich price_eur_range=(400-1000)
+[2025-10-27 11:26:21,041] INFO � log_views: SearchHistory saved | user=tenant2@rentalhub.com query='villa' location=Frankfurt price_eur_range=(400-600)
+[2025-10-27 11:26:21,042] INFO � log_views: SearchHistory saved | user=tenant2@rentalhub.com query='sea view' location=Dresden price_eur_range=(N/A-2000)
+[2025-10-27 11:26:21,044] INFO � log_views: SearchHistory saved | user=tenant2@rentalhub.com query='student flat' location=Munich price_eur_range=(400-2000)
+[2025-10-27 11:26:21,047] INFO � log_views: SearchHistory saved | user=tenant3@rentalhub.com query='cheap apartment' location=Munich price_eur_range=(N/A-600)
+[2025-10-27 11:26:21,049] INFO � log_views: SearchHistory saved | user=tenant3@rentalhub.com query='student flat' location=Hamburg price_eur_range=(N/A-1000)
+[2025-10-27 11:26:21,052] INFO � log_views: SearchHistory saved | user=tenant3@rentalhub.com query='2 bedrooms' location=Berlin price_eur_range=(N/A-2000)
+[2025-10-27 11:26:21,054] INFO � log_views: SearchHistory saved | user=tenant4@rentalhub.com query='villa' location=Berlin price_eur_range=(200-1000)
+[2025-10-27 11:26:21,056] INFO � log_views: SearchHistory saved | user=tenant4@rentalhub.com query='student flat' location=Berlin price_eur_range=(N/A-2000)
+[2025-10-27 11:26:21,058] INFO � log_views: SearchHistory saved | user=tenant4@rentalhub.com query='pet friendly' location=Cologne price_eur_range=(N/A-1000)
+[2025-10-27 11:26:21,061] INFO � log_views: SearchHistory saved | user=tenant5@rentalhub.com query='city center' location=Berlin price_eur_range=(N/A-600)
+[2025-10-27 11:26:21,064] INFO � log_views: SearchHistory saved | user=tenant5@rentalhub.com query='cheap apartment' location=Cologne price_eur_range=(400-600)
+[2025-10-27 11:26:21,066] INFO � log_views: SearchHistory saved | user=tenant5@rentalhub.com query='villa' location=Hamburg price_eur_range=(200-2000)
+[2025-10-27 11:26:21,068] INFO � log_views: SearchHistory saved | user=tenant6@rentalhub.com query='student flat' location=Hamburg price_eur_range=(N/A-2000)
+[2025-10-27 11:26:21,070] INFO � log_views: SearchHistory saved | user=tenant6@rentalhub.com query='house with garden' location=Dresden price_eur_range=(400-2000)
+[2025-10-27 11:26:21,072] INFO � log_views: SearchHistory saved | user=tenant6@rentalhub.com query='2 bedrooms' location=Frankfurt price_eur_range=(200-1000)
+[2025-10-27 11:26:21,074] INFO � log_views: SearchHistory saved | user=tenant7@rentalhub.com query='student flat' location=Dresden price_eur_range=(200-600)
+[2025-10-27 11:26:21,075] INFO � log_views: SearchHistory saved | user=tenant7@rentalhub.com query='city center' location=Frankfurt price_eur_range=(N/A-2000)
+[2025-10-27 11:26:21,077] INFO � log_views: SearchHistory saved | user=tenant7@rentalhub.com query='2 bedrooms' location=Munich price_eur_range=(200-1000)
+[2025-10-27 11:26:21,080] INFO � log_views: SearchHistory saved | user=tenant8@rentalhub.com query='2 bedrooms' location=Frankfurt price_eur_range=(200-1000)
+[2025-10-27 11:26:21,082] INFO � log_views: SearchHistory saved | user=tenant8@rentalhub.com query='villa' location=Hamburg price_eur_range=(N/A-1000)
+[2025-10-27 11:26:21,084] INFO � log_views: SearchHistory saved | user=tenant8@rentalhub.com query='pet friendly' location=Dresden price_eur_range=(N/A-600)
+[2025-10-27 11:26:21,086] INFO � log_views: SearchHistory saved | user=tenant9@rentalhub.com query='sea view' location=Munich price_eur_range=(200-1000)
+[2025-10-27 11:26:21,088] INFO � log_views: SearchHistory saved | user=tenant9@rentalhub.com query='2 bedrooms' location=Munich price_eur_range=(200-1000)
+[2025-10-27 11:26:21,090] INFO � log_views: SearchHistory saved | user=tenant9@rentalhub.com query='villa' location=Munich price_eur_range=(200-1000)
+[2025-10-27 11:26:21,091] INFO � log_views: SearchHistory saved | user=tenant10@rentalhub.com query='city center' location=Munich price_eur_range=(N/A-600)
+[2025-10-27 11:26:21,093] INFO � log_views: SearchHistory saved | user=tenant10@rentalhub.com query='sea view' location=Munich price_eur_range=(N/A-600)
+[2025-10-27 11:26:21,095] INFO � log_views: SearchHistory saved | user=tenant10@rentalhub.com query='villa' location=Dresden price_eur_range=(200-1000)
+[2025-10-27 11:26:21,101] INFO � log_views: View logged: user=tenant1@rentalhub.com listing=Damit Freude lieb Onkel. ip=N/A
+[2025-10-27 11:26:21,105] INFO � log_views: View logged: user=tenant1@rentalhub.com listing=Cupiditate voluptas consequuntur magnam. ip=N/A
+[2025-10-27 11:26:21,118] INFO � log_views: View logged: user=tenant1@rentalhub.com listing=Tempore explicabo quidem in. ip=N/A
+[2025-10-27 11:26:21,122] INFO � log_views: View logged: user=tenant1@rentalhub.com listing=Pied fier tache content. ip=N/A
+[2025-10-27 11:26:21,126] INFO � log_views: View logged: user=tenant2@rentalhub.com listing=Was baden wo. ip=N/A
+[2025-10-27 11:26:21,131] INFO � log_views: View logged: user=tenant2@rentalhub.com listing=Pied fier tache content. ip=N/A
+[2025-10-27 11:26:21,135] INFO � log_views: View logged: user=tenant2@rentalhub.com listing=Voluptatibus rem magnam recusandae. ip=N/A
+[2025-10-27 11:26:21,139] INFO � log_views: View logged: user=tenant2@rentalhub.com listing=Delectus assumenda. ip=N/A
+[2025-10-27 11:26:21,143] INFO � log_views: View logged: user=tenant2@rentalhub.com listing=Sapiente laudantium voluptatem veritatis. ip=N/A
+[2025-10-27 11:26:21,148] INFO � log_views: View logged: user=tenant3@rentalhub.com listing=Iure voluptas. ip=N/A
+[2025-10-27 11:26:21,160] INFO � log_views: View logged: user=tenant3@rentalhub.com listing=Voluptatibus rem magnam recusandae. ip=N/A
+[2025-10-27 11:26:21,165] INFO � log_views: View logged: user=tenant3@rentalhub.com listing=Pied fier tache content. ip=N/A
+[2025-10-27 11:26:21,169] INFO � log_views: View logged: user=tenant3@rentalhub.com listing=Minima consectetur assumenda voluptatibus. ip=N/A
+[2025-10-27 11:26:21,175] INFO � log_views: View logged: user=tenant4@rentalhub.com listing=Blanditiis ex vitae. ip=N/A
+[2025-10-27 11:26:21,180] INFO � log_views: View logged: user=tenant4@rentalhub.com listing=Voluptatibus rem magnam recusandae. ip=N/A
+[2025-10-27 11:26:21,184] INFO � log_views: View logged: user=tenant4@rentalhub.com listing=Fin gauche habitant. ip=N/A
+[2025-10-27 11:26:21,188] INFO � log_views: View logged: user=tenant4@rentalhub.com listing=Cumque in. ip=N/A
+[2025-10-27 11:26:21,192] INFO � log_views: View logged: user=tenant4@rentalhub.com listing=Earum hic odit. ip=N/A
+[2025-10-27 11:26:21,197] INFO � log_views: View logged: user=tenant5@rentalhub.com listing=Was baden wo. ip=N/A
+[2025-10-27 11:26:21,201] INFO � log_views: View logged: user=tenant5@rentalhub.com listing=Dolorum magni laborum. ip=N/A
+[2025-10-27 11:26:21,206] INFO � log_views: View logged: user=tenant5@rentalhub.com listing=Iste fuga corporis. ip=N/A
+[2025-10-27 11:26:21,222] INFO � log_views: View logged: user=tenant5@rentalhub.com listing=Voluptatibus rem magnam recusandae. ip=N/A
+[2025-10-27 11:26:21,227] INFO � log_views: View logged: user=tenant6@rentalhub.com listing=Beatae ea voluptatem maiores. ip=N/A
+[2025-10-27 11:26:21,233] INFO � log_views: View logged: user=tenant6@rentalhub.com listing=Blanditiis ex vitae. ip=N/A
+[2025-10-27 11:26:21,238] INFO � log_views: View logged: user=tenant6@rentalhub.com listing=Quaerat fuga soluta necessitatibus cupiditate. ip=N/A
+[2025-10-27 11:26:21,245] INFO � log_views: View logged: user=tenant6@rentalhub.com listing=Cupiditate voluptas consequuntur magnam. ip=N/A
+[2025-10-27 11:26:21,250] INFO � log_views: View logged: user=tenant6@rentalhub.com listing=Molestias atque natus exercitationem modi. ip=N/A
+[2025-10-27 11:26:21,256] INFO � log_views: View logged: user=tenant7@rentalhub.com listing=Cupiditate voluptas consequuntur magnam. ip=N/A
+[2025-10-27 11:26:21,261] INFO � log_views: View logged: user=tenant7@rentalhub.com listing=Earum hic odit. ip=N/A
+[2025-10-27 11:26:21,265] INFO � log_views: View logged: user=tenant7@rentalhub.com listing=Tempore explicabo quidem in. ip=N/A
+[2025-10-27 11:26:21,271] INFO � log_views: View logged: user=tenant7@rentalhub.com listing=Rerum vitae suscipit cum ex. ip=N/A
+[2025-10-27 11:26:21,284] INFO � log_views: View logged: user=tenant8@rentalhub.com listing=Rerum vitae suscipit cum ex. ip=N/A
+[2025-10-27 11:26:21,289] INFO � log_views: View logged: user=tenant8@rentalhub.com listing=Cumque in. ip=N/A
+[2025-10-27 11:26:21,306] INFO � log_views: View logged: user=tenant8@rentalhub.com listing=Provident sunt. ip=N/A
+[2025-10-27 11:26:21,320] INFO � log_views: View logged: user=tenant9@rentalhub.com listing=Tempore explicabo quidem in. ip=N/A
+[2025-10-27 11:26:21,334] INFO � log_views: View logged: user=tenant9@rentalhub.com listing=Fin gauche habitant. ip=N/A
+[2025-10-27 11:26:21,338] INFO � log_views: View logged: user=tenant9@rentalhub.com listing=Cumque in. ip=N/A
+[2025-10-27 11:26:21,342] INFO � log_views: View logged: user=tenant9@rentalhub.com listing=Quaerat fuga soluta necessitatibus cupiditate. ip=N/A
+[2025-10-27 11:26:21,347] INFO � log_views: View logged: user=tenant10@rentalhub.com listing=Iste fuga corporis. ip=N/A
+[2025-10-27 11:26:21,352] INFO � log_views: View logged: user=tenant10@rentalhub.com listing=Dolorum magni laborum. ip=N/A
+[2025-10-27 11:26:21,357] INFO � log_views: View logged: user=tenant10@rentalhub.com listing=Voluptatibus rem magnam recusandae. ip=N/A
+[2025-10-27 11:26:21,363] INFO � log_views: View logged: user=tenant10@rentalhub.com listing=Beatae ea voluptatem maiores. ip=N/A
+[2025-10-27 11:26:21,369] INFO � log_views: View logged: user=tenant10@rentalhub.com listing=Pied fier tache content. ip=N/A
+[2025-10-27 15:40:16,046] INFO � log_views: Listing saved | id=1 title='Aber eigentlich Papa.' owner=landlord2@rentalhub.com status=available price_eur=124.00�
+[2025-10-27 15:40:16,048] INFO � log_views: Listing saved | id=2 title='Exercitationem officia ducimus.' owner=landlord1@rentalhub.com status=available price_eur=308.00�
+[2025-10-27 15:40:16,050] INFO � log_views: Listing saved | id=3 title='Impedit quos quasi necessitatibus.' owner=landlord3@rentalhub.com status=available price_eur=414.00�
+[2025-10-27 15:40:16,068] INFO � log_views: Listing saved | id=5 title='Cheval rouler agent aide rose.' owner=landlord1@rentalhub.com status=available price_eur=154.00�
+[2025-10-27 15:40:16,069] INFO � log_views: Listing saved | id=6 title='Uns Glas bis.' owner=landlord4@rentalhub.com status=available price_eur=385.00�
+[2025-10-27 15:40:16,071] INFO � log_views: Listing saved | id=7 title='Magni dolor tenetur amet.' owner=landlord2@rentalhub.com status=available price_eur=222.00�
+[2025-10-27 15:40:16,074] INFO � log_views: Listing saved | id=8 title='Eaque fugit dicta.' owner=landlord5@rentalhub.com status=available price_eur=382.00�
+[2025-10-27 15:40:16,087] INFO � log_views: Listing saved | id=11 title='Mollitia officia magni iusto expedita.' owner=landlord3@rentalhub.com status=available price_eur=494.00�
+[2025-10-27 15:40:16,088] INFO � log_views: Listing saved | id=12 title='Palais billet obliger bureau usage.' owner=landlord3@rentalhub.com status=available price_eur=347.00�
+[2025-10-27 15:40:16,090] INFO � log_views: Listing saved | id=13 title='Premier oublier secours.' owner=landlord2@rentalhub.com status=available price_eur=218.00�
+[2025-10-27 15:40:16,109] INFO � log_views: Listing saved | id=17 title='Porro quae pariatur.' owner=landlord3@rentalhub.com status=available price_eur=357.00�
+[2025-10-27 15:40:16,110] INFO � log_views: Listing saved | id=18 title='Richtig Sonne was ich schicken.' owner=landlord2@rentalhub.com status=available price_eur=280.00�
+[2025-10-27 15:40:16,112] INFO � log_views: Listing saved | id=19 title='Nobis ipsum porro fugit.' owner=landlord5@rentalhub.com status=available price_eur=353.00�
+[2025-10-27 15:40:16,118] INFO � log_views: Listing saved | id=21 title='Pariatur quo asperiores.' owner=landlord2@rentalhub.com status=available price_eur=187.00�
+[2025-10-27 15:40:16,121] INFO � log_views: Listing saved | id=22 title='Incidunt reiciendis fugit amet.' owner=landlord3@rentalhub.com status=available price_eur=140.00�
+[2025-10-27 15:40:16,123] INFO � log_views: Listing saved | id=23 title='Trinken fragen zur Schiff er.' owner=landlord4@rentalhub.com status=available price_eur=307.00�
+[2025-10-27 15:40:16,124] INFO � log_views: Listing saved | id=24 title='Iure asperiores consectetur.' owner=landlord2@rentalhub.com status=available price_eur=85.00�
+[2025-10-27 15:40:16,126] INFO � log_views: Listing saved | id=25 title='Harum vero quae dolor.' owner=landlord1@rentalhub.com status=available price_eur=283.00�
+[2025-10-27 15:40:16,128] INFO � log_views: Listing saved | id=26 title='Ex provident mollitia.' owner=landlord3@rentalhub.com status=available price_eur=462.00�
+[2025-10-27 15:40:16,129] INFO � log_views: Listing saved | id=27 title='Officiis rerum autem magnam ipsa.' owner=landlord5@rentalhub.com status=available price_eur=105.00�
+[2025-10-27 15:40:16,131] INFO � log_views: Listing saved | id=28 title='Turnen zur heraus.' owner=landlord3@rentalhub.com status=available price_eur=55.00�
+[2025-10-27 15:40:16,134] INFO � log_views: Listing saved | id=29 title='Tier Bein zeigen jung Ferien.' owner=landlord4@rentalhub.com status=available price_eur=213.00�
+[2025-10-27 15:40:16,135] INFO � log_views: Listing saved | id=30 title='Tempore sunt maiores quae.' owner=landlord1@rentalhub.com status=available price_eur=143.00�
+[2025-10-27 15:40:16,138] ERROR � log_views: Error saving listing 'Richtig Sonne was ich schicken.' (owner=landlord2@rentalhub.com): The following fields do not exist in this model, are m2m fields, primary keys, or are non-concrete fields: is_available
+[2025-10-27 15:40:16,139] ERROR � log_views: Error saving booking (user=tenant1@rentalhub.com listing=18): The following fields do not exist in this model, are m2m fields, primary keys, or are non-concrete fields: is_available
+[2025-10-27 15:40:16,143] INFO � log_views: Listing saved | id=28 title='Turnen zur heraus.' owner=landlord3@rentalhub.com status=available price_eur=55.00�
+[2025-10-27 15:40:16,146] INFO � log_views: Listing saved | id=25 title='Harum vero quae dolor.' owner=landlord1@rentalhub.com status=available price_eur=283.00�
+[2025-10-27 15:40:16,151] INFO � log_views: Listing saved | id=7 title='Magni dolor tenetur amet.' owner=landlord2@rentalhub.com status=available price_eur=222.00�
+[2025-10-27 15:40:16,154] INFO � log_views: Listing saved | id=2 title='Exercitationem officia ducimus.' owner=landlord1@rentalhub.com status=available price_eur=308.00�
+[2025-10-27 15:40:16,156] INFO � log_views: Listing saved | id=23 title='Trinken fragen zur Schiff er.' owner=landlord4@rentalhub.com status=available price_eur=307.00�
+[2025-10-27 15:40:16,171] INFO � log_views: Listing saved | id=13 title='Premier oublier secours.' owner=landlord2@rentalhub.com status=available price_eur=218.00�
+[2025-10-27 15:40:16,173] INFO � log_views: Listing saved | id=29 title='Tier Bein zeigen jung Ferien.' owner=landlord4@rentalhub.com status=available price_eur=213.00�
+[2025-10-27 15:40:16,175] INFO � log_views: Listing saved | id=18 title='Richtig Sonne was ich schicken.' owner=landlord2@rentalhub.com status=available price_eur=280.00�
+[2025-10-27 15:40:16,178] INFO � log_views: Listing saved | id=27 title='Officiis rerum autem magnam ipsa.' owner=landlord5@rentalhub.com status=available price_eur=105.00�
+[2025-10-27 15:40:16,180] INFO � log_views: Listing saved | id=11 title='Mollitia officia magni iusto expedita.' owner=landlord3@rentalhub.com status=available price_eur=494.00�
+[2025-10-27 15:40:16,184] INFO � log_views: Listing saved | id=23 title='Trinken fragen zur Schiff er.' owner=landlord4@rentalhub.com status=available price_eur=307.00�
+[2025-10-27 15:40:16,186] INFO � log_views: Listing saved | id=22 title='Incidunt reiciendis fugit amet.' owner=landlord3@rentalhub.com status=available price_eur=140.00�
+[2025-10-27 15:40:16,189] INFO � log_views: Listing saved | id=21 title='Pariatur quo asperiores.' owner=landlord2@rentalhub.com status=available price_eur=187.00�
+[2025-10-27 15:40:16,198] INFO � log_views: Listing saved | id=17 title='Porro quae pariatur.' owner=landlord3@rentalhub.com status=available price_eur=357.00�
+[2025-10-27 15:40:16,214] INFO � log_views: Listing saved | id=21 title='Pariatur quo asperiores.' owner=landlord2@rentalhub.com status=available price_eur=187.00�
+[2025-10-27 15:40:16,217] INFO � log_views: Listing saved | id=30 title='Tempore sunt maiores quae.' owner=landlord1@rentalhub.com status=available price_eur=143.00�
+[2025-10-27 15:40:16,226] INFO � log_views: Listing saved | id=12 title='Palais billet obliger bureau usage.' owner=landlord3@rentalhub.com status=available price_eur=347.00�
+[2025-10-27 15:40:16,242] INFO � log_views: Listing saved | id=8 title='Eaque fugit dicta.' owner=landlord5@rentalhub.com status=available price_eur=382.00�
+[2025-10-27 15:40:16,246] INFO � log_views: Listing saved | id=22 title='Incidunt reiciendis fugit amet.' owner=landlord3@rentalhub.com status=available price_eur=140.00�
+[2025-10-27 15:40:16,248] INFO � log_views: Listing saved | id=30 title='Tempore sunt maiores quae.' owner=landlord1@rentalhub.com status=available price_eur=143.00�
+[2025-10-27 15:40:16,252] INFO � log_views: Listing saved | id=17 title='Porro quae pariatur.' owner=landlord3@rentalhub.com status=available price_eur=357.00�
+[2025-10-27 15:40:16,256] INFO � log_views: Listing saved | id=27 title='Officiis rerum autem magnam ipsa.' owner=landlord5@rentalhub.com status=available price_eur=105.00�
+[2025-10-27 15:40:16,259] INFO � log_views: Listing saved | id=23 title='Trinken fragen zur Schiff er.' owner=landlord4@rentalhub.com status=available price_eur=307.00�
+[2025-10-27 15:40:16,262] INFO � log_views: Listing saved | id=2 title='Exercitationem officia ducimus.' owner=landlord1@rentalhub.com status=available price_eur=308.00�
+[2025-10-27 15:40:16,265] INFO � log_views: Listing saved | id=24 title='Iure asperiores consectetur.' owner=landlord2@rentalhub.com status=available price_eur=85.00�
+[2025-10-27 15:40:16,268] INFO � log_views: Listing saved | id=25 title='Harum vero quae dolor.' owner=landlord1@rentalhub.com status=available price_eur=283.00�
+[2025-10-27 15:40:16,271] INFO � log_views: Listing saved | id=26 title='Ex provident mollitia.' owner=landlord3@rentalhub.com status=available price_eur=462.00�
+[2025-10-27 15:40:16,274] INFO � log_views: Listing saved | id=22 title='Incidunt reiciendis fugit amet.' owner=landlord3@rentalhub.com status=available price_eur=140.00�
+[2025-10-27 15:40:16,284] INFO � log_views: Listing saved | id=1 title='Aber eigentlich Papa.' owner=landlord2@rentalhub.com status=available price_eur=124.00�
+[2025-10-27 15:40:16,287] INFO � log_views: Listing saved | id=24 title='Iure asperiores consectetur.' owner=landlord2@rentalhub.com status=available price_eur=85.00�
+[2025-10-27 15:40:16,290] INFO � log_views: Listing saved | id=22 title='Incidunt reiciendis fugit amet.' owner=landlord3@rentalhub.com status=available price_eur=140.00�
+[2025-10-27 15:40:16,299] INFO � log_views: Listing saved | id=28 title='Turnen zur heraus.' owner=landlord3@rentalhub.com status=available price_eur=55.00�
+[2025-10-27 15:40:16,316] INFO � log_views: Listing saved | id=13 title='Premier oublier secours.' owner=landlord2@rentalhub.com status=available price_eur=218.00�
+[2025-10-27 15:40:16,319] INFO � log_views: Listing saved | id=27 title='Officiis rerum autem magnam ipsa.' owner=landlord5@rentalhub.com status=available price_eur=105.00�
+[2025-10-27 15:40:16,322] INFO � log_views: Listing saved | id=8 title='Eaque fugit dicta.' owner=landlord5@rentalhub.com status=available price_eur=382.00�
+[2025-10-27 15:40:16,325] INFO � log_views: Listing saved | id=22 title='Incidunt reiciendis fugit amet.' owner=landlord3@rentalhub.com status=available price_eur=140.00�
+[2025-10-27 15:40:16,328] INFO � log_views: Listing saved | id=29 title='Tier Bein zeigen jung Ferien.' owner=landlord4@rentalhub.com status=available price_eur=213.00�
+[2025-10-27 15:40:16,339] INFO � log_views: Listing saved | id=6 title='Uns Glas bis.' owner=landlord4@rentalhub.com status=available price_eur=385.00�
+[2025-10-27 15:40:16,374] INFO � log_views: View logged: user=tenant1@rentalhub.com listing=Aber eigentlich Papa. ip=N/A
+[2025-10-27 15:40:16,384] INFO � log_views: View logged: user=tenant1@rentalhub.com listing=Mollitia officia magni iusto expedita. ip=N/A
+[2025-10-27 15:40:16,387] INFO � log_views: View logged: user=tenant2@rentalhub.com listing=Nobis ipsum porro fugit. ip=N/A
+[2025-10-27 15:40:16,390] INFO � log_views: View logged: user=tenant2@rentalhub.com listing=Exercitationem officia ducimus. ip=N/A
+[2025-10-27 15:40:16,393] INFO � log_views: View logged: user=tenant2@rentalhub.com listing=Premier oublier secours. ip=N/A
+[2025-10-27 15:40:16,396] INFO � log_views: View logged: user=tenant2@rentalhub.com listing=Mollitia officia magni iusto expedita. ip=N/A
+[2025-10-27 15:40:16,400] INFO � log_views: View logged: user=tenant2@rentalhub.com listing=Pariatur quo asperiores. ip=N/A
+[2025-10-27 15:40:16,403] INFO � log_views: View logged: user=tenant3@rentalhub.com listing=Impedit quos quasi necessitatibus. ip=N/A
+[2025-10-27 15:40:16,414] INFO � log_views: View logged: user=tenant3@rentalhub.com listing=Harum vero quae dolor. ip=N/A
+[2025-10-27 15:40:16,440] INFO � log_views: View logged: user=tenant4@rentalhub.com listing=Iure asperiores consectetur. ip=N/A
+[2025-10-27 15:40:16,450] INFO � log_views: View logged: user=tenant4@rentalhub.com listing=Turnen zur heraus. ip=N/A
+[2025-10-27 15:40:16,454] INFO � log_views: View logged: user=tenant4@rentalhub.com listing=Aber eigentlich Papa. ip=N/A
+[2025-10-27 15:40:16,458] INFO � log_views: View logged: user=tenant5@rentalhub.com listing=Nobis ipsum porro fugit. ip=N/A
+[2025-10-27 15:40:16,470] INFO � log_views: View logged: user=tenant5@rentalhub.com listing=Tempore sunt maiores quae. ip=N/A
+[2025-10-27 15:40:16,481] INFO � log_views: View logged: user=tenant5@rentalhub.com listing=Turnen zur heraus. ip=N/A
+[2025-10-27 15:40:16,486] INFO � log_views: View logged: user=tenant6@rentalhub.com listing=Tier Bein zeigen jung Ferien. ip=N/A
+[2025-10-27 15:40:16,492] INFO � log_views: View logged: user=tenant6@rentalhub.com listing=Magni dolor tenetur amet. ip=N/A
+[2025-10-27 15:40:16,496] INFO � log_views: View logged: user=tenant6@rentalhub.com listing=Ex provident mollitia. ip=N/A
+[2025-10-27 15:40:16,503] INFO � log_views: View logged: user=tenant6@rentalhub.com listing=Eaque fugit dicta. ip=N/A
+[2025-10-27 15:40:16,506] INFO � log_views: View logged: user=tenant6@rentalhub.com listing=Tempore sunt maiores quae. ip=N/A
+[2025-10-27 15:40:16,510] INFO � log_views: View logged: user=tenant7@rentalhub.com listing=Richtig Sonne was ich schicken. ip=N/A
+[2025-10-27 15:40:16,514] INFO � log_views: View logged: user=tenant7@rentalhub.com listing=Pariatur quo asperiores. ip=N/A
+[2025-10-27 15:40:16,519] INFO � log_views: View logged: user=tenant7@rentalhub.com listing=Iure asperiores consectetur. ip=N/A
+[2025-10-27 15:40:16,534] INFO � log_views: View logged: user=tenant7@rentalhub.com listing=Impedit quos quasi necessitatibus. ip=N/A
+[2025-10-27 15:40:16,539] INFO � log_views: View logged: user=tenant8@rentalhub.com listing=Tier Bein zeigen jung Ferien. ip=N/A
+[2025-10-27 15:40:16,544] INFO � log_views: View logged: user=tenant8@rentalhub.com listing=Palais billet obliger bureau usage. ip=N/A
+[2025-10-27 15:40:16,567] INFO � log_views: View logged: user=tenant8@rentalhub.com listing=Ex provident mollitia. ip=N/A
+[2025-10-27 15:40:16,572] INFO � log_views: View logged: user=tenant9@rentalhub.com listing=Exercitationem officia ducimus. ip=N/A
+[2025-10-27 15:40:16,575] INFO � log_views: View logged: user=tenant9@rentalhub.com listing=Aber eigentlich Papa. ip=N/A
+[2025-10-27 15:40:16,580] INFO � log_views: View logged: user=tenant9@rentalhub.com listing=Premier oublier secours. ip=N/A
+[2025-10-27 15:40:16,586] INFO � log_views: View logged: user=tenant9@rentalhub.com listing=Tier Bein zeigen jung Ferien. ip=N/A
+[2025-10-27 15:40:16,590] INFO � log_views: View logged: user=tenant9@rentalhub.com listing=Iure asperiores consectetur. ip=N/A
+[2025-10-27 15:40:16,594] INFO � log_views: View logged: user=tenant10@rentalhub.com listing=Officiis rerum autem magnam ipsa. ip=N/A
+[2025-10-27 15:40:16,598] INFO � log_views: View logged: user=tenant10@rentalhub.com listing=Richtig Sonne was ich schicken. ip=N/A
+[2025-10-27 15:40:16,602] INFO � log_views: View logged: user=tenant10@rentalhub.com listing=Impedit quos quasi necessitatibus. ip=N/A
+[2025-10-27 15:40:16,607] INFO � log_views: View logged: user=tenant10@rentalhub.com listing=Palais billet obliger bureau usage. ip=N/A
+[2025-10-27 15:40:16,611] INFO � log_views: View logged: user=tenant10@rentalhub.com listing=Pariatur quo asperiores. ip=N/A
+[2025-10-27 16:22:00,078] INFO — log_views: Listing saved | id=1 title='Voisin ressembler non essuyer anglais.' owner=landlord4@rentalhub.com status=available price_eur=373.00€
+[2025-10-27 16:22:00,079] INFO — log_views: Listing saved | id=2 title='Ratione architecto tenetur eligendi.' owner=landlord5@rentalhub.com status=available price_eur=98.00€
+[2025-10-27 16:22:00,081] INFO — log_views: Listing saved | id=3 title='Cum consectetur rem dolor.' owner=landlord3@rentalhub.com status=available price_eur=213.00€
+[2025-10-27 16:22:00,083] INFO — log_views: Listing saved | id=4 title='Repellat pariatur dignissimos.' owner=landlord3@rentalhub.com status=available price_eur=476.00€
+[2025-10-27 16:22:00,085] INFO — log_views: Listing saved | id=5 title='Den unter.' owner=landlord4@rentalhub.com status=available price_eur=400.00€
+[2025-10-27 16:22:00,087] INFO — log_views: Listing saved | id=6 title='Antworten kalt schaffen grün mit.' owner=landlord4@rentalhub.com status=available price_eur=453.00€
+[2025-10-27 16:22:00,088] INFO — log_views: Listing saved | id=7 title='Eligendi commodi aspernatur ratione.' owner=landlord1@rentalhub.com status=available price_eur=102.00€
+[2025-10-27 16:22:00,090] INFO — log_views: Listing saved | id=8 title='Minima cumque amet.' owner=landlord1@rentalhub.com status=available price_eur=83.00€
+[2025-10-27 16:22:00,092] INFO — log_views: Listing saved | id=9 title='Cum optio distinctio.' owner=landlord2@rentalhub.com status=available price_eur=211.00€
+[2025-10-27 16:22:00,094] INFO — log_views: Listing saved | id=10 title='Soit souvent ferme.' owner=landlord4@rentalhub.com status=available price_eur=103.00€
+[2025-10-27 16:22:00,096] INFO — log_views: Listing saved | id=11 title='Aliquam aliquid distinctio atque.' owner=landlord5@rentalhub.com status=available price_eur=232.00€
+[2025-10-27 16:22:00,098] INFO — log_views: Listing saved | id=12 title='Ratione eius nemo nobis.' owner=landlord4@rentalhub.com status=available price_eur=418.00€
+[2025-10-27 16:22:00,100] INFO — log_views: Listing saved | id=13 title='Poche employer surveiller demain.' owner=landlord4@rentalhub.com status=available price_eur=352.00€
+[2025-10-27 16:22:00,101] INFO — log_views: Listing saved | id=14 title='Langsam gegen Beispiel Rad.' owner=landlord3@rentalhub.com status=available price_eur=423.00€
+[2025-10-27 16:22:00,103] INFO — log_views: Listing saved | id=15 title='Werden besser Gesicht Bild.' owner=landlord3@rentalhub.com status=available price_eur=431.00€
+[2025-10-27 16:22:00,104] INFO — log_views: Listing saved | id=16 title='Schreiben Mann bald.' owner=landlord3@rentalhub.com status=available price_eur=251.00€
+[2025-10-27 16:22:00,106] INFO — log_views: Listing saved | id=17 title='Ad rem fugiat fuga.' owner=landlord2@rentalhub.com status=available price_eur=455.00€
+[2025-10-27 16:22:00,107] INFO — log_views: Listing saved | id=18 title='Cumque illum.' owner=landlord5@rentalhub.com status=available price_eur=454.00€
+[2025-10-27 16:22:00,109] INFO — log_views: Listing saved | id=19 title='Étonner composer gagner.' owner=landlord5@rentalhub.com status=available price_eur=303.00€
+[2025-10-27 16:22:00,111] INFO — log_views: Listing saved | id=20 title='Zahl Angst sein.' owner=landlord1@rentalhub.com status=available price_eur=375.00€
+[2025-10-27 16:22:00,112] INFO — log_views: Listing saved | id=21 title='Tenetur non quibusdam.' owner=landlord5@rentalhub.com status=available price_eur=314.00€
+[2025-10-27 16:22:00,114] INFO — log_views: Listing saved | id=22 title='Unten Zeitung Oma dafür verstecken.' owner=landlord4@rentalhub.com status=available price_eur=123.00€
+[2025-10-27 16:22:00,115] INFO — log_views: Listing saved | id=23 title='Optio accusantium recusandae est eius.' owner=landlord1@rentalhub.com status=available price_eur=332.00€
+[2025-10-27 16:22:00,117] INFO — log_views: Listing saved | id=24 title='Ex provident ratione cumque.' owner=landlord3@rentalhub.com status=available price_eur=397.00€
+[2025-10-27 16:22:00,118] INFO — log_views: Listing saved | id=25 title='Cheval composer tirer.' owner=landlord1@rentalhub.com status=available price_eur=71.00€
+[2025-10-27 16:22:00,120] INFO — log_views: Listing saved | id=26 title='Gerade dein packen.' owner=landlord3@rentalhub.com status=available price_eur=302.00€
+[2025-10-27 16:22:00,121] INFO — log_views: Listing saved | id=27 title='Reprehenderit aspernatur omnis.' owner=landlord3@rentalhub.com status=available price_eur=98.00€
+[2025-10-27 16:22:00,123] INFO — log_views: Listing saved | id=28 title='Soudain ennemi satisfaire lors.' owner=landlord2@rentalhub.com status=available price_eur=385.00€
+[2025-10-27 16:22:00,125] INFO — log_views: Listing saved | id=29 title='Veniam ipsum.' owner=landlord3@rentalhub.com status=available price_eur=353.00€
+[2025-10-27 16:22:00,127] INFO — log_views: Listing saved | id=30 title='Facere earum ipsa.' owner=landlord2@rentalhub.com status=available price_eur=279.00€
+[2025-10-27 16:22:00,129] ERROR — log_views: Error saving listing 'Cumque illum.' (owner=landlord5@rentalhub.com): The following fields do not exist in this model, are m2m fields, primary keys, or are non-concrete fields: is_available
+[2025-10-27 16:22:00,129] ERROR — log_views: Error saving booking (user=tenant1@rentalhub.com listing=18): The following fields do not exist in this model, are m2m fields, primary keys, or are non-concrete fields: is_available
+[2025-10-27 16:22:00,133] INFO — log_views: Listing saved | id=1 title='Voisin ressembler non essuyer anglais.' owner=landlord4@rentalhub.com status=available price_eur=373.00€
+[2025-10-27 16:22:00,136] INFO — log_views: Listing saved | id=26 title='Gerade dein packen.' owner=landlord3@rentalhub.com status=available price_eur=302.00€
+[2025-10-27 16:22:00,138] INFO — log_views: Listing saved | id=9 title='Cum optio distinctio.' owner=landlord2@rentalhub.com status=available price_eur=211.00€
+[2025-10-27 16:22:00,143] INFO — log_views: Listing saved | id=23 title='Optio accusantium recusandae est eius.' owner=landlord1@rentalhub.com status=available price_eur=332.00€
+[2025-10-27 16:22:00,146] INFO — log_views: Listing saved | id=17 title='Ad rem fugiat fuga.' owner=landlord2@rentalhub.com status=available price_eur=455.00€
+[2025-10-27 16:22:00,149] INFO — log_views: Listing saved | id=8 title='Minima cumque amet.' owner=landlord1@rentalhub.com status=available price_eur=83.00€
+[2025-10-27 16:22:00,151] INFO — log_views: Listing saved | id=13 title='Poche employer surveiller demain.' owner=landlord4@rentalhub.com status=available price_eur=352.00€
+[2025-10-27 16:22:00,154] INFO — log_views: Listing saved | id=29 title='Veniam ipsum.' owner=landlord3@rentalhub.com status=available price_eur=353.00€
+[2025-10-27 16:22:00,157] INFO — log_views: Listing saved | id=10 title='Soit souvent ferme.' owner=landlord4@rentalhub.com status=available price_eur=103.00€
+[2025-10-27 16:22:00,160] INFO — log_views: Listing saved | id=4 title='Repellat pariatur dignissimos.' owner=landlord3@rentalhub.com status=available price_eur=476.00€
+[2025-10-27 16:22:00,163] INFO — log_views: Listing saved | id=27 title='Reprehenderit aspernatur omnis.' owner=landlord3@rentalhub.com status=available price_eur=98.00€
+[2025-10-27 16:22:00,165] INFO — log_views: Listing saved | id=22 title='Unten Zeitung Oma dafür verstecken.' owner=landlord4@rentalhub.com status=available price_eur=123.00€
+[2025-10-27 16:22:00,168] INFO — log_views: Listing saved | id=28 title='Soudain ennemi satisfaire lors.' owner=landlord2@rentalhub.com status=available price_eur=385.00€
+[2025-10-27 16:22:00,171] INFO — log_views: Listing saved | id=13 title='Poche employer surveiller demain.' owner=landlord4@rentalhub.com status=available price_eur=352.00€
+[2025-10-27 16:22:00,173] INFO — log_views: Listing saved | id=10 title='Soit souvent ferme.' owner=landlord4@rentalhub.com status=available price_eur=103.00€
+[2025-10-27 16:22:00,177] INFO — log_views: Listing saved | id=16 title='Schreiben Mann bald.' owner=landlord3@rentalhub.com status=available price_eur=251.00€
+[2025-10-27 16:22:00,179] INFO — log_views: Listing saved | id=18 title='Cumque illum.' owner=landlord5@rentalhub.com status=available price_eur=454.00€
+[2025-10-27 16:22:00,182] INFO — log_views: Listing saved | id=22 title='Unten Zeitung Oma dafür verstecken.' owner=landlord4@rentalhub.com status=available price_eur=123.00€
+[2025-10-27 16:22:00,185] INFO — log_views: Listing saved | id=23 title='Optio accusantium recusandae est eius.' owner=landlord1@rentalhub.com status=available price_eur=332.00€
+[2025-10-27 16:22:00,188] INFO — log_views: Listing saved | id=9 title='Cum optio distinctio.' owner=landlord2@rentalhub.com status=available price_eur=211.00€
+[2025-10-27 16:22:00,191] INFO — log_views: Listing saved | id=19 title='Étonner composer gagner.' owner=landlord5@rentalhub.com status=available price_eur=303.00€
+[2025-10-27 16:22:00,194] INFO — log_views: Listing saved | id=8 title='Minima cumque amet.' owner=landlord1@rentalhub.com status=available price_eur=83.00€
+[2025-10-27 16:22:00,197] INFO — log_views: Listing saved | id=18 title='Cumque illum.' owner=landlord5@rentalhub.com status=available price_eur=454.00€
+[2025-10-27 16:22:00,200] INFO — log_views: Listing saved | id=14 title='Langsam gegen Beispiel Rad.' owner=landlord3@rentalhub.com status=available price_eur=423.00€
+[2025-10-27 16:22:00,202] INFO — log_views: Listing saved | id=11 title='Aliquam aliquid distinctio atque.' owner=landlord5@rentalhub.com status=available price_eur=232.00€
+[2025-10-27 16:22:00,205] INFO — log_views: Listing saved | id=11 title='Aliquam aliquid distinctio atque.' owner=landlord5@rentalhub.com status=available price_eur=232.00€
+[2025-10-27 16:22:00,208] INFO — log_views: Listing saved | id=13 title='Poche employer surveiller demain.' owner=landlord4@rentalhub.com status=available price_eur=352.00€
+[2025-10-27 16:22:00,211] INFO — log_views: Listing saved | id=22 title='Unten Zeitung Oma dafür verstecken.' owner=landlord4@rentalhub.com status=available price_eur=123.00€
+[2025-10-27 16:22:00,214] INFO — log_views: Listing saved | id=28 title='Soudain ennemi satisfaire lors.' owner=landlord2@rentalhub.com status=available price_eur=385.00€
+[2025-10-27 16:22:00,217] INFO — log_views: Listing saved | id=6 title='Antworten kalt schaffen grün mit.' owner=landlord4@rentalhub.com status=available price_eur=453.00€
+[2025-10-27 16:22:00,219] INFO — log_views: Listing saved | id=21 title='Tenetur non quibusdam.' owner=landlord5@rentalhub.com status=available price_eur=314.00€
+[2025-10-27 16:22:00,222] INFO — log_views: Listing saved | id=5 title='Den unter.' owner=landlord4@rentalhub.com status=available price_eur=400.00€
+[2025-10-27 16:22:00,225] INFO — log_views: Listing saved | id=13 title='Poche employer surveiller demain.' owner=landlord4@rentalhub.com status=available price_eur=352.00€
+[2025-10-27 16:22:00,228] INFO — log_views: Listing saved | id=22 title='Unten Zeitung Oma dafür verstecken.' owner=landlord4@rentalhub.com status=available price_eur=123.00€
+[2025-10-27 16:22:00,230] INFO — log_views: Listing saved | id=11 title='Aliquam aliquid distinctio atque.' owner=landlord5@rentalhub.com status=available price_eur=232.00€
+[2025-10-27 16:22:00,233] INFO — log_views: Listing saved | id=4 title='Repellat pariatur dignissimos.' owner=landlord3@rentalhub.com status=available price_eur=476.00€
+[2025-10-27 16:22:00,236] INFO — log_views: Listing saved | id=29 title='Veniam ipsum.' owner=landlord3@rentalhub.com status=available price_eur=353.00€
+[2025-10-27 16:22:00,239] INFO — log_views: Listing saved | id=26 title='Gerade dein packen.' owner=landlord3@rentalhub.com status=available price_eur=302.00€
+[2025-10-27 16:22:00,241] INFO — log_views: Listing saved | id=2 title='Ratione architecto tenetur eligendi.' owner=landlord5@rentalhub.com status=available price_eur=98.00€
+[2025-10-27 16:22:00,244] INFO — log_views: Listing saved | id=16 title='Schreiben Mann bald.' owner=landlord3@rentalhub.com status=available price_eur=251.00€
+[2025-10-27 16:22:00,247] INFO — log_views: Listing saved | id=21 title='Tenetur non quibusdam.' owner=landlord5@rentalhub.com status=available price_eur=314.00€
+[2025-10-27 16:22:00,250] INFO — log_views: Listing saved | id=4 title='Repellat pariatur dignissimos.' owner=landlord3@rentalhub.com status=available price_eur=476.00€
+[2025-10-27 16:22:00,253] INFO — log_views: Listing saved | id=14 title='Langsam gegen Beispiel Rad.' owner=landlord3@rentalhub.com status=available price_eur=423.00€
+[2025-10-27 16:22:00,256] INFO — log_views: Listing saved | id=3 title='Cum consectetur rem dolor.' owner=landlord3@rentalhub.com status=available price_eur=213.00€
+[2025-10-27 16:22:00,258] INFO — log_views: Listing saved | id=27 title='Reprehenderit aspernatur omnis.' owner=landlord3@rentalhub.com status=available price_eur=98.00€
+[2025-10-27 16:22:00,261] INFO — log_views: Listing saved | id=16 title='Schreiben Mann bald.' owner=landlord3@rentalhub.com status=available price_eur=251.00€
+[2025-10-27 16:22:00,264] INFO — log_views: Listing saved | id=13 title='Poche employer surveiller demain.' owner=landlord4@rentalhub.com status=available price_eur=352.00€
+[2025-10-27 16:22:00,266] INFO — log_views: Listing saved | id=10 title='Soit souvent ferme.' owner=landlord4@rentalhub.com status=available price_eur=103.00€
+[2025-10-27 16:22:00,269] INFO — log_views: Listing saved | id=12 title='Ratione eius nemo nobis.' owner=landlord4@rentalhub.com status=available price_eur=418.00€
+[2025-10-27 16:22:00,272] INFO — log_views: Listing saved | id=19 title='Étonner composer gagner.' owner=landlord5@rentalhub.com status=available price_eur=303.00€
+[2025-10-27 16:22:00,289] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=17 ip=N/A
+[2025-10-27 16:22:00,293] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=11 ip=N/A
+[2025-10-27 16:22:00,295] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=13 ip=N/A
+[2025-10-27 16:22:00,298] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=18 ip=N/A
+[2025-10-27 16:22:00,301] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=25 ip=N/A
+[2025-10-27 16:22:00,304] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=12 ip=N/A
+[2025-10-27 16:22:00,306] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=15 ip=N/A
+[2025-10-27 16:22:00,309] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=13 ip=N/A
+[2025-10-27 16:22:00,312] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=1 ip=N/A
+[2025-10-27 16:22:00,315] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=5 ip=N/A
+[2025-10-27 16:22:00,318] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=20 ip=N/A
+[2025-10-27 16:22:00,320] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=1 ip=N/A
+[2025-10-27 16:22:00,323] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=6 ip=N/A
+[2025-10-27 16:22:00,326] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=30 ip=N/A
+[2025-10-27 16:22:00,329] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=22 ip=N/A
+[2025-10-27 16:22:00,331] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=20 ip=N/A
+[2025-10-27 16:22:00,335] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=10 ip=N/A
+[2025-10-27 16:22:00,337] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=3 ip=N/A
+[2025-10-27 16:22:00,340] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=5 ip=N/A
+[2025-10-27 16:22:00,343] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=13 ip=N/A
+[2025-10-27 16:22:00,346] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=29 ip=N/A
+[2025-10-27 16:22:00,348] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=11 ip=N/A
+[2025-10-27 16:22:00,351] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=6 ip=N/A
+[2025-10-27 16:22:00,354] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=21 ip=N/A
+[2025-10-27 16:22:00,357] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=5 ip=N/A
+[2025-10-27 16:22:00,360] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=19 ip=N/A
+[2025-10-27 16:22:00,363] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=4 ip=N/A
+[2025-10-27 16:22:00,366] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=14 ip=N/A
+[2025-10-27 16:22:00,368] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=8 ip=N/A
+[2025-10-27 16:22:00,371] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=5 ip=N/A
+[2025-10-27 16:22:00,374] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=8 ip=N/A
+[2025-10-27 16:22:00,377] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=16 ip=N/A
+[2025-10-27 16:22:00,380] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=24 ip=N/A
+[2025-10-27 16:22:00,383] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=11 ip=N/A
+[2025-10-27 16:22:00,386] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=9 ip=N/A
+[2025-10-27 16:22:00,389] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=6 ip=N/A
+[2025-10-27 16:22:00,391] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=25 ip=N/A
+[2025-10-27 16:22:00,394] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=21 ip=N/A
+[2025-10-27 16:22:00,397] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=1 ip=N/A
+[2025-10-27 16:22:00,399] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=9 ip=N/A
+[2025-10-27 16:22:00,402] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=14 ip=N/A
+[2025-10-27 16:22:00,405] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=7 ip=N/A
+[2025-10-27 16:22:00,407] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=4 ip=N/A
+[2025-10-27 16:22:00,411] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=3 ip=N/A
+[2025-10-27 16:22:00,414] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=13 ip=N/A
+[2025-10-27 16:22:00,416] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=9 ip=N/A
+[2025-10-27 16:22:00,419] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=4 ip=N/A
+[2025-10-27 16:22:00,421] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=29 ip=N/A
+[2025-10-27 16:22:00,424] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=15 ip=N/A
+[2025-10-27 16:22:00,427] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=24 ip=N/A
+[2025-10-27 17:50:09,606] INFO — log_views: Listing saved | id=1 title='Loft in Berlin' owner=landlord3@rentalhub.com status=available price_eur=416.00€
+[2025-10-27 17:50:09,608] INFO — log_views: Listing saved | id=2 title='Villa in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=450.00€
+[2025-10-27 17:50:09,611] INFO — log_views: Listing saved | id=3 title='Apartment in Dresden' owner=landlord3@rentalhub.com status=available price_eur=377.00€
+[2025-10-27 17:50:09,613] INFO — log_views: Listing saved | id=4 title='House in Frankfurt' owner=landlord4@rentalhub.com status=available price_eur=487.00€
+[2025-10-27 17:50:09,615] INFO — log_views: Listing saved | id=5 title='Apartment in Frankfurt' owner=landlord4@rentalhub.com status=available price_eur=242.00€
+[2025-10-27 17:50:09,617] INFO — log_views: Listing saved | id=6 title='Villa in Berlin' owner=landlord4@rentalhub.com status=available price_eur=153.00€
+[2025-10-27 17:50:09,620] INFO — log_views: Listing saved | id=7 title='House in Dresden' owner=landlord3@rentalhub.com status=available price_eur=305.00€
+[2025-10-27 17:50:09,622] INFO — log_views: Listing saved | id=8 title='Villa in Munich' owner=landlord3@rentalhub.com status=available price_eur=71.00€
+[2025-10-27 17:50:09,624] INFO — log_views: Listing saved | id=9 title='House in Munich' owner=landlord5@rentalhub.com status=available price_eur=136.00€
+[2025-10-27 17:50:09,626] INFO — log_views: Listing saved | id=10 title='Loft in Cologne' owner=landlord1@rentalhub.com status=available price_eur=149.00€
+[2025-10-27 17:50:09,629] INFO — log_views: Listing saved | id=11 title='Loft in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=124.00€
+[2025-10-27 17:50:09,631] INFO — log_views: Listing saved | id=12 title='Studio in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=139.00€
+[2025-10-27 17:50:09,633] INFO — log_views: Listing saved | id=13 title='Villa in Cologne' owner=landlord3@rentalhub.com status=available price_eur=83.00€
+[2025-10-27 17:50:09,635] INFO — log_views: Listing saved | id=14 title='Apartment in Dresden' owner=landlord1@rentalhub.com status=available price_eur=408.00€
+[2025-10-27 17:50:09,636] INFO — log_views: Listing saved | id=15 title='House in Dresden' owner=landlord2@rentalhub.com status=available price_eur=156.00€
+[2025-10-27 17:50:09,638] INFO — log_views: Listing saved | id=16 title='Apartment in Munich' owner=landlord3@rentalhub.com status=available price_eur=196.00€
+[2025-10-27 17:50:09,641] INFO — log_views: Listing saved | id=17 title='House in Munich' owner=landlord5@rentalhub.com status=available price_eur=467.00€
+[2025-10-27 17:50:09,644] INFO — log_views: Listing saved | id=18 title='Villa in Cologne' owner=landlord4@rentalhub.com status=available price_eur=276.00€
+[2025-10-27 17:50:09,646] INFO — log_views: Listing saved | id=19 title='Apartment in Munich' owner=landlord4@rentalhub.com status=available price_eur=355.00€
+[2025-10-27 17:50:09,648] INFO — log_views: Listing saved | id=20 title='Studio in Munich' owner=landlord4@rentalhub.com status=available price_eur=259.00€
+[2025-10-27 17:50:09,651] INFO — log_views: Listing saved | id=21 title='Villa in Frankfurt' owner=landlord3@rentalhub.com status=available price_eur=129.00€
+[2025-10-27 17:50:09,653] INFO — log_views: Listing saved | id=22 title='Villa in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=176.00€
+[2025-10-27 17:50:09,655] INFO — log_views: Listing saved | id=23 title='Villa in Cologne' owner=landlord1@rentalhub.com status=available price_eur=490.00€
+[2025-10-27 17:50:09,657] INFO — log_views: Listing saved | id=24 title='Villa in Hamburg' owner=landlord1@rentalhub.com status=available price_eur=153.00€
+[2025-10-27 17:50:09,660] INFO — log_views: Listing saved | id=25 title='Loft in Cologne' owner=landlord5@rentalhub.com status=available price_eur=475.00€
+[2025-10-27 17:50:09,662] INFO — log_views: Listing saved | id=26 title='Studio in Hamburg' owner=landlord3@rentalhub.com status=available price_eur=463.00€
+[2025-10-27 17:50:09,664] INFO — log_views: Listing saved | id=27 title='Apartment in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=299.00€
+[2025-10-27 17:50:09,667] INFO — log_views: Listing saved | id=28 title='Loft in Dresden' owner=landlord5@rentalhub.com status=available price_eur=230.00€
+[2025-10-27 17:50:09,669] INFO — log_views: Listing saved | id=29 title='Apartment in Berlin' owner=landlord5@rentalhub.com status=available price_eur=356.00€
+[2025-10-27 17:50:09,672] INFO — log_views: Listing saved | id=30 title='Loft in Cologne' owner=landlord4@rentalhub.com status=available price_eur=291.00€
+[2025-10-27 17:50:09,677] ERROR — log_views: Error saving listing 'Studio in Hamburg' (owner=landlord5@rentalhub.com): The following fields do not exist in this model, are m2m fields, primary keys, or are non-concrete fields: is_available
+[2025-10-27 17:50:09,677] ERROR — log_views: Error saving booking (user=tenant1@rentalhub.com listing=12): The following fields do not exist in this model, are m2m fields, primary keys, or are non-concrete fields: is_available
+[2025-10-27 17:50:09,682] INFO — log_views: Listing saved | id=7 title='House in Dresden' owner=landlord3@rentalhub.com status=available price_eur=305.00€
+[2025-10-27 17:50:09,686] INFO — log_views: Listing saved | id=21 title='Villa in Frankfurt' owner=landlord3@rentalhub.com status=available price_eur=129.00€
+[2025-10-27 17:50:09,689] INFO — log_views: Listing saved | id=30 title='Loft in Cologne' owner=landlord4@rentalhub.com status=available price_eur=291.00€
+[2025-10-27 17:50:09,694] INFO — log_views: Listing saved | id=27 title='Apartment in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=299.00€
+[2025-10-27 17:50:09,698] INFO — log_views: Listing saved | id=9 title='House in Munich' owner=landlord5@rentalhub.com status=available price_eur=136.00€
+[2025-10-27 17:50:09,701] INFO — log_views: Listing saved | id=14 title='Apartment in Dresden' owner=landlord1@rentalhub.com status=available price_eur=408.00€
+[2025-10-27 17:50:09,705] INFO — log_views: Listing saved | id=26 title='Studio in Hamburg' owner=landlord3@rentalhub.com status=available price_eur=463.00€
+[2025-10-27 17:50:09,709] INFO — log_views: Listing saved | id=19 title='Apartment in Munich' owner=landlord4@rentalhub.com status=available price_eur=355.00€
+[2025-10-27 17:50:09,713] INFO — log_views: Listing saved | id=7 title='House in Dresden' owner=landlord3@rentalhub.com status=available price_eur=305.00€
+[2025-10-27 17:50:09,717] INFO — log_views: Listing saved | id=5 title='Apartment in Frankfurt' owner=landlord4@rentalhub.com status=available price_eur=242.00€
+[2025-10-27 17:50:09,720] INFO — log_views: Listing saved | id=22 title='Villa in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=176.00€
+[2025-10-27 17:50:09,725] INFO — log_views: Listing saved | id=18 title='Villa in Cologne' owner=landlord4@rentalhub.com status=available price_eur=276.00€
+[2025-10-27 17:50:09,728] INFO — log_views: Listing saved | id=17 title='House in Munich' owner=landlord5@rentalhub.com status=available price_eur=467.00€
+[2025-10-27 17:50:09,731] INFO — log_views: Listing saved | id=25 title='Loft in Cologne' owner=landlord5@rentalhub.com status=available price_eur=475.00€
+[2025-10-27 17:50:09,735] INFO — log_views: Listing saved | id=14 title='Apartment in Dresden' owner=landlord1@rentalhub.com status=available price_eur=408.00€
+[2025-10-27 17:50:09,738] INFO — log_views: Listing saved | id=15 title='House in Dresden' owner=landlord2@rentalhub.com status=available price_eur=156.00€
+[2025-10-27 17:50:09,743] INFO — log_views: Listing saved | id=2 title='Villa in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=450.00€
+[2025-10-27 17:50:09,747] INFO — log_views: Listing saved | id=18 title='Villa in Cologne' owner=landlord4@rentalhub.com status=available price_eur=276.00€
+[2025-10-27 17:50:09,750] INFO — log_views: Listing saved | id=22 title='Villa in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=176.00€
+[2025-10-27 17:50:09,754] INFO — log_views: Listing saved | id=25 title='Loft in Cologne' owner=landlord5@rentalhub.com status=available price_eur=475.00€
+[2025-10-27 17:50:09,759] INFO — log_views: Listing saved | id=30 title='Loft in Cologne' owner=landlord4@rentalhub.com status=available price_eur=291.00€
+[2025-10-27 17:50:09,763] INFO — log_views: Listing saved | id=8 title='Villa in Munich' owner=landlord3@rentalhub.com status=available price_eur=71.00€
+[2025-10-27 17:50:09,767] INFO — log_views: Listing saved | id=27 title='Apartment in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=299.00€
+[2025-10-27 17:50:09,770] INFO — log_views: Listing saved | id=2 title='Villa in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=450.00€
+[2025-10-27 17:50:09,775] INFO — log_views: Listing saved | id=6 title='Villa in Berlin' owner=landlord4@rentalhub.com status=available price_eur=153.00€
+[2025-10-27 17:50:09,779] INFO — log_views: Listing saved | id=6 title='Villa in Berlin' owner=landlord4@rentalhub.com status=available price_eur=153.00€
+[2025-10-27 17:50:09,784] INFO — log_views: Listing saved | id=15 title='House in Dresden' owner=landlord2@rentalhub.com status=available price_eur=156.00€
+[2025-10-27 17:50:09,788] INFO — log_views: Listing saved | id=30 title='Loft in Cologne' owner=landlord4@rentalhub.com status=available price_eur=291.00€
+[2025-10-27 17:50:09,793] INFO — log_views: Listing saved | id=16 title='Apartment in Munich' owner=landlord3@rentalhub.com status=available price_eur=196.00€
+[2025-10-27 17:50:09,798] INFO — log_views: Listing saved | id=11 title='Loft in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=124.00€
+[2025-10-27 17:50:09,802] INFO — log_views: Listing saved | id=29 title='Apartment in Berlin' owner=landlord5@rentalhub.com status=available price_eur=356.00€
+[2025-10-27 17:50:09,806] INFO — log_views: Listing saved | id=12 title='Studio in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=139.00€
+[2025-10-27 17:50:09,810] INFO — log_views: Listing saved | id=11 title='Loft in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=124.00€
+[2025-10-27 17:50:09,814] INFO — log_views: Listing saved | id=21 title='Villa in Frankfurt' owner=landlord3@rentalhub.com status=available price_eur=129.00€
+[2025-10-27 17:50:09,818] INFO — log_views: Listing saved | id=18 title='Villa in Cologne' owner=landlord4@rentalhub.com status=available price_eur=276.00€
+[2025-10-27 17:50:09,823] INFO — log_views: Listing saved | id=7 title='House in Dresden' owner=landlord3@rentalhub.com status=available price_eur=305.00€
+[2025-10-27 17:50:09,827] INFO — log_views: Listing saved | id=19 title='Apartment in Munich' owner=landlord4@rentalhub.com status=available price_eur=355.00€
+[2025-10-27 17:50:09,830] INFO — log_views: Listing saved | id=21 title='Villa in Frankfurt' owner=landlord3@rentalhub.com status=available price_eur=129.00€
+[2025-10-27 17:50:09,834] INFO — log_views: Listing saved | id=17 title='House in Munich' owner=landlord5@rentalhub.com status=available price_eur=467.00€
+[2025-10-27 17:50:09,839] INFO — log_views: Listing saved | id=14 title='Apartment in Dresden' owner=landlord1@rentalhub.com status=available price_eur=408.00€
+[2025-10-27 17:50:09,842] INFO — log_views: Listing saved | id=23 title='Villa in Cologne' owner=landlord1@rentalhub.com status=available price_eur=490.00€
+[2025-10-27 17:50:09,846] INFO — log_views: Listing saved | id=27 title='Apartment in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=299.00€
+[2025-10-27 17:50:09,850] INFO — log_views: Listing saved | id=28 title='Loft in Dresden' owner=landlord5@rentalhub.com status=available price_eur=230.00€
+[2025-10-27 17:50:09,854] INFO — log_views: Listing saved | id=10 title='Loft in Cologne' owner=landlord1@rentalhub.com status=available price_eur=149.00€
+[2025-10-27 17:50:09,858] INFO — log_views: Listing saved | id=8 title='Villa in Munich' owner=landlord3@rentalhub.com status=available price_eur=71.00€
+[2025-10-27 17:50:09,863] INFO — log_views: Listing saved | id=7 title='House in Dresden' owner=landlord3@rentalhub.com status=available price_eur=305.00€
+[2025-10-27 17:50:09,868] INFO — log_views: Listing saved | id=19 title='Apartment in Munich' owner=landlord4@rentalhub.com status=available price_eur=355.00€
+[2025-10-27 17:50:09,872] INFO — log_views: Listing saved | id=14 title='Apartment in Dresden' owner=landlord1@rentalhub.com status=available price_eur=408.00€
+[2025-10-27 17:50:09,876] INFO — log_views: Listing saved | id=23 title='Villa in Cologne' owner=landlord1@rentalhub.com status=available price_eur=490.00€
+[2025-10-27 17:50:09,881] INFO — log_views: Listing saved | id=21 title='Villa in Frankfurt' owner=landlord3@rentalhub.com status=available price_eur=129.00€
+[2025-10-27 17:50:09,905] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=3 ip=N/A
+[2025-10-27 17:50:09,908] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=1 ip=N/A
+[2025-10-27 17:50:09,912] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=4 ip=N/A
+[2025-10-27 17:50:09,915] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=25 ip=N/A
+[2025-10-27 17:50:09,919] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=28 ip=N/A
+[2025-10-27 17:50:09,923] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=27 ip=N/A
+[2025-10-27 17:50:09,927] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=16 ip=N/A
+[2025-10-27 17:50:09,931] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=12 ip=N/A
+[2025-10-27 17:50:09,935] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=21 ip=N/A
+[2025-10-27 17:50:09,939] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=14 ip=N/A
+[2025-10-27 17:50:09,943] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=22 ip=N/A
+[2025-10-27 17:50:09,947] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=26 ip=N/A
+[2025-10-27 17:50:09,951] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=14 ip=N/A
+[2025-10-27 17:50:09,955] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=7 ip=N/A
+[2025-10-27 17:50:09,958] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=15 ip=N/A
+[2025-10-27 17:50:09,962] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=5 ip=N/A
+[2025-10-27 17:50:09,966] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=26 ip=N/A
+[2025-10-27 17:50:09,970] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=7 ip=N/A
+[2025-10-27 17:50:09,974] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=11 ip=N/A
+[2025-10-27 17:50:09,978] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=28 ip=N/A
+[2025-10-27 17:50:09,982] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=9 ip=N/A
+[2025-10-27 17:50:09,986] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=19 ip=N/A
+[2025-10-27 17:50:09,990] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=7 ip=N/A
+[2025-10-27 17:50:09,994] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=24 ip=N/A
+[2025-10-27 17:50:09,997] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=27 ip=N/A
+[2025-10-27 17:50:10,001] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=18 ip=N/A
+[2025-10-27 17:50:10,005] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=8 ip=N/A
+[2025-10-27 17:50:10,009] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=2 ip=N/A
+[2025-10-27 17:50:10,014] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=1 ip=N/A
+[2025-10-27 17:50:10,018] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=24 ip=N/A
+[2025-10-27 17:50:10,022] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=28 ip=N/A
+[2025-10-27 17:50:10,025] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=8 ip=N/A
+[2025-10-27 17:50:10,030] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=10 ip=N/A
+[2025-10-27 17:50:10,035] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=11 ip=N/A
+[2025-10-27 17:50:10,039] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=20 ip=N/A
+[2025-10-27 17:50:10,042] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=8 ip=N/A
+[2025-10-27 17:50:10,048] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=2 ip=N/A
+[2025-10-27 17:50:10,052] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=11 ip=N/A
+[2025-10-27 17:50:10,056] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=24 ip=N/A
+[2025-10-27 17:50:10,062] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=10 ip=N/A
+[2025-10-27 17:50:10,067] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=23 ip=N/A
+[2025-10-27 17:50:10,072] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=10 ip=N/A
+[2025-10-27 17:50:10,077] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=9 ip=N/A
+[2025-10-27 17:50:10,082] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=16 ip=N/A
+[2025-10-27 17:50:10,088] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=18 ip=N/A
+[2025-10-27 17:50:10,094] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=8 ip=N/A
+[2025-10-27 17:50:10,099] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=27 ip=N/A
+[2025-10-27 17:50:10,104] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=2 ip=N/A
+[2025-10-27 17:50:10,110] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=4 ip=N/A
+[2025-10-27 17:50:10,115] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=29 ip=N/A
+[2025-10-27 18:26:30,330] INFO — log_views: Listing saved | id=1 title='Studio in Berlin' owner=landlord2@rentalhub.com status=available price_eur=351.00€
+[2025-10-27 18:26:30,333] INFO — log_views: Listing saved | id=2 title='Loft in Hamburg' owner=landlord1@rentalhub.com status=available price_eur=433.00€
+[2025-10-27 18:26:30,336] INFO — log_views: Listing saved | id=3 title='Loft in Cologne' owner=landlord1@rentalhub.com status=available price_eur=271.00€
+[2025-10-27 18:26:30,338] INFO — log_views: Listing saved | id=4 title='House in Berlin' owner=landlord4@rentalhub.com status=available price_eur=106.00€
+[2025-10-27 18:26:30,340] INFO — log_views: Listing saved | id=5 title='Loft in Dresden' owner=landlord2@rentalhub.com status=available price_eur=194.00€
+[2025-10-27 18:26:30,342] INFO — log_views: Listing saved | id=6 title='Apartment in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=313.00€
+[2025-10-27 18:26:30,344] INFO — log_views: Listing saved | id=7 title='House in Hamburg' owner=landlord2@rentalhub.com status=available price_eur=340.00€
+[2025-10-27 18:26:30,346] INFO — log_views: Listing saved | id=8 title='Studio in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=427.00€
+[2025-10-27 18:26:30,348] INFO — log_views: Listing saved | id=9 title='Studio in Berlin' owner=landlord4@rentalhub.com status=available price_eur=360.00€
+[2025-10-27 18:26:30,350] INFO — log_views: Listing saved | id=10 title='Studio in Berlin' owner=landlord5@rentalhub.com status=available price_eur=290.00€
+[2025-10-27 18:26:30,352] INFO — log_views: Listing saved | id=11 title='Apartment in Dresden' owner=landlord2@rentalhub.com status=available price_eur=88.00€
+[2025-10-27 18:26:30,354] INFO — log_views: Listing saved | id=12 title='Loft in Munich' owner=landlord4@rentalhub.com status=available price_eur=409.00€
+[2025-10-27 18:26:30,356] INFO — log_views: Listing saved | id=13 title='Apartment in Frankfurt' owner=landlord5@rentalhub.com status=available price_eur=474.00€
+[2025-10-27 18:26:30,358] INFO — log_views: Listing saved | id=14 title='Loft in Berlin' owner=landlord5@rentalhub.com status=available price_eur=96.00€
+[2025-10-27 18:26:30,360] INFO — log_views: Listing saved | id=15 title='Villa in Berlin' owner=landlord5@rentalhub.com status=available price_eur=391.00€
+[2025-10-27 18:26:30,362] INFO — log_views: Listing saved | id=16 title='House in Cologne' owner=landlord2@rentalhub.com status=available price_eur=374.00€
+[2025-10-27 18:26:30,365] INFO — log_views: Listing saved | id=17 title='Loft in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=131.00€
+[2025-10-27 18:26:30,367] INFO — log_views: Listing saved | id=18 title='Studio in Cologne' owner=landlord1@rentalhub.com status=available price_eur=375.00€
+[2025-10-27 18:26:30,369] INFO — log_views: Listing saved | id=19 title='Loft in Frankfurt' owner=landlord3@rentalhub.com status=available price_eur=343.00€
+[2025-10-27 18:26:30,372] INFO — log_views: Listing saved | id=20 title='Loft in Munich' owner=landlord2@rentalhub.com status=available price_eur=446.00€
+[2025-10-27 18:26:30,374] INFO — log_views: Listing saved | id=21 title='Studio in Dresden' owner=landlord4@rentalhub.com status=available price_eur=226.00€
+[2025-10-27 18:26:30,377] INFO — log_views: Listing saved | id=22 title='Apartment in Dresden' owner=landlord5@rentalhub.com status=available price_eur=141.00€
+[2025-10-27 18:26:30,380] INFO — log_views: Listing saved | id=23 title='Studio in Dresden' owner=landlord5@rentalhub.com status=available price_eur=439.00€
+[2025-10-27 18:26:30,382] INFO — log_views: Listing saved | id=24 title='Apartment in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=78.00€
+[2025-10-27 18:26:30,384] INFO — log_views: Listing saved | id=25 title='Loft in Cologne' owner=landlord2@rentalhub.com status=available price_eur=274.00€
+[2025-10-27 18:26:30,386] INFO — log_views: Listing saved | id=26 title='Villa in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=192.00€
+[2025-10-27 18:26:30,389] INFO — log_views: Listing saved | id=27 title='Studio in Munich' owner=landlord1@rentalhub.com status=available price_eur=194.00€
+[2025-10-27 18:26:30,391] INFO — log_views: Listing saved | id=28 title='Villa in Berlin' owner=landlord5@rentalhub.com status=available price_eur=412.00€
+[2025-10-27 18:26:30,393] INFO — log_views: Listing saved | id=29 title='Villa in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=300.00€
+[2025-10-27 18:26:30,396] INFO — log_views: Listing saved | id=30 title='Studio in Berlin' owner=landlord4@rentalhub.com status=available price_eur=281.00€
+[2025-10-27 18:26:30,399] ERROR — log_views: Error saving listing 'Loft in Hamburg' (owner=landlord1@rentalhub.com): The following fields do not exist in this model, are m2m fields, primary keys, or are non-concrete fields: is_available
+[2025-10-27 18:26:30,399] ERROR — log_views: Error saving booking (user=tenant1@rentalhub.com listing=2): The following fields do not exist in this model, are m2m fields, primary keys, or are non-concrete fields: is_available
+[2025-10-27 18:26:30,404] INFO — log_views: Listing saved | id=24 title='Apartment in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=78.00€
+[2025-10-27 18:26:30,407] INFO — log_views: Listing saved | id=26 title='Villa in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=192.00€
+[2025-10-27 18:26:30,411] INFO — log_views: Listing saved | id=10 title='Studio in Berlin' owner=landlord5@rentalhub.com status=available price_eur=290.00€
+[2025-10-27 18:26:30,415] INFO — log_views: Listing saved | id=21 title='Studio in Dresden' owner=landlord4@rentalhub.com status=available price_eur=226.00€
+[2025-10-27 18:26:30,418] INFO — log_views: Listing saved | id=9 title='Studio in Berlin' owner=landlord4@rentalhub.com status=available price_eur=360.00€
+[2025-10-27 18:26:30,421] INFO — log_views: Listing saved | id=11 title='Apartment in Dresden' owner=landlord2@rentalhub.com status=available price_eur=88.00€
+[2025-10-27 18:26:30,425] INFO — log_views: Listing saved | id=28 title='Villa in Berlin' owner=landlord5@rentalhub.com status=available price_eur=412.00€
+[2025-10-27 18:26:30,429] INFO — log_views: Listing saved | id=22 title='Apartment in Dresden' owner=landlord5@rentalhub.com status=available price_eur=141.00€
+[2025-10-27 18:26:30,432] INFO — log_views: Listing saved | id=6 title='Apartment in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=313.00€
+[2025-10-27 18:26:30,435] INFO — log_views: Listing saved | id=30 title='Studio in Berlin' owner=landlord4@rentalhub.com status=available price_eur=281.00€
+[2025-10-27 18:26:30,440] INFO — log_views: Listing saved | id=19 title='Loft in Frankfurt' owner=landlord3@rentalhub.com status=available price_eur=343.00€
+[2025-10-27 18:26:30,443] INFO — log_views: Listing saved | id=8 title='Studio in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=427.00€
+[2025-10-27 18:26:30,447] INFO — log_views: Listing saved | id=16 title='House in Cologne' owner=landlord2@rentalhub.com status=available price_eur=374.00€
+[2025-10-27 18:26:30,450] INFO — log_views: Listing saved | id=22 title='Apartment in Dresden' owner=landlord5@rentalhub.com status=available price_eur=141.00€
+[2025-10-27 18:26:30,454] INFO — log_views: Listing saved | id=18 title='Studio in Cologne' owner=landlord1@rentalhub.com status=available price_eur=375.00€
+[2025-10-27 18:26:30,457] INFO — log_views: Listing saved | id=8 title='Studio in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=427.00€
+[2025-10-27 18:26:30,461] INFO — log_views: Listing saved | id=16 title='House in Cologne' owner=landlord2@rentalhub.com status=available price_eur=374.00€
+[2025-10-27 18:26:30,464] INFO — log_views: Listing saved | id=7 title='House in Hamburg' owner=landlord2@rentalhub.com status=available price_eur=340.00€
+[2025-10-27 18:26:30,467] INFO — log_views: Listing saved | id=22 title='Apartment in Dresden' owner=landlord5@rentalhub.com status=available price_eur=141.00€
+[2025-10-27 18:26:30,471] INFO — log_views: Listing saved | id=28 title='Villa in Berlin' owner=landlord5@rentalhub.com status=available price_eur=412.00€
+[2025-10-27 18:26:30,475] INFO — log_views: Listing saved | id=16 title='House in Cologne' owner=landlord2@rentalhub.com status=available price_eur=374.00€
+[2025-10-27 18:26:30,478] INFO — log_views: Listing saved | id=2 title='Loft in Hamburg' owner=landlord1@rentalhub.com status=available price_eur=433.00€
+[2025-10-27 18:26:30,481] INFO — log_views: Listing saved | id=17 title='Loft in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=131.00€
+[2025-10-27 18:26:30,485] INFO — log_views: Listing saved | id=22 title='Apartment in Dresden' owner=landlord5@rentalhub.com status=available price_eur=141.00€
+[2025-10-27 18:26:30,489] INFO — log_views: Listing saved | id=13 title='Apartment in Frankfurt' owner=landlord5@rentalhub.com status=available price_eur=474.00€
+[2025-10-27 18:26:30,493] INFO — log_views: Listing saved | id=24 title='Apartment in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=78.00€
+[2025-10-27 18:26:30,496] INFO — log_views: Listing saved | id=12 title='Loft in Munich' owner=landlord4@rentalhub.com status=available price_eur=409.00€
+[2025-10-27 18:26:30,499] INFO — log_views: Listing saved | id=3 title='Loft in Cologne' owner=landlord1@rentalhub.com status=available price_eur=271.00€
+[2025-10-27 18:26:30,502] INFO — log_views: Listing saved | id=23 title='Studio in Dresden' owner=landlord5@rentalhub.com status=available price_eur=439.00€
+[2025-10-27 18:26:30,506] INFO — log_views: Listing saved | id=21 title='Studio in Dresden' owner=landlord4@rentalhub.com status=available price_eur=226.00€
+[2025-10-27 18:26:30,510] INFO — log_views: Listing saved | id=8 title='Studio in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=427.00€
+[2025-10-27 18:26:30,513] INFO — log_views: Listing saved | id=11 title='Apartment in Dresden' owner=landlord2@rentalhub.com status=available price_eur=88.00€
+[2025-10-27 18:26:30,517] INFO — log_views: Listing saved | id=6 title='Apartment in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=313.00€
+[2025-10-27 18:26:30,520] INFO — log_views: Listing saved | id=3 title='Loft in Cologne' owner=landlord1@rentalhub.com status=available price_eur=271.00€
+[2025-10-27 18:26:30,523] INFO — log_views: Listing saved | id=2 title='Loft in Hamburg' owner=landlord1@rentalhub.com status=available price_eur=433.00€
+[2025-10-27 18:26:30,527] INFO — log_views: Listing saved | id=18 title='Studio in Cologne' owner=landlord1@rentalhub.com status=available price_eur=375.00€
+[2025-10-27 18:26:30,531] INFO — log_views: Listing saved | id=17 title='Loft in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=131.00€
+[2025-10-27 18:26:30,534] INFO — log_views: Listing saved | id=2 title='Loft in Hamburg' owner=landlord1@rentalhub.com status=available price_eur=433.00€
+[2025-10-27 18:26:30,539] INFO — log_views: Listing saved | id=3 title='Loft in Cologne' owner=landlord1@rentalhub.com status=available price_eur=271.00€
+[2025-10-27 18:26:30,543] INFO — log_views: Listing saved | id=23 title='Studio in Dresden' owner=landlord5@rentalhub.com status=available price_eur=439.00€
+[2025-10-27 18:26:30,547] INFO — log_views: Listing saved | id=30 title='Studio in Berlin' owner=landlord4@rentalhub.com status=available price_eur=281.00€
+[2025-10-27 18:26:30,550] INFO — log_views: Listing saved | id=16 title='House in Cologne' owner=landlord2@rentalhub.com status=available price_eur=374.00€
+[2025-10-27 18:26:30,555] INFO — log_views: Listing saved | id=23 title='Studio in Dresden' owner=landlord5@rentalhub.com status=available price_eur=439.00€
+[2025-10-27 18:26:30,558] INFO — log_views: Listing saved | id=15 title='Villa in Berlin' owner=landlord5@rentalhub.com status=available price_eur=391.00€
+[2025-10-27 18:26:30,561] INFO — log_views: Listing saved | id=1 title='Studio in Berlin' owner=landlord2@rentalhub.com status=available price_eur=351.00€
+[2025-10-27 18:26:30,565] INFO — log_views: Listing saved | id=4 title='House in Berlin' owner=landlord4@rentalhub.com status=available price_eur=106.00€
+[2025-10-27 18:26:30,568] INFO — log_views: Listing saved | id=19 title='Loft in Frankfurt' owner=landlord3@rentalhub.com status=available price_eur=343.00€
+[2025-10-27 18:26:30,572] INFO — log_views: Listing saved | id=22 title='Apartment in Dresden' owner=landlord5@rentalhub.com status=available price_eur=141.00€
+[2025-10-27 18:26:30,575] INFO — log_views: Listing saved | id=3 title='Loft in Cologne' owner=landlord1@rentalhub.com status=available price_eur=271.00€
+[2025-10-27 18:26:30,578] INFO — log_views: Listing saved | id=5 title='Loft in Dresden' owner=landlord2@rentalhub.com status=available price_eur=194.00€
+[2025-10-27 18:26:30,600] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=16 ip=N/A
+[2025-10-27 18:26:30,605] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=12 ip=N/A
+[2025-10-27 18:26:30,609] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=17 ip=N/A
+[2025-10-27 18:26:30,612] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=22 ip=N/A
+[2025-10-27 18:26:30,616] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=13 ip=N/A
+[2025-10-27 18:26:30,620] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=5 ip=N/A
+[2025-10-27 18:26:30,623] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=6 ip=N/A
+[2025-10-27 18:26:30,627] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=20 ip=N/A
+[2025-10-27 18:26:30,631] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=12 ip=N/A
+[2025-10-27 18:26:30,634] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=10 ip=N/A
+[2025-10-27 18:26:30,638] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=21 ip=N/A
+[2025-10-27 18:26:30,642] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=16 ip=N/A
+[2025-10-27 18:26:30,645] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=18 ip=N/A
+[2025-10-27 18:26:30,648] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=4 ip=N/A
+[2025-10-27 18:26:30,652] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=14 ip=N/A
+[2025-10-27 18:26:30,656] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=11 ip=N/A
+[2025-10-27 18:26:30,660] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=17 ip=N/A
+[2025-10-27 18:26:30,663] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=2 ip=N/A
+[2025-10-27 18:26:30,668] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=15 ip=N/A
+[2025-10-27 18:26:30,671] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=7 ip=N/A
+[2025-10-27 18:26:30,675] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=2 ip=N/A
+[2025-10-27 18:26:30,679] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=10 ip=N/A
+[2025-10-27 18:26:30,682] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=15 ip=N/A
+[2025-10-27 18:26:30,686] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=16 ip=N/A
+[2025-10-27 18:26:30,690] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=22 ip=N/A
+[2025-10-27 18:26:30,694] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=14 ip=N/A
+[2025-10-27 18:26:30,697] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=30 ip=N/A
+[2025-10-27 18:26:30,701] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=29 ip=N/A
+[2025-10-27 18:26:30,704] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=9 ip=N/A
+[2025-10-27 18:26:30,708] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=26 ip=N/A
+[2025-10-27 18:26:30,712] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=1 ip=N/A
+[2025-10-27 18:26:30,716] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=8 ip=N/A
+[2025-10-27 18:26:30,719] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=9 ip=N/A
+[2025-10-27 18:26:30,723] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=6 ip=N/A
+[2025-10-27 18:26:30,726] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=14 ip=N/A
+[2025-10-27 18:26:30,730] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=3 ip=N/A
+[2025-10-27 18:26:30,734] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=7 ip=N/A
+[2025-10-27 18:26:30,738] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=13 ip=N/A
+[2025-10-27 18:26:30,741] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=4 ip=N/A
+[2025-10-27 18:26:30,745] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=1 ip=N/A
+[2025-10-27 18:26:30,749] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=28 ip=N/A
+[2025-10-27 18:26:30,752] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=4 ip=N/A
+[2025-10-27 18:26:30,756] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=22 ip=N/A
+[2025-10-27 18:26:30,759] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=30 ip=N/A
+[2025-10-27 18:26:30,763] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=20 ip=N/A
+[2025-10-27 18:26:30,766] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=14 ip=N/A
+[2025-10-27 18:26:30,770] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=22 ip=N/A
+[2025-10-27 18:26:30,773] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=29 ip=N/A
+[2025-10-27 18:26:30,777] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=5 ip=N/A
+[2025-10-27 18:26:30,781] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=21 ip=N/A
+[2025-10-27 18:51:18,127] INFO — log_views: Listing saved | id=1 title='Loft in Dresden' owner=landlord5@rentalhub.com status=available price_eur=139.00€
+[2025-10-27 18:51:18,129] INFO — log_views: Listing saved | id=2 title='House in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=108.00€
+[2025-10-27 18:51:18,131] INFO — log_views: Listing saved | id=3 title='Loft in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=202.00€
+[2025-10-27 18:51:18,133] INFO — log_views: Listing saved | id=4 title='Villa in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=310.00€
+[2025-10-27 18:51:18,135] INFO — log_views: Listing saved | id=5 title='Loft in Cologne' owner=landlord5@rentalhub.com status=available price_eur=157.00€
+[2025-10-27 18:51:18,136] INFO — log_views: Listing saved | id=6 title='Loft in Cologne' owner=landlord3@rentalhub.com status=available price_eur=70.00€
+[2025-10-27 18:51:18,138] INFO — log_views: Listing saved | id=7 title='Loft in Dresden' owner=landlord1@rentalhub.com status=available price_eur=399.00€
+[2025-10-27 18:51:18,140] INFO — log_views: Listing saved | id=8 title='Apartment in Frankfurt' owner=landlord3@rentalhub.com status=available price_eur=372.00€
+[2025-10-27 18:51:18,142] INFO — log_views: Listing saved | id=9 title='Loft in Cologne' owner=landlord2@rentalhub.com status=available price_eur=191.00€
+[2025-10-27 18:51:18,144] INFO — log_views: Listing saved | id=10 title='House in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=194.00€
+[2025-10-27 18:51:18,146] INFO — log_views: Listing saved | id=11 title='Villa in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=201.00€
+[2025-10-27 18:51:18,148] INFO — log_views: Listing saved | id=12 title='Villa in Dresden' owner=landlord3@rentalhub.com status=available price_eur=420.00€
+[2025-10-27 18:51:18,150] INFO — log_views: Listing saved | id=13 title='Villa in Hamburg' owner=landlord2@rentalhub.com status=available price_eur=82.00€
+[2025-10-27 18:51:18,152] INFO — log_views: Listing saved | id=14 title='House in Dresden' owner=landlord4@rentalhub.com status=available price_eur=158.00€
+[2025-10-27 18:51:18,154] INFO — log_views: Listing saved | id=15 title='Villa in Munich' owner=landlord1@rentalhub.com status=available price_eur=149.00€
+[2025-10-27 18:51:18,156] INFO — log_views: Listing saved | id=16 title='House in Hamburg' owner=landlord3@rentalhub.com status=available price_eur=315.00€
+[2025-10-27 18:51:18,159] INFO — log_views: Listing saved | id=17 title='Apartment in Frankfurt' owner=landlord3@rentalhub.com status=available price_eur=336.00€
+[2025-10-27 18:51:18,160] INFO — log_views: Listing saved | id=18 title='Villa in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=390.00€
+[2025-10-27 18:51:18,162] INFO — log_views: Listing saved | id=19 title='Studio in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=256.00€
+[2025-10-27 18:51:18,164] INFO — log_views: Listing saved | id=20 title='Villa in Frankfurt' owner=landlord5@rentalhub.com status=available price_eur=340.00€
+[2025-10-27 18:51:18,166] INFO — log_views: Listing saved | id=21 title='House in Berlin' owner=landlord3@rentalhub.com status=available price_eur=131.00€
+[2025-10-27 18:51:18,168] INFO — log_views: Listing saved | id=22 title='Studio in Munich' owner=landlord2@rentalhub.com status=available price_eur=174.00€
+[2025-10-27 18:51:18,170] INFO — log_views: Listing saved | id=23 title='Villa in Frankfurt' owner=landlord3@rentalhub.com status=available price_eur=468.00€
+[2025-10-27 18:51:18,172] INFO — log_views: Listing saved | id=24 title='Loft in Berlin' owner=landlord4@rentalhub.com status=available price_eur=322.00€
+[2025-10-27 18:51:18,175] INFO — log_views: Listing saved | id=25 title='House in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=486.00€
+[2025-10-27 18:51:18,177] INFO — log_views: Listing saved | id=26 title='Loft in Cologne' owner=landlord4@rentalhub.com status=available price_eur=480.00€
+[2025-10-27 18:51:18,179] INFO — log_views: Listing saved | id=27 title='Loft in Cologne' owner=landlord5@rentalhub.com status=available price_eur=182.00€
+[2025-10-27 18:51:18,181] INFO — log_views: Listing saved | id=28 title='Apartment in Dresden' owner=landlord4@rentalhub.com status=available price_eur=62.00€
+[2025-10-27 18:51:18,184] INFO — log_views: Listing saved | id=29 title='House in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=198.00€
+[2025-10-27 18:51:18,186] INFO — log_views: Listing saved | id=30 title='Studio in Berlin' owner=landlord2@rentalhub.com status=available price_eur=97.00€
+[2025-10-27 18:51:18,190] ERROR — log_views: Error saving listing 'Loft in Dresden' (owner=landlord5@rentalhub.com): The following fields do not exist in this model, are m2m fields, primary keys, or are non-concrete fields: is_available
+[2025-10-27 18:51:18,190] ERROR — log_views: Error saving booking (user=tenant1@rentalhub.com listing=1): The following fields do not exist in this model, are m2m fields, primary keys, or are non-concrete fields: is_available
+[2025-10-27 18:51:18,194] INFO — log_views: Listing saved | id=3 title='Loft in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=202.00€
+[2025-10-27 18:51:18,197] INFO — log_views: Listing saved | id=20 title='Villa in Frankfurt' owner=landlord5@rentalhub.com status=available price_eur=340.00€
+[2025-10-27 18:51:18,201] INFO — log_views: Listing saved | id=26 title='Loft in Cologne' owner=landlord4@rentalhub.com status=available price_eur=480.00€
+[2025-10-27 18:51:18,206] INFO — log_views: Listing saved | id=29 title='House in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=198.00€
+[2025-10-27 18:51:18,209] INFO — log_views: Listing saved | id=10 title='House in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=194.00€
+[2025-10-27 18:51:18,212] INFO — log_views: Listing saved | id=15 title='Villa in Munich' owner=landlord1@rentalhub.com status=available price_eur=149.00€
+[2025-10-27 18:51:18,215] INFO — log_views: Listing saved | id=9 title='Loft in Cologne' owner=landlord2@rentalhub.com status=available price_eur=191.00€
+[2025-10-27 18:51:18,218] INFO — log_views: Listing saved | id=18 title='Villa in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=390.00€
+[2025-10-27 18:51:18,222] INFO — log_views: Listing saved | id=10 title='House in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=194.00€
+[2025-10-27 18:51:18,225] INFO — log_views: Listing saved | id=28 title='Apartment in Dresden' owner=landlord4@rentalhub.com status=available price_eur=62.00€
+[2025-10-27 18:51:18,228] INFO — log_views: Listing saved | id=14 title='House in Dresden' owner=landlord4@rentalhub.com status=available price_eur=158.00€
+[2025-10-27 18:51:18,231] INFO — log_views: Listing saved | id=3 title='Loft in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=202.00€
+[2025-10-27 18:51:18,234] INFO — log_views: Listing saved | id=7 title='Loft in Dresden' owner=landlord1@rentalhub.com status=available price_eur=399.00€
+[2025-10-27 18:51:18,238] INFO — log_views: Listing saved | id=13 title='Villa in Hamburg' owner=landlord2@rentalhub.com status=available price_eur=82.00€
+[2025-10-27 18:51:18,241] INFO — log_views: Listing saved | id=21 title='House in Berlin' owner=landlord3@rentalhub.com status=available price_eur=131.00€
+[2025-10-27 18:51:18,244] INFO — log_views: Listing saved | id=14 title='House in Dresden' owner=landlord4@rentalhub.com status=available price_eur=158.00€
+[2025-10-27 18:51:18,247] INFO — log_views: Listing saved | id=18 title='Villa in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=390.00€
+[2025-10-27 18:51:18,250] INFO — log_views: Listing saved | id=6 title='Loft in Cologne' owner=landlord3@rentalhub.com status=available price_eur=70.00€
+[2025-10-27 18:51:18,254] INFO — log_views: Listing saved | id=16 title='House in Hamburg' owner=landlord3@rentalhub.com status=available price_eur=315.00€
+[2025-10-27 18:51:18,258] INFO — log_views: Listing saved | id=12 title='Villa in Dresden' owner=landlord3@rentalhub.com status=available price_eur=420.00€
+[2025-10-27 18:51:18,260] INFO — log_views: Listing saved | id=28 title='Apartment in Dresden' owner=landlord4@rentalhub.com status=available price_eur=62.00€
+[2025-10-27 18:51:18,263] INFO — log_views: Listing saved | id=17 title='Apartment in Frankfurt' owner=landlord3@rentalhub.com status=available price_eur=336.00€
+[2025-10-27 18:51:18,267] INFO — log_views: Listing saved | id=21 title='House in Berlin' owner=landlord3@rentalhub.com status=available price_eur=131.00€
+[2025-10-27 18:51:18,270] INFO — log_views: Listing saved | id=24 title='Loft in Berlin' owner=landlord4@rentalhub.com status=available price_eur=322.00€
+[2025-10-27 18:51:18,273] INFO — log_views: Listing saved | id=12 title='Villa in Dresden' owner=landlord3@rentalhub.com status=available price_eur=420.00€
+[2025-10-27 18:51:18,276] INFO — log_views: Listing saved | id=15 title='Villa in Munich' owner=landlord1@rentalhub.com status=available price_eur=149.00€
+[2025-10-27 18:51:18,280] INFO — log_views: Listing saved | id=9 title='Loft in Cologne' owner=landlord2@rentalhub.com status=available price_eur=191.00€
+[2025-10-27 18:51:18,283] INFO — log_views: Listing saved | id=1 title='Loft in Dresden' owner=landlord5@rentalhub.com status=available price_eur=139.00€
+[2025-10-27 18:51:18,287] INFO — log_views: Listing saved | id=11 title='Villa in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=201.00€
+[2025-10-27 18:51:18,290] INFO — log_views: Listing saved | id=17 title='Apartment in Frankfurt' owner=landlord3@rentalhub.com status=available price_eur=336.00€
+[2025-10-27 18:51:18,293] INFO — log_views: Listing saved | id=8 title='Apartment in Frankfurt' owner=landlord3@rentalhub.com status=available price_eur=372.00€
+[2025-10-27 18:51:18,296] INFO — log_views: Listing saved | id=11 title='Villa in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=201.00€
+[2025-10-27 18:51:18,299] INFO — log_views: Listing saved | id=26 title='Loft in Cologne' owner=landlord4@rentalhub.com status=available price_eur=480.00€
+[2025-10-27 18:51:18,304] INFO — log_views: Listing saved | id=20 title='Villa in Frankfurt' owner=landlord5@rentalhub.com status=available price_eur=340.00€
+[2025-10-27 18:51:18,307] INFO — log_views: Listing saved | id=25 title='House in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=486.00€
+[2025-10-27 18:51:18,311] INFO — log_views: Listing saved | id=17 title='Apartment in Frankfurt' owner=landlord3@rentalhub.com status=available price_eur=336.00€
+[2025-10-27 18:51:18,314] INFO — log_views: Listing saved | id=6 title='Loft in Cologne' owner=landlord3@rentalhub.com status=available price_eur=70.00€
+[2025-10-27 18:51:18,318] INFO — log_views: Listing saved | id=7 title='Loft in Dresden' owner=landlord1@rentalhub.com status=available price_eur=399.00€
+[2025-10-27 18:51:18,321] INFO — log_views: Listing saved | id=13 title='Villa in Hamburg' owner=landlord2@rentalhub.com status=available price_eur=82.00€
+[2025-10-27 18:51:18,325] INFO — log_views: Listing saved | id=14 title='House in Dresden' owner=landlord4@rentalhub.com status=available price_eur=158.00€
+[2025-10-27 18:51:18,328] INFO — log_views: Listing saved | id=3 title='Loft in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=202.00€
+[2025-10-27 18:51:18,331] INFO — log_views: Listing saved | id=30 title='Studio in Berlin' owner=landlord2@rentalhub.com status=available price_eur=97.00€
+[2025-10-27 18:51:18,335] INFO — log_views: Listing saved | id=17 title='Apartment in Frankfurt' owner=landlord3@rentalhub.com status=available price_eur=336.00€
+[2025-10-27 18:51:18,338] INFO — log_views: Listing saved | id=24 title='Loft in Berlin' owner=landlord4@rentalhub.com status=available price_eur=322.00€
+[2025-10-27 18:51:18,341] INFO — log_views: Listing saved | id=25 title='House in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=486.00€
+[2025-10-27 18:51:18,343] INFO — log_views: Listing saved | id=2 title='House in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=108.00€
+[2025-10-27 18:51:18,347] INFO — log_views: Listing saved | id=7 title='Loft in Dresden' owner=landlord1@rentalhub.com status=available price_eur=399.00€
+[2025-10-27 18:51:18,351] INFO — log_views: Listing saved | id=14 title='House in Dresden' owner=landlord4@rentalhub.com status=available price_eur=158.00€
+[2025-10-27 18:51:18,354] INFO — log_views: Listing saved | id=30 title='Studio in Berlin' owner=landlord2@rentalhub.com status=available price_eur=97.00€
+[2025-10-27 18:51:18,357] INFO — log_views: Listing saved | id=5 title='Loft in Cologne' owner=landlord5@rentalhub.com status=available price_eur=157.00€
+[2025-10-27 18:51:18,377] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=23 ip=N/A
+[2025-10-27 18:51:18,381] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=12 ip=N/A
+[2025-10-27 18:51:18,385] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=9 ip=N/A
+[2025-10-27 18:51:18,388] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=22 ip=N/A
+[2025-10-27 18:51:18,392] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=25 ip=N/A
+[2025-10-27 18:51:18,396] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=26 ip=N/A
+[2025-10-27 18:51:18,399] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=9 ip=N/A
+[2025-10-27 18:51:18,403] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=4 ip=N/A
+[2025-10-27 18:51:18,406] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=6 ip=N/A
+[2025-10-27 18:51:18,409] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=12 ip=N/A
+[2025-10-27 18:51:18,413] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=1 ip=N/A
+[2025-10-27 18:51:18,417] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=6 ip=N/A
+[2025-10-27 18:51:18,420] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=3 ip=N/A
+[2025-10-27 18:51:18,424] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=23 ip=N/A
+[2025-10-27 18:51:18,428] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=22 ip=N/A
+[2025-10-27 18:51:18,431] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=7 ip=N/A
+[2025-10-27 18:51:18,435] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=25 ip=N/A
+[2025-10-27 18:51:18,438] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=23 ip=N/A
+[2025-10-27 18:51:18,442] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=19 ip=N/A
+[2025-10-27 18:51:18,445] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=13 ip=N/A
+[2025-10-27 18:51:18,449] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=9 ip=N/A
+[2025-10-27 18:51:18,453] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=10 ip=N/A
+[2025-10-27 18:51:18,456] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=26 ip=N/A
+[2025-10-27 18:51:18,461] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=20 ip=N/A
+[2025-10-27 18:51:18,464] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=7 ip=N/A
+[2025-10-27 18:51:18,468] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=19 ip=N/A
+[2025-10-27 18:51:18,471] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=8 ip=N/A
+[2025-10-27 18:51:18,475] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=24 ip=N/A
+[2025-10-27 18:51:18,479] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=28 ip=N/A
+[2025-10-27 18:51:18,482] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=22 ip=N/A
+[2025-10-27 18:51:18,486] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=1 ip=N/A
+[2025-10-27 18:51:18,489] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=7 ip=N/A
+[2025-10-27 18:51:18,493] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=3 ip=N/A
+[2025-10-27 18:51:18,496] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=11 ip=N/A
+[2025-10-27 18:51:18,500] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=19 ip=N/A
+[2025-10-27 18:51:18,503] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=3 ip=N/A
+[2025-10-27 18:51:18,506] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=29 ip=N/A
+[2025-10-27 18:51:18,511] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=18 ip=N/A
+[2025-10-27 18:51:18,515] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=10 ip=N/A
+[2025-10-27 18:51:18,519] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=12 ip=N/A
+[2025-10-27 18:51:18,523] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=17 ip=N/A
+[2025-10-27 18:51:18,527] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=26 ip=N/A
+[2025-10-27 18:51:18,530] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=12 ip=N/A
+[2025-10-27 18:51:18,534] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=18 ip=N/A
+[2025-10-27 18:51:18,538] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=1 ip=N/A
+[2025-10-27 18:51:18,542] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=14 ip=N/A
+[2025-10-27 18:51:18,545] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=1 ip=N/A
+[2025-10-27 18:51:18,549] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=17 ip=N/A
+[2025-10-27 18:51:18,553] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=27 ip=N/A
+[2025-10-27 18:51:18,556] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=2 ip=N/A
+[2025-10-27 19:02:55,873] INFO — log_views: Listing saved | id=1 title='House in Dresden' owner=landlord2@rentalhub.com status=available price_eur=445.00€
+[2025-10-27 19:02:55,876] INFO — log_views: Listing saved | id=2 title='Studio in Dresden' owner=landlord5@rentalhub.com status=available price_eur=477.00€
+[2025-10-27 19:02:55,879] INFO — log_views: Listing saved | id=3 title='Villa in Munich' owner=landlord1@rentalhub.com status=available price_eur=146.00€
+[2025-10-27 19:02:55,882] INFO — log_views: Listing saved | id=4 title='Loft in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=91.00€
+[2025-10-27 19:02:55,886] INFO — log_views: Listing saved | id=5 title='House in Berlin' owner=landlord2@rentalhub.com status=available price_eur=366.00€
+[2025-10-27 19:02:55,889] INFO — log_views: Listing saved | id=6 title='House in Cologne' owner=landlord3@rentalhub.com status=available price_eur=259.00€
+[2025-10-27 19:02:55,892] INFO — log_views: Listing saved | id=7 title='House in Dresden' owner=landlord4@rentalhub.com status=available price_eur=89.00€
+[2025-10-27 19:02:55,896] INFO — log_views: Listing saved | id=8 title='Villa in Berlin' owner=landlord4@rentalhub.com status=available price_eur=142.00€
+[2025-10-27 19:02:55,900] INFO — log_views: Listing saved | id=9 title='Villa in Hamburg' owner=landlord1@rentalhub.com status=available price_eur=476.00€
+[2025-10-27 19:02:55,904] INFO — log_views: Listing saved | id=10 title='House in Berlin' owner=landlord4@rentalhub.com status=available price_eur=97.00€
+[2025-10-27 19:02:55,907] INFO — log_views: Listing saved | id=11 title='House in Berlin' owner=landlord3@rentalhub.com status=available price_eur=447.00€
+[2025-10-27 19:02:55,910] INFO — log_views: Listing saved | id=12 title='Villa in Dresden' owner=landlord4@rentalhub.com status=available price_eur=392.00€
+[2025-10-27 19:02:55,914] INFO — log_views: Listing saved | id=13 title='Villa in Munich' owner=landlord5@rentalhub.com status=available price_eur=340.00€
+[2025-10-27 19:02:55,918] INFO — log_views: Listing saved | id=14 title='Villa in Hamburg' owner=landlord2@rentalhub.com status=available price_eur=259.00€
+[2025-10-27 19:02:55,922] INFO — log_views: Listing saved | id=15 title='Villa in Cologne' owner=landlord3@rentalhub.com status=available price_eur=433.00€
+[2025-10-27 19:02:55,926] INFO — log_views: Listing saved | id=16 title='Apartment in Munich' owner=landlord5@rentalhub.com status=available price_eur=291.00€
+[2025-10-27 19:02:55,929] INFO — log_views: Listing saved | id=17 title='House in Cologne' owner=landlord4@rentalhub.com status=available price_eur=229.00€
+[2025-10-27 19:02:55,933] INFO — log_views: Listing saved | id=18 title='Apartment in Cologne' owner=landlord1@rentalhub.com status=available price_eur=148.00€
+[2025-10-27 19:02:55,936] INFO — log_views: Listing saved | id=19 title='Apartment in Frankfurt' owner=landlord4@rentalhub.com status=available price_eur=472.00€
+[2025-10-27 19:02:55,940] INFO — log_views: Listing saved | id=20 title='Apartment in Munich' owner=landlord5@rentalhub.com status=available price_eur=54.00€
+[2025-10-27 19:02:55,943] INFO — log_views: Listing saved | id=21 title='Studio in Cologne' owner=landlord5@rentalhub.com status=available price_eur=323.00€
+[2025-10-27 19:02:55,948] INFO — log_views: Listing saved | id=22 title='Loft in Frankfurt' owner=landlord4@rentalhub.com status=available price_eur=294.00€
+[2025-10-27 19:02:55,951] INFO — log_views: Listing saved | id=23 title='Villa in Munich' owner=landlord1@rentalhub.com status=available price_eur=284.00€
+[2025-10-27 19:02:55,954] INFO — log_views: Listing saved | id=24 title='House in Frankfurt' owner=landlord3@rentalhub.com status=available price_eur=268.00€
+[2025-10-27 19:02:55,958] INFO — log_views: Listing saved | id=25 title='Villa in Berlin' owner=landlord1@rentalhub.com status=available price_eur=245.00€
+[2025-10-27 19:02:55,960] INFO — log_views: Listing saved | id=26 title='Loft in Munich' owner=landlord2@rentalhub.com status=available price_eur=349.00€
+[2025-10-27 19:02:55,964] INFO — log_views: Listing saved | id=27 title='Apartment in Berlin' owner=landlord4@rentalhub.com status=available price_eur=275.00€
+[2025-10-27 19:02:55,968] INFO — log_views: Listing saved | id=28 title='House in Cologne' owner=landlord2@rentalhub.com status=available price_eur=184.00€
+[2025-10-27 19:02:55,971] INFO — log_views: Listing saved | id=29 title='Apartment in Cologne' owner=landlord4@rentalhub.com status=available price_eur=265.00€
+[2025-10-27 19:02:55,974] INFO — log_views: Listing saved | id=30 title='Loft in Dresden' owner=landlord1@rentalhub.com status=available price_eur=343.00€
+[2025-10-27 19:02:55,980] ERROR — log_views: Error saving listing 'House in Berlin' (owner=landlord3@rentalhub.com): The following fields do not exist in this model, are m2m fields, primary keys, or are non-concrete fields: is_available
+[2025-10-27 19:02:55,981] ERROR — log_views: Error saving booking (user=tenant1@rentalhub.com listing=11): The following fields do not exist in this model, are m2m fields, primary keys, or are non-concrete fields: is_available
+[2025-10-27 19:02:55,986] INFO — log_views: Listing saved | id=8 title='Villa in Berlin' owner=landlord4@rentalhub.com status=available price_eur=142.00€
+[2025-10-27 19:02:55,990] INFO — log_views: Listing saved | id=11 title='House in Berlin' owner=landlord3@rentalhub.com status=available price_eur=447.00€
+[2025-10-27 19:02:55,994] INFO — log_views: Listing saved | id=25 title='Villa in Berlin' owner=landlord1@rentalhub.com status=available price_eur=245.00€
+[2025-10-27 19:02:56,000] INFO — log_views: Listing saved | id=5 title='House in Berlin' owner=landlord2@rentalhub.com status=available price_eur=366.00€
+[2025-10-27 19:02:56,005] INFO — log_views: Listing saved | id=23 title='Villa in Munich' owner=landlord1@rentalhub.com status=available price_eur=284.00€
+[2025-10-27 19:02:56,010] INFO — log_views: Listing saved | id=25 title='Villa in Berlin' owner=landlord1@rentalhub.com status=available price_eur=245.00€
+[2025-10-27 19:02:56,016] INFO — log_views: Listing saved | id=23 title='Villa in Munich' owner=landlord1@rentalhub.com status=available price_eur=284.00€
+[2025-10-27 19:02:56,022] INFO — log_views: Listing saved | id=10 title='House in Berlin' owner=landlord4@rentalhub.com status=available price_eur=97.00€
+[2025-10-27 19:02:56,027] INFO — log_views: Listing saved | id=26 title='Loft in Munich' owner=landlord2@rentalhub.com status=available price_eur=349.00€
+[2025-10-27 19:02:56,033] INFO — log_views: Listing saved | id=22 title='Loft in Frankfurt' owner=landlord4@rentalhub.com status=available price_eur=294.00€
+[2025-10-27 19:02:56,038] INFO — log_views: Listing saved | id=12 title='Villa in Dresden' owner=landlord4@rentalhub.com status=available price_eur=392.00€
+[2025-10-27 19:02:56,044] INFO — log_views: Listing saved | id=7 title='House in Dresden' owner=landlord4@rentalhub.com status=available price_eur=89.00€
+[2025-10-27 19:02:56,049] INFO — log_views: Listing saved | id=10 title='House in Berlin' owner=landlord4@rentalhub.com status=available price_eur=97.00€
+[2025-10-27 19:02:56,054] INFO — log_views: Listing saved | id=30 title='Loft in Dresden' owner=landlord1@rentalhub.com status=available price_eur=343.00€
+[2025-10-27 19:02:56,060] INFO — log_views: Listing saved | id=1 title='House in Dresden' owner=landlord2@rentalhub.com status=available price_eur=445.00€
+[2025-10-27 19:02:56,065] INFO — log_views: Listing saved | id=20 title='Apartment in Munich' owner=landlord5@rentalhub.com status=available price_eur=54.00€
+[2025-10-27 19:02:56,071] INFO — log_views: Listing saved | id=4 title='Loft in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=91.00€
+[2025-10-27 19:02:56,077] INFO — log_views: Listing saved | id=17 title='House in Cologne' owner=landlord4@rentalhub.com status=available price_eur=229.00€
+[2025-10-27 19:02:56,088] INFO — log_views: Listing saved | id=28 title='House in Cologne' owner=landlord2@rentalhub.com status=available price_eur=184.00€
+[2025-10-27 19:02:56,101] INFO — log_views: Listing saved | id=10 title='House in Berlin' owner=landlord4@rentalhub.com status=available price_eur=97.00€
+[2025-10-27 19:02:56,110] INFO — log_views: Listing saved | id=11 title='House in Berlin' owner=landlord3@rentalhub.com status=available price_eur=447.00€
+[2025-10-27 19:02:56,120] INFO — log_views: Listing saved | id=26 title='Loft in Munich' owner=landlord2@rentalhub.com status=available price_eur=349.00€
+[2025-10-27 19:02:56,128] INFO — log_views: Listing saved | id=30 title='Loft in Dresden' owner=landlord1@rentalhub.com status=available price_eur=343.00€
+[2025-10-27 19:02:56,134] INFO — log_views: Listing saved | id=13 title='Villa in Munich' owner=landlord5@rentalhub.com status=available price_eur=340.00€
+[2025-10-27 19:02:56,142] INFO — log_views: Listing saved | id=29 title='Apartment in Cologne' owner=landlord4@rentalhub.com status=available price_eur=265.00€
+[2025-10-27 19:02:56,149] INFO — log_views: Listing saved | id=14 title='Villa in Hamburg' owner=landlord2@rentalhub.com status=available price_eur=259.00€
+[2025-10-27 19:02:56,155] INFO — log_views: Listing saved | id=13 title='Villa in Munich' owner=landlord5@rentalhub.com status=available price_eur=340.00€
+[2025-10-27 19:02:56,162] INFO — log_views: Listing saved | id=26 title='Loft in Munich' owner=landlord2@rentalhub.com status=available price_eur=349.00€
+[2025-10-27 19:02:56,167] INFO — log_views: Listing saved | id=28 title='House in Cologne' owner=landlord2@rentalhub.com status=available price_eur=184.00€
+[2025-10-27 19:02:56,176] INFO — log_views: Listing saved | id=12 title='Villa in Dresden' owner=landlord4@rentalhub.com status=available price_eur=392.00€
+[2025-10-27 19:02:56,182] INFO — log_views: Listing saved | id=26 title='Loft in Munich' owner=landlord2@rentalhub.com status=available price_eur=349.00€
+[2025-10-27 19:02:56,189] INFO — log_views: Listing saved | id=15 title='Villa in Cologne' owner=landlord3@rentalhub.com status=available price_eur=433.00€
+[2025-10-27 19:02:56,194] INFO — log_views: Listing saved | id=10 title='House in Berlin' owner=landlord4@rentalhub.com status=available price_eur=97.00€
+[2025-10-27 19:02:56,200] INFO — log_views: Listing saved | id=11 title='House in Berlin' owner=landlord3@rentalhub.com status=available price_eur=447.00€
+[2025-10-27 19:02:56,208] INFO — log_views: Listing saved | id=25 title='Villa in Berlin' owner=landlord1@rentalhub.com status=available price_eur=245.00€
+[2025-10-27 19:02:56,213] INFO — log_views: Listing saved | id=24 title='House in Frankfurt' owner=landlord3@rentalhub.com status=available price_eur=268.00€
+[2025-10-27 19:02:56,219] INFO — log_views: Listing saved | id=19 title='Apartment in Frankfurt' owner=landlord4@rentalhub.com status=available price_eur=472.00€
+[2025-10-27 19:02:56,226] INFO — log_views: Listing saved | id=26 title='Loft in Munich' owner=landlord2@rentalhub.com status=available price_eur=349.00€
+[2025-10-27 19:02:56,231] INFO — log_views: Listing saved | id=25 title='Villa in Berlin' owner=landlord1@rentalhub.com status=available price_eur=245.00€
+[2025-10-27 19:02:56,238] INFO — log_views: Listing saved | id=9 title='Villa in Hamburg' owner=landlord1@rentalhub.com status=available price_eur=476.00€
+[2025-10-27 19:02:56,243] INFO — log_views: Listing saved | id=30 title='Loft in Dresden' owner=landlord1@rentalhub.com status=available price_eur=343.00€
+[2025-10-27 19:02:56,250] INFO — log_views: Listing saved | id=13 title='Villa in Munich' owner=landlord5@rentalhub.com status=available price_eur=340.00€
+[2025-10-27 19:02:56,255] INFO — log_views: Listing saved | id=25 title='Villa in Berlin' owner=landlord1@rentalhub.com status=available price_eur=245.00€
+[2025-10-27 19:02:56,259] INFO — log_views: Listing saved | id=23 title='Villa in Munich' owner=landlord1@rentalhub.com status=available price_eur=284.00€
+[2025-10-27 19:02:56,264] INFO — log_views: Listing saved | id=24 title='House in Frankfurt' owner=landlord3@rentalhub.com status=available price_eur=268.00€
+[2025-10-27 19:02:56,270] INFO — log_views: Listing saved | id=5 title='House in Berlin' owner=landlord2@rentalhub.com status=available price_eur=366.00€
+[2025-10-27 19:02:56,275] INFO — log_views: Listing saved | id=15 title='Villa in Cologne' owner=landlord3@rentalhub.com status=available price_eur=433.00€
+[2025-10-27 19:02:56,280] INFO — log_views: Listing saved | id=29 title='Apartment in Cologne' owner=landlord4@rentalhub.com status=available price_eur=265.00€
+[2025-10-27 19:02:56,285] INFO — log_views: Listing saved | id=6 title='House in Cologne' owner=landlord3@rentalhub.com status=available price_eur=259.00€
+[2025-10-27 19:02:56,291] INFO — log_views: Listing saved | id=23 title='Villa in Munich' owner=landlord1@rentalhub.com status=available price_eur=284.00€
+[2025-10-27 19:02:56,322] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=1 ip=N/A
+[2025-10-27 19:02:56,326] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=20 ip=N/A
+[2025-10-27 19:02:56,332] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=17 ip=N/A
+[2025-10-27 19:02:56,338] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=23 ip=N/A
+[2025-10-27 19:02:56,345] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=4 ip=N/A
+[2025-10-27 19:02:56,351] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=30 ip=N/A
+[2025-10-27 19:02:56,358] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=14 ip=N/A
+[2025-10-27 19:02:56,365] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=7 ip=N/A
+[2025-10-27 19:02:56,370] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=15 ip=N/A
+[2025-10-27 19:02:56,377] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=17 ip=N/A
+[2025-10-27 19:02:56,383] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=12 ip=N/A
+[2025-10-27 19:02:56,389] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=21 ip=N/A
+[2025-10-27 19:02:56,395] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=17 ip=N/A
+[2025-10-27 19:02:56,403] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=26 ip=N/A
+[2025-10-27 19:02:56,409] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=18 ip=N/A
+[2025-10-27 19:02:56,417] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=4 ip=N/A
+[2025-10-27 19:02:56,425] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=20 ip=N/A
+[2025-10-27 19:02:56,435] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=13 ip=N/A
+[2025-10-27 19:02:56,442] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=1 ip=N/A
+[2025-10-27 19:02:56,450] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=25 ip=N/A
+[2025-10-27 19:02:56,457] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=9 ip=N/A
+[2025-10-27 19:02:56,464] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=27 ip=N/A
+[2025-10-27 19:02:56,471] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=8 ip=N/A
+[2025-10-27 19:02:56,478] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=3 ip=N/A
+[2025-10-27 19:02:56,486] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=16 ip=N/A
+[2025-10-27 19:02:56,497] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=17 ip=N/A
+[2025-10-27 19:02:56,506] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=2 ip=N/A
+[2025-10-27 19:02:56,512] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=16 ip=N/A
+[2025-10-27 19:02:56,518] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=3 ip=N/A
+[2025-10-27 19:02:56,532] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=21 ip=N/A
+[2025-10-27 19:02:56,543] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=24 ip=N/A
+[2025-10-27 19:02:56,550] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=21 ip=N/A
+[2025-10-27 19:02:56,558] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=4 ip=N/A
+[2025-10-27 19:02:56,563] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=22 ip=N/A
+[2025-10-27 19:02:56,571] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=13 ip=N/A
+[2025-10-27 19:02:56,577] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=4 ip=N/A
+[2025-10-27 19:02:56,584] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=15 ip=N/A
+[2025-10-27 19:02:56,591] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=7 ip=N/A
+[2025-10-27 19:02:56,598] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=30 ip=N/A
+[2025-10-27 19:02:56,606] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=16 ip=N/A
+[2025-10-27 19:02:56,613] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=20 ip=N/A
+[2025-10-27 19:02:56,620] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=25 ip=N/A
+[2025-10-27 19:02:56,626] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=23 ip=N/A
+[2025-10-27 19:02:56,633] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=2 ip=N/A
+[2025-10-27 19:02:56,639] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=12 ip=N/A
+[2025-10-27 19:02:56,644] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=4 ip=N/A
+[2025-10-27 19:02:56,649] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=6 ip=N/A
+[2025-10-27 19:02:56,654] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=2 ip=N/A
+[2025-10-27 19:02:56,658] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=22 ip=N/A
+[2025-10-27 19:02:56,665] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=23 ip=N/A
+[2025-10-27 20:31:24,043] INFO — log_views: Listing saved | id=1 title='Loft in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=392.00€
+[2025-10-27 20:31:24,085] INFO — log_views: Listing saved | id=1 title='Loft in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=392.00€
+[2025-10-27 20:31:24,086] INFO — log_views: Listing saved | id=2 title='Studio in Munich' owner=landlord1@rentalhub.com status=available price_eur=401.00€
+[2025-10-27 20:31:24,091] INFO — log_views: Listing saved | id=2 title='Studio in Munich' owner=landlord1@rentalhub.com status=available price_eur=401.00€
+[2025-10-27 20:31:24,093] INFO — log_views: Listing saved | id=3 title='Loft in Frankfurt' owner=landlord5@rentalhub.com status=available price_eur=122.00€
+[2025-10-27 20:31:24,098] INFO — log_views: Listing saved | id=3 title='Loft in Frankfurt' owner=landlord5@rentalhub.com status=available price_eur=122.00€
+[2025-10-27 20:31:24,100] INFO — log_views: Listing saved | id=4 title='House in Cologne' owner=landlord2@rentalhub.com status=available price_eur=384.00€
+[2025-10-27 20:31:24,105] INFO — log_views: Listing saved | id=4 title='House in Cologne' owner=landlord2@rentalhub.com status=available price_eur=384.00€
+[2025-10-27 20:31:24,107] INFO — log_views: Listing saved | id=5 title='Apartment in Dresden' owner=landlord2@rentalhub.com status=available price_eur=57.00€
+[2025-10-27 20:31:24,112] INFO — log_views: Listing saved | id=5 title='Apartment in Dresden' owner=landlord2@rentalhub.com status=available price_eur=57.00€
+[2025-10-27 20:31:24,114] INFO — log_views: Listing saved | id=6 title='Villa in Frankfurt' owner=landlord5@rentalhub.com status=available price_eur=387.00€
+[2025-10-27 20:31:24,119] INFO — log_views: Listing saved | id=6 title='Villa in Frankfurt' owner=landlord5@rentalhub.com status=available price_eur=387.00€
+[2025-10-27 20:31:24,121] INFO — log_views: Listing saved | id=7 title='Villa in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=51.00€
+[2025-10-27 20:31:24,126] INFO — log_views: Listing saved | id=7 title='Villa in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=51.00€
+[2025-10-27 20:31:24,128] INFO — log_views: Listing saved | id=8 title='Villa in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=446.00€
+[2025-10-27 20:31:24,133] INFO — log_views: Listing saved | id=8 title='Villa in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=446.00€
+[2025-10-27 20:31:24,135] INFO — log_views: Listing saved | id=9 title='Apartment in Munich' owner=landlord3@rentalhub.com status=available price_eur=403.00€
+[2025-10-27 20:31:24,140] INFO — log_views: Listing saved | id=9 title='Apartment in Munich' owner=landlord3@rentalhub.com status=available price_eur=403.00€
+[2025-10-27 20:31:24,142] INFO — log_views: Listing saved | id=10 title='Apartment in Munich' owner=landlord3@rentalhub.com status=available price_eur=291.00€
+[2025-10-27 20:31:24,147] INFO — log_views: Listing saved | id=10 title='Apartment in Munich' owner=landlord3@rentalhub.com status=available price_eur=291.00€
+[2025-10-27 20:31:24,149] INFO — log_views: Listing saved | id=11 title='House in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=481.00€
+[2025-10-27 20:31:24,154] INFO — log_views: Listing saved | id=11 title='House in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=481.00€
+[2025-10-27 20:31:24,156] INFO — log_views: Listing saved | id=12 title='Apartment in Berlin' owner=landlord3@rentalhub.com status=available price_eur=491.00€
+[2025-10-27 20:31:24,161] INFO — log_views: Listing saved | id=12 title='Apartment in Berlin' owner=landlord3@rentalhub.com status=available price_eur=491.00€
+[2025-10-27 20:31:24,163] INFO — log_views: Listing saved | id=13 title='Villa in Berlin' owner=landlord2@rentalhub.com status=available price_eur=336.00€
+[2025-10-27 20:31:24,168] INFO — log_views: Listing saved | id=13 title='Villa in Berlin' owner=landlord2@rentalhub.com status=available price_eur=336.00€
+[2025-10-27 20:31:24,170] INFO — log_views: Listing saved | id=14 title='Villa in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=165.00€
+[2025-10-27 20:31:24,176] INFO — log_views: Listing saved | id=14 title='Villa in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=165.00€
+[2025-10-27 20:31:24,179] INFO — log_views: Listing saved | id=15 title='Villa in Munich' owner=landlord4@rentalhub.com status=available price_eur=255.00€
+[2025-10-27 20:31:24,184] INFO — log_views: Listing saved | id=15 title='Villa in Munich' owner=landlord4@rentalhub.com status=available price_eur=255.00€
+[2025-10-27 20:31:24,187] INFO — log_views: Listing saved | id=16 title='House in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=412.00€
+[2025-10-27 20:31:24,191] INFO — log_views: Listing saved | id=16 title='House in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=412.00€
+[2025-10-27 20:31:24,193] INFO — log_views: Listing saved | id=17 title='House in Dresden' owner=landlord3@rentalhub.com status=available price_eur=202.00€
+[2025-10-27 20:31:24,198] INFO — log_views: Listing saved | id=17 title='House in Dresden' owner=landlord3@rentalhub.com status=available price_eur=202.00€
+[2025-10-27 20:31:24,200] INFO — log_views: Listing saved | id=18 title='Studio in Hamburg' owner=landlord1@rentalhub.com status=available price_eur=373.00€
+[2025-10-27 20:31:24,207] INFO — log_views: Listing saved | id=18 title='Studio in Hamburg' owner=landlord1@rentalhub.com status=available price_eur=373.00€
+[2025-10-27 20:31:24,210] INFO — log_views: Listing saved | id=19 title='Apartment in Munich' owner=landlord5@rentalhub.com status=available price_eur=435.00€
+[2025-10-27 20:31:24,216] INFO — log_views: Listing saved | id=19 title='Apartment in Munich' owner=landlord5@rentalhub.com status=available price_eur=435.00€
+[2025-10-27 20:31:24,221] INFO — log_views: Listing saved | id=20 title='Studio in Munich' owner=landlord1@rentalhub.com status=available price_eur=61.00€
+[2025-10-27 20:31:24,233] INFO — log_views: Listing saved | id=20 title='Studio in Munich' owner=landlord1@rentalhub.com status=available price_eur=61.00€
+[2025-10-27 20:31:24,237] INFO — log_views: Listing saved | id=21 title='House in Berlin' owner=landlord3@rentalhub.com status=available price_eur=289.00€
+[2025-10-27 20:31:24,245] INFO — log_views: Listing saved | id=21 title='House in Berlin' owner=landlord3@rentalhub.com status=available price_eur=289.00€
+[2025-10-27 20:31:24,252] INFO — log_views: Listing saved | id=22 title='Villa in Hamburg' owner=landlord2@rentalhub.com status=available price_eur=494.00€
+[2025-10-27 20:31:24,262] INFO — log_views: Listing saved | id=22 title='Villa in Hamburg' owner=landlord2@rentalhub.com status=available price_eur=494.00€
+[2025-10-27 20:31:24,267] INFO — log_views: Listing saved | id=23 title='Villa in Cologne' owner=landlord5@rentalhub.com status=available price_eur=289.00€
+[2025-10-27 20:31:24,275] INFO — log_views: Listing saved | id=23 title='Villa in Cologne' owner=landlord5@rentalhub.com status=available price_eur=289.00€
+[2025-10-27 20:31:24,279] INFO — log_views: Listing saved | id=24 title='House in Cologne' owner=landlord1@rentalhub.com status=available price_eur=473.00€
+[2025-10-27 20:31:24,293] INFO — log_views: Listing saved | id=24 title='House in Cologne' owner=landlord1@rentalhub.com status=available price_eur=473.00€
+[2025-10-27 20:31:24,298] INFO — log_views: Listing saved | id=25 title='Loft in Hamburg' owner=landlord2@rentalhub.com status=available price_eur=401.00€
+[2025-10-27 20:31:24,308] INFO — log_views: Listing saved | id=25 title='Loft in Hamburg' owner=landlord2@rentalhub.com status=available price_eur=401.00€
+[2025-10-27 20:31:24,312] INFO — log_views: Listing saved | id=26 title='House in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=493.00€
+[2025-10-27 20:31:24,321] INFO — log_views: Listing saved | id=26 title='House in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=493.00€
+[2025-10-27 20:31:24,325] INFO — log_views: Listing saved | id=27 title='Villa in Hamburg' owner=landlord3@rentalhub.com status=available price_eur=129.00€
+[2025-10-27 20:31:24,332] INFO — log_views: Listing saved | id=27 title='Villa in Hamburg' owner=landlord3@rentalhub.com status=available price_eur=129.00€
+[2025-10-27 20:31:24,335] INFO — log_views: Listing saved | id=28 title='House in Cologne' owner=landlord4@rentalhub.com status=available price_eur=332.00€
+[2025-10-27 20:31:24,341] INFO — log_views: Listing saved | id=28 title='House in Cologne' owner=landlord4@rentalhub.com status=available price_eur=332.00€
+[2025-10-27 20:31:24,345] INFO — log_views: Listing saved | id=29 title='Apartment in Dresden' owner=landlord1@rentalhub.com status=available price_eur=324.00€
+[2025-10-27 20:31:24,351] INFO — log_views: Listing saved | id=29 title='Apartment in Dresden' owner=landlord1@rentalhub.com status=available price_eur=324.00€
+[2025-10-27 20:31:24,354] INFO — log_views: Listing saved | id=30 title='Villa in Munich' owner=landlord1@rentalhub.com status=available price_eur=80.00€
+[2025-10-27 20:31:24,359] INFO — log_views: Listing saved | id=30 title='Villa in Munich' owner=landlord1@rentalhub.com status=available price_eur=80.00€
+[2025-10-27 20:31:24,364] ERROR — log_views: Error saving listing 'Studio in Hamburg' (owner=landlord1@rentalhub.com): The following fields do not exist in this model, are m2m fields, primary keys, or are non-concrete fields: is_available
+[2025-10-27 20:31:24,364] ERROR — log_views: Error saving booking (user=tenant1@rentalhub.com listing=18): The following fields do not exist in this model, are m2m fields, primary keys, or are non-concrete fields: is_available
+[2025-10-27 20:31:24,369] INFO — log_views: Listing saved | id=9 title='Apartment in Munich' owner=landlord3@rentalhub.com status=available price_eur=403.00€
+[2025-10-27 20:31:24,372] INFO — log_views: Listing saved | id=25 title='Loft in Hamburg' owner=landlord2@rentalhub.com status=available price_eur=401.00€
+[2025-10-27 20:31:24,375] INFO — log_views: Listing saved | id=28 title='House in Cologne' owner=landlord4@rentalhub.com status=available price_eur=332.00€
+[2025-10-27 20:31:24,379] INFO — log_views: Listing saved | id=19 title='Apartment in Munich' owner=landlord5@rentalhub.com status=available price_eur=435.00€
+[2025-10-27 20:31:24,383] INFO — log_views: Listing saved | id=22 title='Villa in Hamburg' owner=landlord2@rentalhub.com status=available price_eur=494.00€
+[2025-10-27 20:31:24,386] INFO — log_views: Listing saved | id=21 title='House in Berlin' owner=landlord3@rentalhub.com status=available price_eur=289.00€
+[2025-10-27 20:31:24,391] INFO — log_views: Listing saved | id=17 title='House in Dresden' owner=landlord3@rentalhub.com status=available price_eur=202.00€
+[2025-10-27 20:31:24,394] INFO — log_views: Listing saved | id=13 title='Villa in Berlin' owner=landlord2@rentalhub.com status=available price_eur=336.00€
+[2025-10-27 20:31:24,398] INFO — log_views: Listing saved | id=15 title='Villa in Munich' owner=landlord4@rentalhub.com status=available price_eur=255.00€
+[2025-10-27 20:31:24,401] INFO — log_views: Listing saved | id=12 title='Apartment in Berlin' owner=landlord3@rentalhub.com status=available price_eur=491.00€
+[2025-10-27 20:31:24,404] INFO — log_views: Listing saved | id=7 title='Villa in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=51.00€
+[2025-10-27 20:31:24,408] INFO — log_views: Listing saved | id=17 title='House in Dresden' owner=landlord3@rentalhub.com status=available price_eur=202.00€
+[2025-10-27 20:31:24,411] INFO — log_views: Listing saved | id=10 title='Apartment in Munich' owner=landlord3@rentalhub.com status=available price_eur=291.00€
+[2025-10-27 20:31:24,416] INFO — log_views: Listing saved | id=13 title='Villa in Berlin' owner=landlord2@rentalhub.com status=available price_eur=336.00€
+[2025-10-27 20:31:24,419] INFO — log_views: Listing saved | id=15 title='Villa in Munich' owner=landlord4@rentalhub.com status=available price_eur=255.00€
+[2025-10-27 20:31:24,422] INFO — log_views: Listing saved | id=5 title='Apartment in Dresden' owner=landlord2@rentalhub.com status=available price_eur=57.00€
+[2025-10-27 20:31:24,425] INFO — log_views: Listing saved | id=4 title='House in Cologne' owner=landlord2@rentalhub.com status=available price_eur=384.00€
+[2025-10-27 20:31:24,429] INFO — log_views: Listing saved | id=29 title='Apartment in Dresden' owner=landlord1@rentalhub.com status=available price_eur=324.00€
+[2025-10-27 20:31:24,432] INFO — log_views: Listing saved | id=25 title='Loft in Hamburg' owner=landlord2@rentalhub.com status=available price_eur=401.00€
+[2025-10-27 20:31:24,435] INFO — log_views: Listing saved | id=11 title='House in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=481.00€
+[2025-10-27 20:31:24,438] INFO — log_views: Listing saved | id=6 title='Villa in Frankfurt' owner=landlord5@rentalhub.com status=available price_eur=387.00€
+[2025-10-27 20:31:24,442] INFO — log_views: Listing saved | id=2 title='Studio in Munich' owner=landlord1@rentalhub.com status=available price_eur=401.00€
+[2025-10-27 20:31:24,445] INFO — log_views: Listing saved | id=19 title='Apartment in Munich' owner=landlord5@rentalhub.com status=available price_eur=435.00€
+[2025-10-27 20:31:24,449] INFO — log_views: Listing saved | id=24 title='House in Cologne' owner=landlord1@rentalhub.com status=available price_eur=473.00€
+[2025-10-27 20:31:24,453] INFO — log_views: Listing saved | id=21 title='House in Berlin' owner=landlord3@rentalhub.com status=available price_eur=289.00€
+[2025-10-27 20:31:24,456] INFO — log_views: Listing saved | id=8 title='Villa in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=446.00€
+[2025-10-27 20:31:24,459] INFO — log_views: Listing saved | id=5 title='Apartment in Dresden' owner=landlord2@rentalhub.com status=available price_eur=57.00€
+[2025-10-27 20:31:24,462] INFO — log_views: Listing saved | id=18 title='Studio in Hamburg' owner=landlord1@rentalhub.com status=available price_eur=373.00€
+[2025-10-27 20:31:24,465] INFO — log_views: Listing saved | id=13 title='Villa in Berlin' owner=landlord2@rentalhub.com status=available price_eur=336.00€
+[2025-10-27 20:31:24,468] INFO — log_views: Listing saved | id=23 title='Villa in Cologne' owner=landlord5@rentalhub.com status=available price_eur=289.00€
+[2025-10-27 20:31:24,472] INFO — log_views: Listing saved | id=21 title='House in Berlin' owner=landlord3@rentalhub.com status=available price_eur=289.00€
+[2025-10-27 20:31:24,475] INFO — log_views: Listing saved | id=28 title='House in Cologne' owner=landlord4@rentalhub.com status=available price_eur=332.00€
+[2025-10-27 20:31:24,478] INFO — log_views: Listing saved | id=18 title='Studio in Hamburg' owner=landlord1@rentalhub.com status=available price_eur=373.00€
+[2025-10-27 20:31:24,482] INFO — log_views: Listing saved | id=20 title='Studio in Munich' owner=landlord1@rentalhub.com status=available price_eur=61.00€
+[2025-10-27 20:31:24,485] INFO — log_views: Listing saved | id=6 title='Villa in Frankfurt' owner=landlord5@rentalhub.com status=available price_eur=387.00€
+[2025-10-27 20:31:24,488] INFO — log_views: Listing saved | id=2 title='Studio in Munich' owner=landlord1@rentalhub.com status=available price_eur=401.00€
+[2025-10-27 20:31:24,492] INFO — log_views: Listing saved | id=3 title='Loft in Frankfurt' owner=landlord5@rentalhub.com status=available price_eur=122.00€
+[2025-10-27 20:31:24,495] INFO — log_views: Listing saved | id=9 title='Apartment in Munich' owner=landlord3@rentalhub.com status=available price_eur=403.00€
+[2025-10-27 20:31:24,499] INFO — log_views: Listing saved | id=1 title='Loft in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=392.00€
+[2025-10-27 20:31:24,502] INFO — log_views: Listing saved | id=6 title='Villa in Frankfurt' owner=landlord5@rentalhub.com status=available price_eur=387.00€
+[2025-10-27 20:31:24,506] INFO — log_views: Listing saved | id=11 title='House in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=481.00€
+[2025-10-27 20:31:24,509] INFO — log_views: Listing saved | id=29 title='Apartment in Dresden' owner=landlord1@rentalhub.com status=available price_eur=324.00€
+[2025-10-27 20:31:24,512] INFO — log_views: Listing saved | id=22 title='Villa in Hamburg' owner=landlord2@rentalhub.com status=available price_eur=494.00€
+[2025-10-27 20:31:24,516] INFO — log_views: Listing saved | id=16 title='House in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=412.00€
+[2025-10-27 20:31:24,519] INFO — log_views: Listing saved | id=18 title='Studio in Hamburg' owner=landlord1@rentalhub.com status=available price_eur=373.00€
+[2025-10-27 20:31:24,522] INFO — log_views: Listing saved | id=1 title='Loft in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=392.00€
+[2025-10-27 20:31:24,526] INFO — log_views: Listing saved | id=12 title='Apartment in Berlin' owner=landlord3@rentalhub.com status=available price_eur=491.00€
+[2025-10-27 20:31:24,529] INFO — log_views: Listing saved | id=18 title='Studio in Hamburg' owner=landlord1@rentalhub.com status=available price_eur=373.00€
+[2025-10-27 20:31:24,533] INFO — log_views: Listing saved | id=2 title='Studio in Munich' owner=landlord1@rentalhub.com status=available price_eur=401.00€
+[2025-10-27 20:31:24,537] INFO — log_views: Listing saved | id=22 title='Villa in Hamburg' owner=landlord2@rentalhub.com status=available price_eur=494.00€
+[2025-10-27 20:31:24,561] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=12 ip=N/A
+[2025-10-27 20:31:24,565] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=26 ip=N/A
+[2025-10-27 20:31:24,569] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=25 ip=N/A
+[2025-10-27 20:31:24,573] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=18 ip=N/A
+[2025-10-27 20:31:24,578] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=13 ip=N/A
+[2025-10-27 20:31:24,582] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=12 ip=N/A
+[2025-10-27 20:31:24,586] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=3 ip=N/A
+[2025-10-27 20:31:24,590] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=10 ip=N/A
+[2025-10-27 20:31:24,594] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=22 ip=N/A
+[2025-10-27 20:31:24,598] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=2 ip=N/A
+[2025-10-27 20:31:24,603] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=23 ip=N/A
+[2025-10-27 20:31:24,616] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=26 ip=N/A
+[2025-10-27 20:31:24,620] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=27 ip=N/A
+[2025-10-27 20:31:24,624] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=7 ip=N/A
+[2025-10-27 20:31:24,627] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=3 ip=N/A
+[2025-10-27 20:31:24,632] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=10 ip=N/A
+[2025-10-27 20:31:24,636] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=15 ip=N/A
+[2025-10-27 20:31:24,640] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=1 ip=N/A
+[2025-10-27 20:31:24,644] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=25 ip=N/A
+[2025-10-27 20:31:24,649] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=19 ip=N/A
+[2025-10-27 20:31:24,655] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=10 ip=N/A
+[2025-10-27 20:31:24,661] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=5 ip=N/A
+[2025-10-27 20:31:24,669] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=21 ip=N/A
+[2025-10-27 20:31:24,676] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=26 ip=N/A
+[2025-10-27 20:31:24,684] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=24 ip=N/A
+[2025-10-27 20:31:24,690] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=30 ip=N/A
+[2025-10-27 20:31:24,695] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=14 ip=N/A
+[2025-10-27 20:31:24,703] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=12 ip=N/A
+[2025-10-27 20:31:24,707] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=22 ip=N/A
+[2025-10-27 20:31:24,715] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=5 ip=N/A
+[2025-10-27 20:31:24,721] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=15 ip=N/A
+[2025-10-27 20:31:24,727] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=12 ip=N/A
+[2025-10-27 20:31:24,735] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=7 ip=N/A
+[2025-10-27 20:31:24,744] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=28 ip=N/A
+[2025-10-27 20:31:24,752] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=10 ip=N/A
+[2025-10-27 20:31:24,757] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=6 ip=N/A
+[2025-10-27 20:31:24,764] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=15 ip=N/A
+[2025-10-27 20:31:24,771] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=19 ip=N/A
+[2025-10-27 20:31:24,778] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=18 ip=N/A
+[2025-10-27 20:31:24,786] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=4 ip=N/A
+[2025-10-27 20:31:24,793] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=20 ip=N/A
+[2025-10-27 20:31:24,798] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=18 ip=N/A
+[2025-10-27 20:31:24,807] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=22 ip=N/A
+[2025-10-27 20:31:24,813] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=13 ip=N/A
+[2025-10-27 20:31:24,824] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=11 ip=N/A
+[2025-10-27 20:31:24,833] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=17 ip=N/A
+[2025-10-27 20:31:24,842] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=7 ip=N/A
+[2025-10-27 20:31:24,847] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=18 ip=N/A
+[2025-10-27 20:31:24,858] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=2 ip=N/A
+[2025-10-27 20:31:24,865] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=5 ip=N/A
+[2025-10-27 23:38:25,871] INFO — log_views: Listing saved | id=1 title='Apartment in Dresden' owner=landlord5@rentalhub.com status=available price_eur=188.00€
+[2025-10-27 23:38:25,876] INFO — log_views: Listing saved | id=1 title='Apartment in Dresden' owner=landlord5@rentalhub.com status=available price_eur=188.00€
+[2025-10-27 23:38:25,879] INFO — log_views: Listing saved | id=2 title='Loft in Berlin' owner=landlord5@rentalhub.com status=available price_eur=285.00€
+[2025-10-27 23:38:25,884] INFO — log_views: Listing saved | id=2 title='Loft in Berlin' owner=landlord5@rentalhub.com status=available price_eur=285.00€
+[2025-10-27 23:38:25,887] INFO — log_views: Listing saved | id=3 title='Villa in Dresden' owner=landlord3@rentalhub.com status=available price_eur=282.00€
+[2025-10-27 23:38:25,893] INFO — log_views: Listing saved | id=3 title='Villa in Dresden' owner=landlord3@rentalhub.com status=available price_eur=282.00€
+[2025-10-27 23:38:25,896] INFO — log_views: Listing saved | id=4 title='House in Munich' owner=landlord3@rentalhub.com status=available price_eur=59.00€
+[2025-10-27 23:38:25,901] INFO — log_views: Listing saved | id=4 title='House in Munich' owner=landlord3@rentalhub.com status=available price_eur=59.00€
+[2025-10-27 23:38:25,904] INFO — log_views: Listing saved | id=5 title='Studio in Dresden' owner=landlord5@rentalhub.com status=available price_eur=361.00€
+[2025-10-27 23:38:25,910] INFO — log_views: Listing saved | id=5 title='Studio in Dresden' owner=landlord5@rentalhub.com status=available price_eur=361.00€
+[2025-10-27 23:38:25,912] INFO — log_views: Listing saved | id=6 title='Villa in Hamburg' owner=landlord1@rentalhub.com status=available price_eur=275.00€
+[2025-10-27 23:38:25,917] INFO — log_views: Listing saved | id=6 title='Villa in Hamburg' owner=landlord1@rentalhub.com status=available price_eur=275.00€
+[2025-10-27 23:38:25,919] INFO — log_views: Listing saved | id=7 title='Villa in Cologne' owner=landlord1@rentalhub.com status=available price_eur=64.00€
+[2025-10-27 23:38:25,923] INFO — log_views: Listing saved | id=7 title='Villa in Cologne' owner=landlord1@rentalhub.com status=available price_eur=64.00€
+[2025-10-27 23:38:25,927] INFO — log_views: Listing saved | id=8 title='Studio in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=128.00€
+[2025-10-27 23:38:25,930] INFO — log_views: Listing saved | id=8 title='Studio in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=128.00€
+[2025-10-27 23:38:25,934] INFO — log_views: Listing saved | id=9 title='House in Dresden' owner=landlord4@rentalhub.com status=available price_eur=365.00€
+[2025-10-27 23:38:25,938] INFO — log_views: Listing saved | id=9 title='House in Dresden' owner=landlord4@rentalhub.com status=available price_eur=365.00€
+[2025-10-27 23:38:25,941] INFO — log_views: Listing saved | id=10 title='Loft in Cologne' owner=landlord4@rentalhub.com status=available price_eur=451.00€
+[2025-10-27 23:38:25,954] INFO — log_views: Listing saved | id=10 title='Loft in Cologne' owner=landlord4@rentalhub.com status=available price_eur=451.00€
+[2025-10-27 23:38:25,958] INFO — log_views: Listing saved | id=11 title='Villa in Cologne' owner=landlord4@rentalhub.com status=available price_eur=159.00€
+[2025-10-27 23:38:25,964] INFO — log_views: Listing saved | id=11 title='Villa in Cologne' owner=landlord4@rentalhub.com status=available price_eur=159.00€
+[2025-10-27 23:38:25,966] INFO — log_views: Listing saved | id=12 title='House in Munich' owner=landlord4@rentalhub.com status=available price_eur=190.00€
+[2025-10-27 23:38:25,970] INFO — log_views: Listing saved | id=12 title='House in Munich' owner=landlord4@rentalhub.com status=available price_eur=190.00€
+[2025-10-27 23:38:25,973] INFO — log_views: Listing saved | id=13 title='Studio in Dresden' owner=landlord5@rentalhub.com status=available price_eur=469.00€
+[2025-10-27 23:38:25,978] INFO — log_views: Listing saved | id=13 title='Studio in Dresden' owner=landlord5@rentalhub.com status=available price_eur=469.00€
+[2025-10-27 23:38:25,981] INFO — log_views: Listing saved | id=14 title='House in Munich' owner=landlord4@rentalhub.com status=available price_eur=445.00€
+[2025-10-27 23:38:25,986] INFO — log_views: Listing saved | id=14 title='House in Munich' owner=landlord4@rentalhub.com status=available price_eur=445.00€
+[2025-10-27 23:38:25,989] INFO — log_views: Listing saved | id=15 title='Villa in Cologne' owner=landlord5@rentalhub.com status=available price_eur=371.00€
+[2025-10-27 23:38:25,995] INFO — log_views: Listing saved | id=15 title='Villa in Cologne' owner=landlord5@rentalhub.com status=available price_eur=371.00€
+[2025-10-27 23:38:25,998] INFO — log_views: Listing saved | id=16 title='Loft in Hamburg' owner=landlord3@rentalhub.com status=available price_eur=396.00€
+[2025-10-27 23:38:26,003] INFO — log_views: Listing saved | id=16 title='Loft in Hamburg' owner=landlord3@rentalhub.com status=available price_eur=396.00€
+[2025-10-27 23:38:26,006] INFO — log_views: Listing saved | id=17 title='Loft in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=291.00€
+[2025-10-27 23:38:26,012] INFO — log_views: Listing saved | id=17 title='Loft in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=291.00€
+[2025-10-27 23:38:26,015] INFO — log_views: Listing saved | id=18 title='House in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=114.00€
+[2025-10-27 23:38:26,019] INFO — log_views: Listing saved | id=18 title='House in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=114.00€
+[2025-10-27 23:38:26,022] INFO — log_views: Listing saved | id=19 title='Villa in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=379.00€
+[2025-10-27 23:38:26,026] INFO — log_views: Listing saved | id=19 title='Villa in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=379.00€
+[2025-10-27 23:38:26,029] INFO — log_views: Listing saved | id=20 title='House in Cologne' owner=landlord4@rentalhub.com status=available price_eur=272.00€
+[2025-10-27 23:38:26,033] INFO — log_views: Listing saved | id=20 title='House in Cologne' owner=landlord4@rentalhub.com status=available price_eur=272.00€
+[2025-10-27 23:38:26,037] INFO — log_views: Listing saved | id=21 title='House in Hamburg' owner=landlord3@rentalhub.com status=available price_eur=126.00€
+[2025-10-27 23:38:26,041] INFO — log_views: Listing saved | id=21 title='House in Hamburg' owner=landlord3@rentalhub.com status=available price_eur=126.00€
+[2025-10-27 23:38:26,044] INFO — log_views: Listing saved | id=22 title='Loft in Munich' owner=landlord5@rentalhub.com status=available price_eur=74.00€
+[2025-10-27 23:38:26,048] INFO — log_views: Listing saved | id=22 title='Loft in Munich' owner=landlord5@rentalhub.com status=available price_eur=74.00€
+[2025-10-27 23:38:26,050] INFO — log_views: Listing saved | id=23 title='Villa in Dresden' owner=landlord4@rentalhub.com status=available price_eur=429.00€
+[2025-10-27 23:38:26,056] INFO — log_views: Listing saved | id=23 title='Villa in Dresden' owner=landlord4@rentalhub.com status=available price_eur=429.00€
+[2025-10-27 23:38:26,059] INFO — log_views: Listing saved | id=24 title='Villa in Cologne' owner=landlord2@rentalhub.com status=available price_eur=418.00€
+[2025-10-27 23:38:26,064] INFO — log_views: Listing saved | id=24 title='Villa in Cologne' owner=landlord2@rentalhub.com status=available price_eur=418.00€
+[2025-10-27 23:38:26,067] INFO — log_views: Listing saved | id=25 title='Studio in Dresden' owner=landlord4@rentalhub.com status=available price_eur=425.00€
+[2025-10-27 23:38:26,073] INFO — log_views: Listing saved | id=25 title='Studio in Dresden' owner=landlord4@rentalhub.com status=available price_eur=425.00€
+[2025-10-27 23:38:26,076] INFO — log_views: Listing saved | id=26 title='Villa in Munich' owner=landlord3@rentalhub.com status=available price_eur=100.00€
+[2025-10-27 23:38:26,081] INFO — log_views: Listing saved | id=26 title='Villa in Munich' owner=landlord3@rentalhub.com status=available price_eur=100.00€
+[2025-10-27 23:38:26,084] INFO — log_views: Listing saved | id=27 title='Apartment in Berlin' owner=landlord2@rentalhub.com status=available price_eur=56.00€
+[2025-10-27 23:38:26,089] INFO — log_views: Listing saved | id=27 title='Apartment in Berlin' owner=landlord2@rentalhub.com status=available price_eur=56.00€
+[2025-10-27 23:38:26,091] INFO — log_views: Listing saved | id=28 title='Loft in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=309.00€
+[2025-10-27 23:38:26,095] INFO — log_views: Listing saved | id=28 title='Loft in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=309.00€
+[2025-10-27 23:38:26,098] INFO — log_views: Listing saved | id=29 title='Villa in Berlin' owner=landlord2@rentalhub.com status=available price_eur=495.00€
+[2025-10-27 23:38:26,102] INFO — log_views: Listing saved | id=29 title='Villa in Berlin' owner=landlord2@rentalhub.com status=available price_eur=495.00€
+[2025-10-27 23:38:26,106] INFO — log_views: Listing saved | id=30 title='Loft in Berlin' owner=landlord5@rentalhub.com status=available price_eur=485.00€
+[2025-10-27 23:38:26,111] INFO — log_views: Listing saved | id=30 title='Loft in Berlin' owner=landlord5@rentalhub.com status=available price_eur=485.00€
+[2025-10-27 23:38:26,116] ERROR — log_views: Error saving listing 'Loft in Frankfurt' (owner=landlord2@rentalhub.com): The following fields do not exist in this model, are m2m fields, primary keys, or are non-concrete fields: is_available
+[2025-10-27 23:38:26,117] ERROR — log_views: Error saving booking (user=tenant1@rentalhub.com listing=28): The following fields do not exist in this model, are m2m fields, primary keys, or are non-concrete fields: is_available
+[2025-10-27 23:38:26,123] INFO — log_views: Listing saved | id=2 title='Loft in Berlin' owner=landlord5@rentalhub.com status=available price_eur=285.00€
+[2025-10-27 23:38:26,128] INFO — log_views: Listing saved | id=6 title='Villa in Hamburg' owner=landlord1@rentalhub.com status=available price_eur=275.00€
+[2025-10-27 23:38:26,133] INFO — log_views: Listing saved | id=22 title='Loft in Munich' owner=landlord5@rentalhub.com status=available price_eur=74.00€
+[2025-10-27 23:38:26,137] INFO — log_views: Listing saved | id=14 title='House in Munich' owner=landlord4@rentalhub.com status=available price_eur=445.00€
+[2025-10-27 23:38:26,141] INFO — log_views: Listing saved | id=10 title='Loft in Cologne' owner=landlord4@rentalhub.com status=available price_eur=451.00€
+[2025-10-27 23:38:26,145] INFO — log_views: Listing saved | id=15 title='Villa in Cologne' owner=landlord5@rentalhub.com status=available price_eur=371.00€
+[2025-10-27 23:38:26,150] INFO — log_views: Listing saved | id=18 title='House in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=114.00€
+[2025-10-27 23:38:26,155] INFO — log_views: Listing saved | id=5 title='Studio in Dresden' owner=landlord5@rentalhub.com status=available price_eur=361.00€
+[2025-10-27 23:38:26,159] INFO — log_views: Listing saved | id=24 title='Villa in Cologne' owner=landlord2@rentalhub.com status=available price_eur=418.00€
+[2025-10-27 23:38:26,163] INFO — log_views: Listing saved | id=20 title='House in Cologne' owner=landlord4@rentalhub.com status=available price_eur=272.00€
+[2025-10-27 23:38:26,167] INFO — log_views: Listing saved | id=8 title='Studio in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=128.00€
+[2025-10-27 23:38:26,171] INFO — log_views: Listing saved | id=25 title='Studio in Dresden' owner=landlord4@rentalhub.com status=available price_eur=425.00€
+[2025-10-27 23:38:26,174] INFO — log_views: Listing saved | id=16 title='Loft in Hamburg' owner=landlord3@rentalhub.com status=available price_eur=396.00€
+[2025-10-27 23:38:26,178] INFO — log_views: Listing saved | id=28 title='Loft in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=309.00€
+[2025-10-27 23:38:26,183] INFO — log_views: Listing saved | id=9 title='House in Dresden' owner=landlord4@rentalhub.com status=available price_eur=365.00€
+[2025-10-27 23:38:26,186] INFO — log_views: Listing saved | id=23 title='Villa in Dresden' owner=landlord4@rentalhub.com status=available price_eur=429.00€
+[2025-10-27 23:38:26,190] INFO — log_views: Listing saved | id=8 title='Studio in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=128.00€
+[2025-10-27 23:38:26,193] INFO — log_views: Listing saved | id=2 title='Loft in Berlin' owner=landlord5@rentalhub.com status=available price_eur=285.00€
+[2025-10-27 23:38:26,198] INFO — log_views: Listing saved | id=20 title='House in Cologne' owner=landlord4@rentalhub.com status=available price_eur=272.00€
+[2025-10-27 23:38:26,202] INFO — log_views: Listing saved | id=15 title='Villa in Cologne' owner=landlord5@rentalhub.com status=available price_eur=371.00€
+[2025-10-27 23:38:26,206] INFO — log_views: Listing saved | id=24 title='Villa in Cologne' owner=landlord2@rentalhub.com status=available price_eur=418.00€
+[2025-10-27 23:38:26,209] INFO — log_views: Listing saved | id=29 title='Villa in Berlin' owner=landlord2@rentalhub.com status=available price_eur=495.00€
+[2025-10-27 23:38:26,214] INFO — log_views: Listing saved | id=16 title='Loft in Hamburg' owner=landlord3@rentalhub.com status=available price_eur=396.00€
+[2025-10-27 23:38:26,218] INFO — log_views: Listing saved | id=10 title='Loft in Cologne' owner=landlord4@rentalhub.com status=available price_eur=451.00€
+[2025-10-27 23:38:26,221] INFO — log_views: Listing saved | id=26 title='Villa in Munich' owner=landlord3@rentalhub.com status=available price_eur=100.00€
+[2025-10-27 23:38:26,226] INFO — log_views: Listing saved | id=6 title='Villa in Hamburg' owner=landlord1@rentalhub.com status=available price_eur=275.00€
+[2025-10-27 23:38:26,230] INFO — log_views: Listing saved | id=8 title='Studio in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=128.00€
+[2025-10-27 23:38:26,234] INFO — log_views: Listing saved | id=17 title='Loft in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=291.00€
+[2025-10-27 23:38:26,237] INFO — log_views: Listing saved | id=9 title='House in Dresden' owner=landlord4@rentalhub.com status=available price_eur=365.00€
+[2025-10-27 23:38:26,240] INFO — log_views: Listing saved | id=19 title='Villa in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=379.00€
+[2025-10-27 23:38:26,244] INFO — log_views: Listing saved | id=11 title='Villa in Cologne' owner=landlord4@rentalhub.com status=available price_eur=159.00€
+[2025-10-27 23:38:26,247] INFO — log_views: Listing saved | id=26 title='Villa in Munich' owner=landlord3@rentalhub.com status=available price_eur=100.00€
+[2025-10-27 23:38:26,251] INFO — log_views: Listing saved | id=1 title='Apartment in Dresden' owner=landlord5@rentalhub.com status=available price_eur=188.00€
+[2025-10-27 23:38:26,254] INFO — log_views: Listing saved | id=16 title='Loft in Hamburg' owner=landlord3@rentalhub.com status=available price_eur=396.00€
+[2025-10-27 23:38:26,257] INFO — log_views: Listing saved | id=12 title='House in Munich' owner=landlord4@rentalhub.com status=available price_eur=190.00€
+[2025-10-27 23:38:26,262] INFO — log_views: Listing saved | id=10 title='Loft in Cologne' owner=landlord4@rentalhub.com status=available price_eur=451.00€
+[2025-10-27 23:38:26,266] INFO — log_views: Listing saved | id=16 title='Loft in Hamburg' owner=landlord3@rentalhub.com status=available price_eur=396.00€
+[2025-10-27 23:38:26,270] INFO — log_views: Listing saved | id=7 title='Villa in Cologne' owner=landlord1@rentalhub.com status=available price_eur=64.00€
+[2025-10-27 23:38:26,273] INFO — log_views: Listing saved | id=26 title='Villa in Munich' owner=landlord3@rentalhub.com status=available price_eur=100.00€
+[2025-10-27 23:38:26,278] INFO — log_views: Listing saved | id=9 title='House in Dresden' owner=landlord4@rentalhub.com status=available price_eur=365.00€
+[2025-10-27 23:38:26,282] INFO — log_views: Listing saved | id=9 title='House in Dresden' owner=landlord4@rentalhub.com status=available price_eur=365.00€
+[2025-10-27 23:38:26,285] INFO — log_views: Listing saved | id=3 title='Villa in Dresden' owner=landlord3@rentalhub.com status=available price_eur=282.00€
+[2025-10-27 23:38:26,289] INFO — log_views: Listing saved | id=8 title='Studio in Hamburg' owner=landlord5@rentalhub.com status=available price_eur=128.00€
+[2025-10-27 23:38:26,293] INFO — log_views: Listing saved | id=21 title='House in Hamburg' owner=landlord3@rentalhub.com status=available price_eur=126.00€
+[2025-10-27 23:38:26,296] INFO — log_views: Listing saved | id=29 title='Villa in Berlin' owner=landlord2@rentalhub.com status=available price_eur=495.00€
+[2025-10-27 23:38:26,300] INFO — log_views: Listing saved | id=14 title='House in Munich' owner=landlord4@rentalhub.com status=available price_eur=445.00€
+[2025-10-27 23:38:26,303] INFO — log_views: Listing saved | id=13 title='Studio in Dresden' owner=landlord5@rentalhub.com status=available price_eur=469.00€
+[2025-10-27 23:38:26,307] INFO — log_views: Listing saved | id=4 title='House in Munich' owner=landlord3@rentalhub.com status=available price_eur=59.00€
+[2025-10-27 23:38:26,311] INFO — log_views: Listing saved | id=7 title='Villa in Cologne' owner=landlord1@rentalhub.com status=available price_eur=64.00€
+[2025-10-27 23:38:26,314] INFO — log_views: Listing saved | id=24 title='Villa in Cologne' owner=landlord2@rentalhub.com status=available price_eur=418.00€
+[2025-10-27 23:38:26,341] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=24 ip=N/A
+[2025-10-27 23:38:26,345] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=25 ip=N/A
+[2025-10-27 23:38:26,350] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=7 ip=N/A
+[2025-10-27 23:38:26,356] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=2 ip=N/A
+[2025-10-27 23:38:26,361] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=22 ip=N/A
+[2025-10-27 23:38:26,365] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=20 ip=N/A
+[2025-10-27 23:38:26,371] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=25 ip=N/A
+[2025-10-27 23:38:26,376] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=14 ip=N/A
+[2025-10-27 23:38:26,382] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=6 ip=N/A
+[2025-10-27 23:38:26,387] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=17 ip=N/A
+[2025-10-27 23:38:26,393] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=19 ip=N/A
+[2025-10-27 23:38:26,397] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=2 ip=N/A
+[2025-10-27 23:38:26,403] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=26 ip=N/A
+[2025-10-27 23:38:26,409] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=17 ip=N/A
+[2025-10-27 23:38:26,414] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=14 ip=N/A
+[2025-10-27 23:38:26,420] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=5 ip=N/A
+[2025-10-27 23:38:26,426] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=20 ip=N/A
+[2025-10-27 23:38:26,431] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=21 ip=N/A
+[2025-10-27 23:38:26,436] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=4 ip=N/A
+[2025-10-27 23:38:26,441] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=6 ip=N/A
+[2025-10-27 23:38:26,445] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=23 ip=N/A
+[2025-10-27 23:38:26,452] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=1 ip=N/A
+[2025-10-27 23:38:26,457] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=8 ip=N/A
+[2025-10-27 23:38:26,462] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=24 ip=N/A
+[2025-10-27 23:38:26,466] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=15 ip=N/A
+[2025-10-27 23:38:26,472] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=29 ip=N/A
+[2025-10-27 23:38:26,477] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=3 ip=N/A
+[2025-10-27 23:38:26,482] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=13 ip=N/A
+[2025-10-27 23:38:26,489] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=24 ip=N/A
+[2025-10-27 23:38:26,495] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=28 ip=N/A
+[2025-10-27 23:38:26,501] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=21 ip=N/A
+[2025-10-27 23:38:26,505] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=5 ip=N/A
+[2025-10-27 23:38:26,509] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=6 ip=N/A
+[2025-10-27 23:38:26,513] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=2 ip=N/A
+[2025-10-27 23:38:26,517] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=13 ip=N/A
+[2025-10-27 23:38:26,522] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=30 ip=N/A
+[2025-10-27 23:38:26,527] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=23 ip=N/A
+[2025-10-27 23:38:26,532] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=28 ip=N/A
+[2025-10-27 23:38:26,537] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=6 ip=N/A
+[2025-10-27 23:38:26,540] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=8 ip=N/A
+[2025-10-27 23:38:26,545] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=10 ip=N/A
+[2025-10-27 23:38:26,549] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=21 ip=N/A
+[2025-10-27 23:38:26,553] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=6 ip=N/A
+[2025-10-27 23:38:26,557] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=11 ip=N/A
+[2025-10-27 23:38:26,562] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=29 ip=N/A
+[2025-10-27 23:38:26,566] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=24 ip=N/A
+[2025-10-27 23:38:26,570] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=15 ip=N/A
+[2025-10-27 23:38:26,574] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=2 ip=N/A
+[2025-10-27 23:38:26,578] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=18 ip=N/A
+[2025-10-27 23:38:26,583] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=4 ip=N/A
+[2025-10-27 23:41:50,637] INFO — log_views: View logged: user=admin@rentalhub.com listing_id=2 ip=127.0.0.1
+[2025-10-27 23:41:50,637] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=2
+[2025-10-27 23:42:08,907] INFO — log_views: Skipped duplicate view log: user=admin@rentalhub.com listing=Loft in Berlin
+[2025-10-27 23:42:08,907] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=2
+[2025-10-27 23:42:08,929] ERROR — log_views: Error saving listing 'Loft in Berlin' (owner=landlord5@rentalhub.com): The following fields do not exist in this model, are m2m fields, primary keys, or are non-concrete fields: is_available
+[2025-10-27 23:42:08,929] ERROR — log_views: Error saving booking (user=admin@rentalhub.com listing=2): The following fields do not exist in this model, are m2m fields, primary keys, or are non-concrete fields: is_available
+[2025-10-28 00:16:18,248] INFO — log_views: View logged: user=admin@rentalhub.com listing_id=8 ip=127.0.0.1
+[2025-10-28 00:16:18,249] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=8
+[2025-10-28 00:16:28,756] INFO — log_views: Skipped duplicate view log: user=admin@rentalhub.com listing=Studio in Hamburg
+[2025-10-28 00:16:28,756] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=8
+[2025-10-28 00:16:28,781] ERROR — log_views: Error saving booking (user=admin@rentalhub.com listing=8): type object 'AvailabilityStatus' has no attribute 'RESERVED'
+[2025-10-28 00:29:19,616] INFO — log_views: View logged: user=admin@rentalhub.com listing_id=8 ip=127.0.0.1
+[2025-10-28 00:29:19,616] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=8
+[2025-10-28 00:29:19,644] INFO — log_views: Listing saved | id=8 title='Studio in Hamburg' owner=landlord5@rentalhub.com status=reserved price_eur=128.00€
+[2025-10-28 00:29:20,329] INFO — log_views: Reservation saved | id=4 user=admin@rentalhub.com listing=8 status=pending total=256.00
+[2025-10-28 00:29:35,957] INFO — log_views: Skipped duplicate view log: user=admin@rentalhub.com listing=Studio in Hamburg
+[2025-10-28 00:29:35,958] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=8
+[2025-10-28 00:29:35,974] INFO — log_views: Listing saved | id=8 title='Studio in Hamburg' owner=landlord5@rentalhub.com status=reserved price_eur=128.00€
+[2025-10-28 00:29:36,028] INFO — log_views: Reservation saved | id=5 user=admin@rentalhub.com listing=8 status=pending total=256.00
