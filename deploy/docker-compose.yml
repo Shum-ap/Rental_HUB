@@ -14,6 +14,11 @@ services:
     volumes:
       - mysql_data:/var/lib/mysql
     command: --default-authentication-plugin=mysql_native_password
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "user", "-p$${MYSQL_PASSWORD}"]
+      timeout: 20s
+      retries: 10
+      start_period: 30s
 
   redis:
     image: redis:alpine
@@ -28,8 +33,10 @@ services:
     env_file:
       - ../backend/${ENV_FILE:-.env.dev}
     depends_on:
-      - db
-      - redis
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_started
     volumes:
       - ../backend:/app
     ports:
@@ -48,9 +55,13 @@ services:
     env_file:
       - ../backend/${ENV_FILE:-.env.dev}
     depends_on:
-      - redis
-      - backend
-    command: celery -A myproject worker -l info
+      redis:
+        condition: service_started
+      backend:
+        condition: service_started
+    volumes:
+      - ../backend:/app
+    command: celery -A myproject worker --loglevel=info
 
   nginx:
     image: nginx:alpine

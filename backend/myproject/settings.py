@@ -191,19 +191,19 @@ else:
     CACHES = {
         'default': {
             'BACKEND': 'django.core.cache.backends.redis.RedisCache',
-            'LOCATION': config('REDIS_URL', default='redis://localhost:6379/1'),
+            'LOCATION': config('REDIS_URL', default='redis://redis:6379/1')
         }
     }
 
 # === Celery ===
-CELERY_BROKER_URL = 'sqla+sqlite:///celerydb.sqlite'
-CELERY_RESULT_BACKEND = 'db+sqlite:///celerydb.sqlite'
+CELERY_BROKER_URL = config('CELERY_BROKER_URL', default='redis://redis:6379/0')
+CELERY_RESULT_BACKEND = config('CELERY_RESULT_BACKEND', default='redis://redis:6379/0')
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
 CELERY_TIMEZONE = 'UTC'
 if DEBUG:
-    CELERY_TASK_ALWAYS_EAGER = True
+    CELERY_TASK_ALWAYS_EAGER = config('CELERY_TASK_ALWAYS_EAGER', default=True, cast=bool)
 
 # === Email ===
 EMAIL_BACKEND = 'djcelery_email.backends.CeleryEmailBackend'
