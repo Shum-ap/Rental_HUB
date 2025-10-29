@@ -4672,3 +4672,23 @@
 [2025-10-29 13:13:54,667] INFO — django.server: "GET /api/schema/ HTTP/1.1" 200 199432
 [2025-10-29 13:16:44,738] WARNING — django.server: "GET /api/v1/feedbacks/ HTTP/1.1" 401 172
 [2025-10-29 13:16:44,738] WARNING — django.server: "GET /api/v1/feedbacks/ HTTP/1.1" 401 172
+[2025-10-29 16:57:26,920] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 16:57:26,920] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 16:57:36,445] INFO — django.server: "GET / HTTP/1.1" 302 0
+[2025-10-29 16:57:36,445] INFO — django.server: "GET / HTTP/1.1" 302 0
+[2025-10-29 16:57:36,531] INFO — django.server: "GET /en/ HTTP/1.1" 200 8761
+[2025-10-29 16:57:36,531] INFO — django.server: "GET /en/ HTTP/1.1" 200 8761
+[2025-10-29 16:57:36,735] INFO — django.server: "GET /media/properties/property_59_yvYdaMb.jpg HTTP/1.1" 304 0
+[2025-10-29 16:57:36,735] INFO — django.server: "GET /media/properties/property_59_yvYdaMb.jpg HTTP/1.1" 304 0
+[2025-10-29 16:57:36,746] INFO — django.server: "GET /media/properties/property_24_TYqoW89_4leRtLA.jpg HTTP/1.1" 304 0
+[2025-10-29 16:57:36,747] INFO — django.server: "GET /media/properties/property_95_UIHHrx8.jpg HTTP/1.1" 304 0
+[2025-10-29 16:57:36,746] INFO — django.server: "GET /media/properties/property_24_TYqoW89_4leRtLA.jpg HTTP/1.1" 304 0
+[2025-10-29 16:57:36,747] INFO — django.server: "GET /media/properties/property_95_UIHHrx8.jpg HTTP/1.1" 304 0
+[2025-10-29 16:57:36,748] INFO — django.server: "GET /media/properties/property_93_0kPDvQO.jpg HTTP/1.1" 304 0
+[2025-10-29 16:57:36,748] INFO — django.server: "GET /media/properties/property_93_0kPDvQO.jpg HTTP/1.1" 304 0
+[2025-10-29 16:57:36,752] INFO — django.server: "GET /media/properties/property_55_6es0d0o_7CLq0hD.jpg HTTP/1.1" 304 0
+[2025-10-29 16:57:36,752] INFO — django.server: "GET /media/properties/property_55_6es0d0o_7CLq0hD.jpg HTTP/1.1" 304 0
+[2025-10-29 16:57:36,757] INFO — django.server: "GET /media/properties/property_11_typQ4ZE.jpg HTTP/1.1" 304 0
+[2025-10-29 16:57:36,757] INFO — django.server: "GET /media/properties/property_11_typQ4ZE.jpg HTTP/1.1" 304 0
+[2025-10-29 19:24:20,523] WARNING — django.security.SuspiciousSession: Session data corrupted
+[2025-10-29 19:24:20,523] WARNING — django.security.SuspiciousSession: Session data corrupted
