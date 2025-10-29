@@ -1351,3 +1351,533 @@
 [2025-10-28 00:29:35,958] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=8
 [2025-10-28 00:29:35,974] INFO — log_views: Listing saved | id=8 title='Studio in Hamburg' owner=landlord5@rentalhub.com status=reserved price_eur=128.00€
 [2025-10-28 00:29:36,028] INFO — log_views: Reservation saved | id=5 user=admin@rentalhub.com listing=8 status=pending total=256.00
+[2025-10-28 09:04:11,548] INFO — log_views: View logged: user=admin@rentalhub.com listing_id=24 ip=127.0.0.1
+[2025-10-28 09:04:11,549] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=24
+[2025-10-28 09:07:09,194] INFO — log_views: Skipped duplicate view log: user=admin@rentalhub.com listing=Villa in Cologne
+[2025-10-28 09:07:09,194] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=24
+[2025-10-28 09:07:09,203] INFO — log_views: Listing saved | id=24 title='Villa in Cologne' owner=landlord2@rentalhub.com status=available price_eur=418.00€
+[2025-10-28 09:07:09,227] INFO — log_views: Skipped duplicate view log: user=admin@rentalhub.com listing=Villa in Cologne
+[2025-10-28 09:07:09,227] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=24
+[2025-10-28 20:16:24,683] INFO — log_views: Listing saved | id=1 title='Apartment in Cologne' owner=landlord2@rentalhub.com status=available price_eur=262.00€
+[2025-10-28 20:16:24,689] INFO — log_views: Listing saved | id=1 title='Apartment in Cologne' owner=landlord2@rentalhub.com status=available price_eur=262.00€
+[2025-10-28 20:16:24,692] INFO — log_views: Listing saved | id=2 title='Villa in Munich' owner=landlord4@rentalhub.com status=available price_eur=283.00€
+[2025-10-28 20:16:24,698] INFO — log_views: Listing saved | id=2 title='Villa in Munich' owner=landlord4@rentalhub.com status=available price_eur=283.00€
+[2025-10-28 20:16:24,699] INFO — log_views: Listing saved | id=3 title='Studio in Hamburg' owner=landlord3@rentalhub.com status=available price_eur=353.00€
+[2025-10-28 20:16:24,704] INFO — log_views: Listing saved | id=3 title='Studio in Hamburg' owner=landlord3@rentalhub.com status=available price_eur=353.00€
+[2025-10-28 20:16:24,706] INFO — log_views: Listing saved | id=4 title='Villa in Munich' owner=landlord4@rentalhub.com status=available price_eur=373.00€
+[2025-10-28 20:16:24,721] INFO — log_views: Listing saved | id=4 title='Villa in Munich' owner=landlord4@rentalhub.com status=available price_eur=373.00€
+[2025-10-28 20:16:24,728] INFO — log_views: Listing saved | id=5 title='Apartment in Dresden' owner=landlord2@rentalhub.com status=available price_eur=320.00€
+[2025-10-28 20:16:24,735] INFO — log_views: Listing saved | id=5 title='Apartment in Dresden' owner=landlord2@rentalhub.com status=available price_eur=320.00€
+[2025-10-28 20:16:24,737] INFO — log_views: Listing saved | id=6 title='Apartment in Munich' owner=landlord1@rentalhub.com status=available price_eur=218.00€
+[2025-10-28 20:16:24,742] INFO — log_views: Listing saved | id=6 title='Apartment in Munich' owner=landlord1@rentalhub.com status=available price_eur=218.00€
+[2025-10-28 20:16:24,755] INFO — log_views: Listing saved | id=7 title='Villa in Frankfurt' owner=landlord3@rentalhub.com status=available price_eur=93.00€
+[2025-10-28 20:16:24,766] INFO — log_views: Listing saved | id=7 title='Villa in Frankfurt' owner=landlord3@rentalhub.com status=available price_eur=93.00€
+[2025-10-28 20:16:24,769] INFO — log_views: Listing saved | id=8 title='Loft in Munich' owner=landlord4@rentalhub.com status=available price_eur=158.00€
+[2025-10-28 20:16:24,774] INFO — log_views: Listing saved | id=8 title='Loft in Munich' owner=landlord4@rentalhub.com status=available price_eur=158.00€
+[2025-10-28 20:16:24,777] INFO — log_views: Listing saved | id=9 title='Villa in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=89.00€
+[2025-10-28 20:16:24,793] INFO — log_views: Listing saved | id=9 title='Villa in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=89.00€
+[2025-10-28 20:16:24,800] INFO — log_views: Listing saved | id=10 title='Villa in Frankfurt' owner=landlord4@rentalhub.com status=available price_eur=383.00€
+[2025-10-28 20:16:24,808] INFO — log_views: Listing saved | id=10 title='Villa in Frankfurt' owner=landlord4@rentalhub.com status=available price_eur=383.00€
+[2025-10-28 20:16:24,811] INFO — log_views: Listing saved | id=11 title='Apartment in Dresden' owner=landlord1@rentalhub.com status=available price_eur=144.00€
+[2025-10-28 20:16:24,816] INFO — log_views: Listing saved | id=11 title='Apartment in Dresden' owner=landlord1@rentalhub.com status=available price_eur=144.00€
+[2025-10-28 20:16:24,829] INFO — log_views: Listing saved | id=12 title='Villa in Dresden' owner=landlord4@rentalhub.com status=available price_eur=101.00€
+[2025-10-28 20:16:24,841] INFO — log_views: Listing saved | id=12 title='Villa in Dresden' owner=landlord4@rentalhub.com status=available price_eur=101.00€
+[2025-10-28 20:16:24,845] INFO — log_views: Listing saved | id=13 title='Villa in Frankfurt' owner=landlord4@rentalhub.com status=available price_eur=75.00€
+[2025-10-28 20:16:24,850] INFO — log_views: Listing saved | id=13 title='Villa in Frankfurt' owner=landlord4@rentalhub.com status=available price_eur=75.00€
+[2025-10-28 20:16:24,852] INFO — log_views: Listing saved | id=14 title='Apartment in Dresden' owner=landlord1@rentalhub.com status=available price_eur=110.00€
+[2025-10-28 20:16:24,874] INFO — log_views: Listing saved | id=14 title='Apartment in Dresden' owner=landlord1@rentalhub.com status=available price_eur=110.00€
+[2025-10-28 20:16:24,878] INFO — log_views: Listing saved | id=15 title='Apartment in Dresden' owner=landlord4@rentalhub.com status=available price_eur=334.00€
+[2025-10-28 20:16:24,886] INFO — log_views: Listing saved | id=15 title='Apartment in Dresden' owner=landlord4@rentalhub.com status=available price_eur=334.00€
+[2025-10-28 20:16:24,909] INFO — log_views: Listing saved | id=16 title='Loft in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=121.00€
+[2025-10-28 20:16:24,921] INFO — log_views: Listing saved | id=16 title='Loft in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=121.00€
+[2025-10-28 20:16:24,928] INFO — log_views: Listing saved | id=17 title='Villa in Dresden' owner=landlord1@rentalhub.com status=available price_eur=363.00€
+[2025-10-28 20:16:24,953] INFO — log_views: Listing saved | id=17 title='Villa in Dresden' owner=landlord1@rentalhub.com status=available price_eur=363.00€
+[2025-10-28 20:16:24,956] INFO — log_views: Listing saved | id=18 title='Villa in Dresden' owner=landlord1@rentalhub.com status=available price_eur=206.00€
+[2025-10-28 20:16:24,985] INFO — log_views: Listing saved | id=18 title='Villa in Dresden' owner=landlord1@rentalhub.com status=available price_eur=206.00€
+[2025-10-28 20:16:25,005] INFO — log_views: Listing saved | id=19 title='Villa in Munich' owner=landlord3@rentalhub.com status=available price_eur=492.00€
+[2025-10-28 20:16:25,053] INFO — log_views: Listing saved | id=19 title='Villa in Munich' owner=landlord3@rentalhub.com status=available price_eur=492.00€
+[2025-10-28 20:16:25,063] INFO — log_views: Listing saved | id=20 title='Villa in Munich' owner=landlord2@rentalhub.com status=available price_eur=468.00€
+[2025-10-28 20:16:25,096] INFO — log_views: Listing saved | id=20 title='Villa in Munich' owner=landlord2@rentalhub.com status=available price_eur=468.00€
+[2025-10-28 20:16:25,102] INFO — log_views: Listing saved | id=21 title='Studio in Dresden' owner=landlord5@rentalhub.com status=available price_eur=123.00€
+[2025-10-28 20:16:25,126] INFO — log_views: Listing saved | id=21 title='Studio in Dresden' owner=landlord5@rentalhub.com status=available price_eur=123.00€
+[2025-10-28 20:16:25,133] INFO — log_views: Listing saved | id=22 title='Apartment in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=326.00€
+[2025-10-28 20:16:25,153] INFO — log_views: Listing saved | id=22 title='Apartment in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=326.00€
+[2025-10-28 20:16:25,166] INFO — log_views: Listing saved | id=23 title='Apartment in Berlin' owner=landlord2@rentalhub.com status=available price_eur=222.00€
+[2025-10-28 20:16:25,189] INFO — log_views: Listing saved | id=23 title='Apartment in Berlin' owner=landlord2@rentalhub.com status=available price_eur=222.00€
+[2025-10-28 20:16:25,202] INFO — log_views: Listing saved | id=24 title='Apartment in Dresden' owner=landlord2@rentalhub.com status=available price_eur=402.00€
+[2025-10-28 20:16:25,209] INFO — log_views: Listing saved | id=24 title='Apartment in Dresden' owner=landlord2@rentalhub.com status=available price_eur=402.00€
+[2025-10-28 20:16:25,213] INFO — log_views: Listing saved | id=25 title='Loft in Munich' owner=landlord4@rentalhub.com status=available price_eur=246.00€
+[2025-10-28 20:16:25,238] INFO — log_views: Listing saved | id=25 title='Loft in Munich' owner=landlord4@rentalhub.com status=available price_eur=246.00€
+[2025-10-28 20:16:25,242] INFO — log_views: Listing saved | id=26 title='Villa in Berlin' owner=landlord3@rentalhub.com status=available price_eur=494.00€
+[2025-10-28 20:16:25,254] INFO — log_views: Listing saved | id=26 title='Villa in Berlin' owner=landlord3@rentalhub.com status=available price_eur=494.00€
+[2025-10-28 20:16:25,275] INFO — log_views: Listing saved | id=27 title='Villa in Berlin' owner=landlord5@rentalhub.com status=available price_eur=261.00€
+[2025-10-28 20:16:25,283] INFO — log_views: Listing saved | id=27 title='Villa in Berlin' owner=landlord5@rentalhub.com status=available price_eur=261.00€
+[2025-10-28 20:16:25,296] INFO — log_views: Listing saved | id=28 title='Studio in Berlin' owner=landlord1@rentalhub.com status=available price_eur=114.00€
+[2025-10-28 20:16:25,310] INFO — log_views: Listing saved | id=28 title='Studio in Berlin' owner=landlord1@rentalhub.com status=available price_eur=114.00€
+[2025-10-28 20:16:25,316] INFO — log_views: Listing saved | id=29 title='Apartment in Berlin' owner=landlord2@rentalhub.com status=available price_eur=444.00€
+[2025-10-28 20:16:25,337] INFO — log_views: Listing saved | id=29 title='Apartment in Berlin' owner=landlord2@rentalhub.com status=available price_eur=444.00€
+[2025-10-28 20:16:25,341] INFO — log_views: Listing saved | id=30 title='Loft in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=341.00€
+[2025-10-28 20:16:25,348] INFO — log_views: Listing saved | id=30 title='Loft in Frankfurt' owner=landlord1@rentalhub.com status=available price_eur=341.00€
+[2025-10-28 20:16:25,353] INFO — log_views: Listing saved | id=29 title='Apartment in Berlin' owner=landlord2@rentalhub.com status=unavailable price_eur=444.00€
+[2025-10-28 20:16:26,207] INFO — log_views: Reservation saved | id=1 user=tenant1@rentalhub.com listing=29 status=confirmed total=2664.00
+[2025-10-28 20:16:26,214] INFO — log_views: Listing saved | id=20 title='Villa in Munich' owner=landlord2@rentalhub.com status=unavailable price_eur=468.00€
+[2025-10-28 20:16:26,241] INFO — log_views: Reservation saved | id=2 user=tenant1@rentalhub.com listing=20 status=pending total=2340.00
+[2025-10-28 20:16:26,249] INFO — log_views: Listing saved | id=28 title='Studio in Berlin' owner=landlord1@rentalhub.com status=unavailable price_eur=114.00€
+[2025-10-28 20:16:26,257] INFO — log_views: Reservation saved | id=3 user=tenant2@rentalhub.com listing=28 status=completed total=798.00
+[2025-10-28 20:16:26,276] INFO — log_views: Listing saved | id=23 title='Apartment in Berlin' owner=landlord2@rentalhub.com status=unavailable price_eur=222.00€
+[2025-10-28 20:16:26,288] INFO — log_views: Reservation saved | id=4 user=tenant3@rentalhub.com listing=23 status=confirmed total=888.00
+[2025-10-28 20:16:26,292] INFO — log_views: Listing saved | id=1 title='Apartment in Cologne' owner=landlord2@rentalhub.com status=unavailable price_eur=262.00€
+[2025-10-28 20:16:26,319] INFO — log_views: Reservation saved | id=5 user=tenant4@rentalhub.com listing=1 status=pending total=1834.00
+[2025-10-28 20:16:26,325] INFO — log_views: Listing saved | id=29 title='Apartment in Berlin' owner=landlord2@rentalhub.com status=unavailable price_eur=444.00€
+[2025-10-28 20:16:26,417] INFO — log_views: Reservation saved | id=6 user=tenant4@rentalhub.com listing=29 status=confirmed total=1332.00
+[2025-10-28 20:16:26,432] INFO — log_views: Listing saved | id=6 title='Apartment in Munich' owner=landlord1@rentalhub.com status=unavailable price_eur=218.00€
+[2025-10-28 20:16:26,534] INFO — log_views: Reservation saved | id=7 user=tenant5@rentalhub.com listing=6 status=completed total=1090.00
+[2025-10-28 20:16:26,543] INFO — log_views: Listing saved | id=21 title='Studio in Dresden' owner=landlord5@rentalhub.com status=unavailable price_eur=123.00€
+[2025-10-28 20:16:26,607] INFO — log_views: Reservation saved | id=8 user=tenant5@rentalhub.com listing=21 status=pending total=615.00
+[2025-10-28 20:16:26,615] INFO — log_views: Listing saved | id=29 title='Apartment in Berlin' owner=landlord2@rentalhub.com status=unavailable price_eur=444.00€
+[2025-10-28 20:16:26,643] INFO — log_views: Reservation saved | id=9 user=tenant6@rentalhub.com listing=29 status=confirmed total=2220.00
+[2025-10-28 20:16:26,651] INFO — log_views: Listing saved | id=30 title='Loft in Frankfurt' owner=landlord1@rentalhub.com status=unavailable price_eur=341.00€
+[2025-10-28 20:16:26,686] INFO — log_views: Reservation saved | id=10 user=tenant6@rentalhub.com listing=30 status=confirmed total=1705.00
+[2025-10-28 20:16:26,710] INFO — log_views: Listing saved | id=26 title='Villa in Berlin' owner=landlord3@rentalhub.com status=unavailable price_eur=494.00€
+[2025-10-28 20:16:26,740] INFO — log_views: Reservation saved | id=11 user=tenant7@rentalhub.com listing=26 status=completed total=988.00
+[2025-10-28 20:16:26,753] INFO — log_views: Listing saved | id=11 title='Apartment in Dresden' owner=landlord1@rentalhub.com status=unavailable price_eur=144.00€
+[2025-10-28 20:16:26,791] INFO — log_views: Reservation saved | id=12 user=tenant7@rentalhub.com listing=11 status=pending total=432.00
+[2025-10-28 20:16:26,808] INFO — log_views: Listing saved | id=1 title='Apartment in Cologne' owner=landlord2@rentalhub.com status=unavailable price_eur=262.00€
+[2025-10-28 20:16:26,843] INFO — log_views: Reservation saved | id=13 user=tenant7@rentalhub.com listing=1 status=pending total=1834.00
+[2025-10-28 20:16:26,861] INFO — log_views: Listing saved | id=10 title='Villa in Frankfurt' owner=landlord4@rentalhub.com status=unavailable price_eur=383.00€
+[2025-10-28 20:16:26,886] INFO — log_views: Reservation saved | id=14 user=tenant8@rentalhub.com listing=10 status=confirmed total=766.00
+[2025-10-28 20:16:26,895] INFO — log_views: Listing saved | id=3 title='Studio in Hamburg' owner=landlord3@rentalhub.com status=unavailable price_eur=353.00€
+[2025-10-28 20:16:26,920] INFO — log_views: Reservation saved | id=15 user=tenant8@rentalhub.com listing=3 status=confirmed total=1412.00
+[2025-10-28 20:16:26,929] INFO — log_views: Listing saved | id=23 title='Apartment in Berlin' owner=landlord2@rentalhub.com status=unavailable price_eur=222.00€
+[2025-10-28 20:16:26,939] INFO — log_views: Reservation saved | id=16 user=tenant8@rentalhub.com listing=23 status=completed total=666.00
+[2025-10-28 20:16:26,943] INFO — log_views: Listing saved | id=9 title='Villa in Hamburg' owner=landlord4@rentalhub.com status=unavailable price_eur=89.00€
+[2025-10-28 20:16:26,967] INFO — log_views: Reservation saved | id=17 user=tenant9@rentalhub.com listing=9 status=confirmed total=267.00
+[2025-10-28 20:16:26,970] INFO — log_views: Listing saved | id=20 title='Villa in Munich' owner=landlord2@rentalhub.com status=unavailable price_eur=468.00€
+[2025-10-28 20:16:26,978] INFO — log_views: Reservation saved | id=18 user=tenant9@rentalhub.com listing=20 status=confirmed total=936.00
+[2025-10-28 20:16:26,994] INFO — log_views: Listing saved | id=14 title='Apartment in Dresden' owner=landlord1@rentalhub.com status=unavailable price_eur=110.00€
+[2025-10-28 20:16:27,004] INFO — log_views: Reservation saved | id=19 user=tenant9@rentalhub.com listing=14 status=completed total=220.00
+[2025-10-28 20:16:27,008] INFO — log_views: Listing saved | id=17 title='Villa in Dresden' owner=landlord1@rentalhub.com status=unavailable price_eur=363.00€
+[2025-10-28 20:16:27,015] INFO — log_views: Reservation saved | id=20 user=tenant10@rentalhub.com listing=17 status=completed total=1815.00
+[2025-10-28 20:16:27,018] INFO — log_views: Listing saved | id=22 title='Apartment in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=326.00€
+[2025-10-28 20:16:27,036] INFO — log_views: Listing saved | id=24 title='Apartment in Dresden' owner=landlord2@rentalhub.com status=available price_eur=402.00€
+[2025-10-28 20:16:27,043] INFO — log_views: Listing saved | id=5 title='Apartment in Dresden' owner=landlord2@rentalhub.com status=available price_eur=320.00€
+[2025-10-28 20:16:27,048] INFO — log_views: Listing saved | id=6 title='Apartment in Munich' owner=landlord1@rentalhub.com status=unavailable price_eur=218.00€
+[2025-10-28 20:16:27,052] INFO — log_views: Listing saved | id=2 title='Villa in Munich' owner=landlord4@rentalhub.com status=available price_eur=283.00€
+[2025-10-28 20:16:27,055] INFO — log_views: Listing saved | id=26 title='Villa in Berlin' owner=landlord3@rentalhub.com status=unavailable price_eur=494.00€
+[2025-10-28 20:16:27,070] INFO — log_views: Listing saved | id=12 title='Villa in Dresden' owner=landlord4@rentalhub.com status=available price_eur=101.00€
+[2025-10-28 20:16:27,077] INFO — log_views: Listing saved | id=4 title='Villa in Munich' owner=landlord4@rentalhub.com status=available price_eur=373.00€
+[2025-10-28 20:16:27,083] INFO — log_views: Listing saved | id=2 title='Villa in Munich' owner=landlord4@rentalhub.com status=available price_eur=283.00€
+[2025-10-28 20:16:27,086] INFO — log_views: Listing saved | id=30 title='Loft in Frankfurt' owner=landlord1@rentalhub.com status=unavailable price_eur=341.00€
+[2025-10-28 20:16:27,089] INFO — log_views: Listing saved | id=20 title='Villa in Munich' owner=landlord2@rentalhub.com status=unavailable price_eur=468.00€
+[2025-10-28 20:16:27,092] INFO — log_views: Listing saved | id=28 title='Studio in Berlin' owner=landlord1@rentalhub.com status=unavailable price_eur=114.00€
+[2025-10-28 20:16:27,095] INFO — log_views: Listing saved | id=18 title='Villa in Dresden' owner=landlord1@rentalhub.com status=available price_eur=206.00€
+[2025-10-28 20:16:27,097] INFO — log_views: Listing saved | id=14 title='Apartment in Dresden' owner=landlord1@rentalhub.com status=unavailable price_eur=110.00€
+[2025-10-28 20:16:27,100] INFO — log_views: Listing saved | id=17 title='Villa in Dresden' owner=landlord1@rentalhub.com status=unavailable price_eur=363.00€
+[2025-10-28 20:16:27,102] INFO — log_views: Listing saved | id=14 title='Apartment in Dresden' owner=landlord1@rentalhub.com status=unavailable price_eur=110.00€
+[2025-10-28 20:16:27,104] INFO — log_views: Listing saved | id=30 title='Loft in Frankfurt' owner=landlord1@rentalhub.com status=unavailable price_eur=341.00€
+[2025-10-28 20:16:27,106] INFO — log_views: Listing saved | id=28 title='Studio in Berlin' owner=landlord1@rentalhub.com status=unavailable price_eur=114.00€
+[2025-10-28 20:16:27,108] INFO — log_views: Listing saved | id=2 title='Villa in Munich' owner=landlord4@rentalhub.com status=available price_eur=283.00€
+[2025-10-28 20:16:27,111] INFO — log_views: Listing saved | id=23 title='Apartment in Berlin' owner=landlord2@rentalhub.com status=unavailable price_eur=222.00€
+[2025-10-28 20:16:27,127] INFO — log_views: Listing saved | id=27 title='Villa in Berlin' owner=landlord5@rentalhub.com status=available price_eur=261.00€
+[2025-10-28 20:16:27,134] INFO — log_views: Listing saved | id=14 title='Apartment in Dresden' owner=landlord1@rentalhub.com status=unavailable price_eur=110.00€
+[2025-10-28 20:16:27,138] INFO — log_views: Listing saved | id=9 title='Villa in Hamburg' owner=landlord4@rentalhub.com status=unavailable price_eur=89.00€
+[2025-10-28 20:16:27,142] INFO — log_views: Listing saved | id=17 title='Villa in Dresden' owner=landlord1@rentalhub.com status=unavailable price_eur=363.00€
+[2025-10-28 20:16:27,145] INFO — log_views: Listing saved | id=18 title='Villa in Dresden' owner=landlord1@rentalhub.com status=available price_eur=206.00€
+[2025-10-28 20:16:27,148] INFO — log_views: Listing saved | id=10 title='Villa in Frankfurt' owner=landlord4@rentalhub.com status=unavailable price_eur=383.00€
+[2025-10-28 20:16:27,151] INFO — log_views: Listing saved | id=21 title='Studio in Dresden' owner=landlord5@rentalhub.com status=unavailable price_eur=123.00€
+[2025-10-28 20:16:27,153] INFO — log_views: Listing saved | id=23 title='Apartment in Berlin' owner=landlord2@rentalhub.com status=unavailable price_eur=222.00€
+[2025-10-28 20:16:27,156] INFO — log_views: Listing saved | id=17 title='Villa in Dresden' owner=landlord1@rentalhub.com status=unavailable price_eur=363.00€
+[2025-10-28 20:16:27,160] INFO — log_views: Listing saved | id=15 title='Apartment in Dresden' owner=landlord4@rentalhub.com status=available price_eur=334.00€
+[2025-10-28 20:16:27,176] INFO — log_views: Listing saved | id=16 title='Loft in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=121.00€
+[2025-10-28 20:16:27,181] INFO — log_views: Listing saved | id=20 title='Villa in Munich' owner=landlord2@rentalhub.com status=unavailable price_eur=468.00€
+[2025-10-28 20:16:27,185] INFO — log_views: Listing saved | id=22 title='Apartment in Hamburg' owner=landlord4@rentalhub.com status=available price_eur=326.00€
+[2025-10-28 20:16:27,189] INFO — log_views: Listing saved | id=3 title='Studio in Hamburg' owner=landlord3@rentalhub.com status=unavailable price_eur=353.00€
+[2025-10-28 20:16:27,192] INFO — log_views: Listing saved | id=2 title='Villa in Munich' owner=landlord4@rentalhub.com status=available price_eur=283.00€
+[2025-10-28 20:16:27,194] INFO — log_views: Listing saved | id=27 title='Villa in Berlin' owner=landlord5@rentalhub.com status=available price_eur=261.00€
+[2025-10-28 20:16:27,197] INFO — log_views: Listing saved | id=21 title='Studio in Dresden' owner=landlord5@rentalhub.com status=unavailable price_eur=123.00€
+[2025-10-28 20:16:27,199] INFO — log_views: Listing saved | id=16 title='Loft in Frankfurt' owner=landlord2@rentalhub.com status=available price_eur=121.00€
+[2025-10-28 20:16:27,216] INFO — log_views: Listing saved | id=25 title='Loft in Munich' owner=landlord4@rentalhub.com status=available price_eur=246.00€
+[2025-10-28 20:16:27,221] INFO — log_views: Listing saved | id=23 title='Apartment in Berlin' owner=landlord2@rentalhub.com status=unavailable price_eur=222.00€
+[2025-10-28 20:16:27,225] INFO — log_views: Listing saved | id=14 title='Apartment in Dresden' owner=landlord1@rentalhub.com status=unavailable price_eur=110.00€
+[2025-10-28 20:16:27,229] INFO — log_views: Listing saved | id=4 title='Villa in Munich' owner=landlord4@rentalhub.com status=available price_eur=373.00€
+[2025-10-28 20:16:27,232] INFO — log_views: Listing saved | id=25 title='Loft in Munich' owner=landlord4@rentalhub.com status=available price_eur=246.00€
+[2025-10-28 20:16:27,235] INFO — log_views: Listing saved | id=21 title='Studio in Dresden' owner=landlord5@rentalhub.com status=unavailable price_eur=123.00€
+[2025-10-28 20:16:27,237] INFO — log_views: Listing saved | id=27 title='Villa in Berlin' owner=landlord5@rentalhub.com status=available price_eur=261.00€
+[2025-10-28 20:16:27,239] INFO — log_views: Listing saved | id=4 title='Villa in Munich' owner=landlord4@rentalhub.com status=available price_eur=373.00€
+[2025-10-28 20:16:27,241] INFO — log_views: Listing saved | id=10 title='Villa in Frankfurt' owner=landlord4@rentalhub.com status=unavailable price_eur=383.00€
+[2025-10-28 20:16:27,243] INFO — log_views: Listing saved | id=3 title='Studio in Hamburg' owner=landlord3@rentalhub.com status=unavailable price_eur=353.00€
+[2025-10-28 20:16:27,259] INFO — log_views: Listing saved | id=24 title='Apartment in Dresden' owner=landlord2@rentalhub.com status=available price_eur=402.00€
+[2025-10-28 20:16:27,265] INFO — log_views: Listing saved | id=15 title='Apartment in Dresden' owner=landlord4@rentalhub.com status=available price_eur=334.00€
+[2025-10-28 20:16:27,285] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=4 ip=N/A
+[2025-10-28 20:16:27,288] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=2 ip=N/A
+[2025-10-28 20:16:27,291] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=25 ip=N/A
+[2025-10-28 20:16:27,294] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=29 ip=N/A
+[2025-10-28 20:16:27,311] INFO — log_views: View logged: user=tenant1@rentalhub.com listing_id=6 ip=N/A
+[2025-10-28 20:16:27,318] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=1 ip=N/A
+[2025-10-28 20:16:27,322] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=6 ip=N/A
+[2025-10-28 20:16:27,328] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=25 ip=N/A
+[2025-10-28 20:16:27,331] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=17 ip=N/A
+[2025-10-28 20:16:27,333] INFO — log_views: View logged: user=tenant2@rentalhub.com listing_id=15 ip=N/A
+[2025-10-28 20:16:27,336] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=28 ip=N/A
+[2025-10-28 20:16:27,339] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=30 ip=N/A
+[2025-10-28 20:16:27,341] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=7 ip=N/A
+[2025-10-28 20:16:27,344] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=23 ip=N/A
+[2025-10-28 20:16:27,362] INFO — log_views: View logged: user=tenant3@rentalhub.com listing_id=6 ip=N/A
+[2025-10-28 20:16:27,369] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=25 ip=N/A
+[2025-10-28 20:16:27,373] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=14 ip=N/A
+[2025-10-28 20:16:27,377] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=16 ip=N/A
+[2025-10-28 20:16:27,381] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=10 ip=N/A
+[2025-10-28 20:16:27,384] INFO — log_views: View logged: user=tenant4@rentalhub.com listing_id=11 ip=N/A
+[2025-10-28 20:16:27,386] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=12 ip=N/A
+[2025-10-28 20:16:27,395] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=7 ip=N/A
+[2025-10-28 20:16:27,409] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=27 ip=N/A
+[2025-10-28 20:16:27,415] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=26 ip=N/A
+[2025-10-28 20:16:27,420] INFO — log_views: View logged: user=tenant5@rentalhub.com listing_id=15 ip=N/A
+[2025-10-28 20:16:27,424] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=7 ip=N/A
+[2025-10-28 20:16:27,427] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=13 ip=N/A
+[2025-10-28 20:16:27,443] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=6 ip=N/A
+[2025-10-28 20:16:27,451] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=17 ip=N/A
+[2025-10-28 20:16:27,455] INFO — log_views: View logged: user=tenant6@rentalhub.com listing_id=3 ip=N/A
+[2025-10-28 20:16:27,459] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=11 ip=N/A
+[2025-10-28 20:16:27,464] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=27 ip=N/A
+[2025-10-28 20:16:27,467] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=10 ip=N/A
+[2025-10-28 20:16:27,488] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=20 ip=N/A
+[2025-10-28 20:16:27,493] INFO — log_views: View logged: user=tenant7@rentalhub.com listing_id=22 ip=N/A
+[2025-10-28 20:16:27,499] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=14 ip=N/A
+[2025-10-28 20:16:27,504] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=5 ip=N/A
+[2025-10-28 20:16:27,507] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=9 ip=N/A
+[2025-10-28 20:16:27,518] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=25 ip=N/A
+[2025-10-28 20:16:27,529] INFO — log_views: View logged: user=tenant8@rentalhub.com listing_id=13 ip=N/A
+[2025-10-28 20:16:27,536] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=26 ip=N/A
+[2025-10-28 20:16:27,541] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=30 ip=N/A
+[2025-10-28 20:16:27,555] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=6 ip=N/A
+[2025-10-28 20:16:27,568] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=29 ip=N/A
+[2025-10-28 20:16:27,573] INFO — log_views: View logged: user=tenant9@rentalhub.com listing_id=8 ip=N/A
+[2025-10-28 20:16:27,578] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=3 ip=N/A
+[2025-10-28 20:16:27,588] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=5 ip=N/A
+[2025-10-28 20:16:27,602] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=1 ip=N/A
+[2025-10-28 20:16:27,607] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=2 ip=N/A
+[2025-10-28 20:16:27,614] INFO — log_views: View logged: user=tenant10@rentalhub.com listing_id=30 ip=N/A
+[2025-10-28 20:38:43,826] INFO — log_views: Reservation saved | id=17 user=tenant9@rentalhub.com listing=9 status=confirmed total=267.00
+[2025-10-28 20:39:29,559] INFO — log_views: View logged: user=admin@rentalhub.com listing_id=27 ip=127.0.0.1
+[2025-10-28 20:39:29,560] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=27
+[2025-10-28 20:39:40,208] INFO — log_views: Skipped duplicate view log: user=admin@rentalhub.com listing=Villa in Berlin
+[2025-10-28 20:39:40,208] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=27
+[2025-10-28 20:39:40,238] INFO — log_views: Listing saved | id=27 title='Villa in Berlin' owner=landlord5@rentalhub.com status=unavailable price_eur=261.00€
+[2025-10-28 20:39:40,255] INFO — log_views: Reservation saved | id=21 user=admin@rentalhub.com listing=27 status=pending total=261.00
+[2025-10-28 20:40:38,402] INFO — log_views: Skipped duplicate view log: user=admin@rentalhub.com listing=Villa in Berlin
+[2025-10-28 20:40:38,402] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=27
+[2025-10-28 20:40:48,117] INFO — log_views: Skipped duplicate view log: user=admin@rentalhub.com listing=Villa in Berlin
+[2025-10-28 20:40:48,118] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=27
+[2025-10-28 20:40:48,153] INFO — log_views: Listing saved | id=27 title='Villa in Berlin' owner=landlord5@rentalhub.com status=unavailable price_eur=261.00€
+[2025-10-28 20:40:48,174] INFO — log_views: Reservation saved | id=22 user=admin@rentalhub.com listing=27 status=pending total=261.00
+[2025-10-28 20:44:35,620] INFO — log_views: Skipped duplicate view log: user=admin@rentalhub.com listing=Villa in Berlin
+[2025-10-28 20:44:35,621] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=27
+[2025-10-28 20:44:35,663] INFO — log_views: Listing saved | id=27 title='Villa in Berlin' owner=landlord5@rentalhub.com status=unavailable price_eur=261.00€
+[2025-10-28 20:44:35,678] INFO — log_views: Reservation saved | id=23 user=admin@rentalhub.com listing=27 status=pending total=261.00
+[2025-10-28 20:46:04,901] INFO — log_views: View logged: user=admin@rentalhub.com listing_id=4 ip=127.0.0.1
+[2025-10-28 20:46:04,901] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=4
+[2025-10-28 20:46:15,906] INFO — log_views: Skipped duplicate view log: user=admin@rentalhub.com listing=Villa in Munich
+[2025-10-28 20:46:15,906] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=4
+[2025-10-28 20:46:15,945] INFO — log_views: Skipped duplicate view log: user=admin@rentalhub.com listing=Villa in Munich
+[2025-10-28 20:46:15,947] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=4
+[2025-10-28 20:46:35,169] INFO — log_views: Skipped duplicate view log: user=admin@rentalhub.com listing=Villa in Munich
+[2025-10-28 20:46:35,170] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=4
+[2025-10-28 20:46:35,201] INFO — log_views: Listing saved | id=4 title='Villa in Munich' owner=landlord4@rentalhub.com status=unavailable price_eur=373.00€
+[2025-10-28 20:46:35,215] INFO — log_views: Reservation saved | id=24 user=admin@rentalhub.com listing=4 status=pending total=373.00
+[2025-10-28 20:46:49,747] INFO — log_views: Skipped duplicate view log: user=admin@rentalhub.com listing=Villa in Munich
+[2025-10-28 20:46:49,747] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=4
+[2025-10-28 20:46:49,778] INFO — log_views: Skipped duplicate view log: user=admin@rentalhub.com listing=Villa in Munich
+[2025-10-28 20:46:49,778] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=4
+[2025-10-28 20:47:04,281] INFO — log_views: Skipped duplicate view log: user=admin@rentalhub.com listing=Villa in Munich
+[2025-10-28 20:47:04,281] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=4
+[2025-10-28 20:47:04,315] INFO — log_views: Listing saved | id=4 title='Villa in Munich' owner=landlord4@rentalhub.com status=unavailable price_eur=373.00€
+[2025-10-28 20:47:04,324] INFO — log_views: Reservation saved | id=25 user=admin@rentalhub.com listing=4 status=pending total=373.00
+[2025-10-28 20:51:48,920] INFO — log_views: View logged: user=admin@rentalhub.com listing_id=25 ip=127.0.0.1
+[2025-10-28 20:51:48,921] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=25
+[2025-10-28 20:51:59,074] INFO — log_views: Skipped duplicate view log: user=admin@rentalhub.com listing=Loft in Munich
+[2025-10-28 20:51:59,074] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=25
+[2025-10-28 20:51:59,109] INFO — log_views: Listing saved | id=25 title='Loft in Munich' owner=landlord4@rentalhub.com status=unavailable price_eur=246.00€
+[2025-10-28 20:51:59,119] INFO — log_views: Reservation saved | id=26 user=admin@rentalhub.com listing=25 status=pending total=246.00
+[2025-10-29 06:34:04,793] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 06:34:04,798] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 06:34:05,160] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 06:50:28,846] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 06:50:28,851] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 06:50:29,161] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 06:50:30,787] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=available price_eur=100.00€
+[2025-10-29 07:11:09,645] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 07:11:09,649] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 07:11:09,928] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 07:11:11,569] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=available price_eur=100.00€
+[2025-10-29 07:11:13,878] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 07:11:15,046] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 07:11:16,287] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 07:31:55,686] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 07:31:55,693] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 07:31:56,058] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 07:31:58,623] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=available price_eur=100.00€
+[2025-10-29 07:32:01,753] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 07:32:03,231] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 07:32:05,335] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:01:01,962] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 08:01:01,970] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:01:02,381] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 08:01:02,547] ERROR — log_views: Error during feedback creation: Got a `TypeError` when calling `Feedback.objects.create()`. This may be because you have a writable field on the serializer class that is not a valid argument to `Feedback.objects.create()`. You may need to make the field read-only, or override the FeedbackSerializer.create() method to handle this correctly.
+Original exception was:
+ Traceback (most recent call last):
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\query.py", line 661, in create
+    obj = self.model(**kwargs)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\base.py", line 569, in __init__
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: Feedback() got unexpected keyword arguments: 'rental_property'
+Traceback (most recent call last):
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\query.py", line 661, in create
+    obj = self.model(**kwargs)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\base.py", line 569, in __init__
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: Feedback() got unexpected keyword arguments: 'rental_property'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\feedbacks\views.py", line 73, in create
+    response = super().create(request, *args, **kwargs)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\feedbacks\views.py", line 65, in perform_create
+    serializer.save(user=user)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1010, in create
+    raise TypeError(msg)
+TypeError: Got a `TypeError` when calling `Feedback.objects.create()`. This may be because you have a writable field on the serializer class that is not a valid argument to `Feedback.objects.create()`. You may need to make the field read-only, or override the FeedbackSerializer.create() method to handle this correctly.
+Original exception was:
+ Traceback (most recent call last):
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\query.py", line 661, in create
+    obj = self.model(**kwargs)
+  File "C:\Users\ICH\PycharmProjects\Rental_HUB\backend\.venv\Lib\site-packages\django\db\models\base.py", line 569, in __init__
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: Feedback() got unexpected keyword arguments: 'rental_property'
+
+[2025-10-29 08:01:04,423] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=available price_eur=100.00€
+[2025-10-29 08:01:04,439] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:01:04,450] INFO — log_views: Reservation saved | id=1 user=alex@example.com listing=1 status=pending total=200.00
+[2025-10-29 08:01:04,450] INFO — log_views: Reservation created successfully by user alex@example.com
+[2025-10-29 08:01:06,007] INFO — log_views: SearchHistory saved (API) user=alex@example.com query=Nice
+[2025-10-29 08:01:07,439] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:01:08,806] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:01:08,811] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=N/A
+[2025-10-29 08:01:10,138] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:01:11,458] INFO — log_views: View logged: user=other@example.com listing_id=1 ip=N/A
+[2025-10-29 08:07:31,973] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 08:07:31,977] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:07:32,210] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 08:07:32,348] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:07:32,348] INFO — log_views: Feedback created by user testuser@example.com for property_id=1
+[2025-10-29 08:07:32,355] INFO — log_views: Feedback created via API by user testuser@example.com
+[2025-10-29 08:07:33,515] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=available price_eur=100.00€
+[2025-10-29 08:07:33,523] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:07:33,530] INFO — log_views: Reservation saved | id=1 user=alex@example.com listing=1 status=pending total=200.00
+[2025-10-29 08:07:33,531] INFO — log_views: Reservation created successfully by user alex@example.com
+[2025-10-29 08:07:34,727] INFO — log_views: SearchHistory saved (API) user=alex@example.com query=Nice
+[2025-10-29 08:07:36,357] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:07:36,367] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=127.0.0.1
+[2025-10-29 08:07:37,520] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:07:37,524] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=N/A
+[2025-10-29 08:07:38,656] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:07:39,894] INFO — log_views: View logged: user=other@example.com listing_id=1 ip=N/A
+[2025-10-29 08:10:17,503] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 08:10:17,507] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:10:17,840] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 08:10:17,997] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:10:17,998] INFO — log_views: Feedback created by user testuser@example.com for property_id=1
+[2025-10-29 08:10:18,010] INFO — log_views: Feedback created via API by user testuser@example.com
+[2025-10-29 08:10:19,421] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=available price_eur=100.00€
+[2025-10-29 08:10:19,439] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:10:19,456] INFO — log_views: Reservation saved | id=1 user=alex@example.com listing=1 status=pending total=200.00
+[2025-10-29 08:10:19,457] INFO — log_views: Reservation created successfully by user alex@example.com
+[2025-10-29 08:10:20,854] INFO — log_views: SearchHistory saved (API) user=alex@example.com query=Nice
+[2025-10-29 08:10:22,606] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:10:22,614] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=127.0.0.1
+[2025-10-29 08:10:23,901] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:10:23,905] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=N/A
+[2025-10-29 08:10:25,260] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:10:26,610] INFO — log_views: View logged: user=other@example.com listing_id=1 ip=N/A
+[2025-10-29 08:18:16,000] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 08:18:16,005] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:18:16,404] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 08:18:16,566] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:18:16,567] INFO — log_views: Feedback created by user testuser@example.com for property_id=1
+[2025-10-29 08:18:16,574] INFO — log_views: Feedback created via API by user testuser@example.com
+[2025-10-29 08:18:17,890] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=available price_eur=100.00€
+[2025-10-29 08:18:17,899] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:18:17,907] INFO — log_views: Reservation saved | id=1 user=alex@example.com listing=1 status=pending total=200.00
+[2025-10-29 08:18:17,908] INFO — log_views: Reservation created successfully by user alex@example.com
+[2025-10-29 08:18:19,491] INFO — log_views: SearchHistory saved (API) user=alex@example.com query=Nice
+[2025-10-29 08:18:21,279] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:18:21,286] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=127.0.0.1
+[2025-10-29 08:18:22,730] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:18:22,734] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=N/A
+[2025-10-29 08:18:24,088] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:18:25,476] INFO — log_views: View logged: user=other@example.com listing_id=1 ip=N/A
+[2025-10-29 08:20:23,237] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 08:20:23,243] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:20:23,533] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 08:20:23,667] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:20:23,667] INFO — log_views: Feedback created by user testuser@example.com for property_id=1
+[2025-10-29 08:20:23,674] INFO — log_views: Feedback created via API by user testuser@example.com
+[2025-10-29 08:20:24,988] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=available price_eur=100.00€
+[2025-10-29 08:20:25,001] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:20:25,012] INFO — log_views: Reservation saved | id=1 user=alex@example.com listing=1 status=pending total=200.00
+[2025-10-29 08:20:25,012] INFO — log_views: Reservation created successfully by user alex@example.com
+[2025-10-29 08:20:26,384] INFO — log_views: SearchHistory saved (API) user=alex@example.com query=Nice
+[2025-10-29 08:20:28,210] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:20:28,219] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=127.0.0.1
+[2025-10-29 08:20:29,557] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:20:29,563] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=N/A
+[2025-10-29 08:20:30,867] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:20:32,183] INFO — log_views: View logged: user=other@example.com listing_id=1 ip=N/A
+[2025-10-29 08:24:55,325] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 08:24:55,329] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:24:55,627] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 08:24:55,775] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:24:55,776] INFO — log_views: Feedback created by user testuser@example.com for property_id=1
+[2025-10-29 08:24:55,782] INFO — log_views: Feedback created via API by user testuser@example.com
+[2025-10-29 08:24:57,132] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=available price_eur=100.00€
+[2025-10-29 08:24:57,143] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:24:57,153] INFO — log_views: Reservation saved | id=1 user=alex@example.com listing=1 status=pending total=200.00
+[2025-10-29 08:24:57,153] INFO — log_views: Reservation created successfully by user alex@example.com
+[2025-10-29 08:24:58,470] INFO — log_views: SearchHistory saved (API) user=alex@example.com query=Nice
+[2025-10-29 08:25:00,268] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:25:00,276] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=127.0.0.1
+[2025-10-29 08:25:01,580] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:25:01,586] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=N/A
+[2025-10-29 08:25:02,877] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:25:04,183] INFO — log_views: View logged: user=other@example.com listing_id=1 ip=N/A
+[2025-10-29 08:27:25,503] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 08:27:25,508] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:27:25,880] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 08:27:26,044] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:27:26,044] INFO — log_views: Feedback created by user testuser@example.com for property_id=1
+[2025-10-29 08:27:26,053] INFO — log_views: Feedback created via API by user testuser@example.com
+[2025-10-29 08:27:27,341] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=available price_eur=100.00€
+[2025-10-29 08:27:27,352] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:27:27,360] INFO — log_views: Reservation saved | id=1 user=alex@example.com listing=1 status=pending total=200.00
+[2025-10-29 08:27:27,361] INFO — log_views: Reservation created successfully by user alex@example.com
+[2025-10-29 08:27:28,672] INFO — log_views: SearchHistory saved (API) user=alex@example.com query=Nice
+[2025-10-29 08:27:30,402] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:27:30,413] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=127.0.0.1
+[2025-10-29 08:27:31,755] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:27:31,760] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=N/A
+[2025-10-29 08:27:33,109] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:27:34,520] INFO — log_views: View logged: user=other@example.com listing_id=1 ip=N/A
+[2025-10-29 08:29:34,816] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 08:29:34,822] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:29:35,144] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 08:29:35,297] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:29:35,298] INFO — log_views: Feedback created by user testuser@example.com for property_id=1
+[2025-10-29 08:29:35,305] INFO — log_views: Feedback created via API by user testuser@example.com
+[2025-10-29 08:29:36,626] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=available price_eur=100.00€
+[2025-10-29 08:29:36,642] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:29:36,654] INFO — log_views: Reservation saved | id=1 user=alex@example.com listing=1 status=pending total=200.00
+[2025-10-29 08:29:36,654] INFO — log_views: Reservation created successfully by user alex@example.com
+[2025-10-29 08:29:38,011] INFO — log_views: SearchHistory saved (API) user=alex@example.com query=Nice
+[2025-10-29 08:29:39,769] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:29:39,776] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=127.0.0.1
+[2025-10-29 08:29:41,063] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:29:41,067] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=N/A
+[2025-10-29 08:29:42,420] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:29:43,808] INFO — log_views: View logged: user=other@example.com listing_id=1 ip=N/A
+[2025-10-29 08:33:57,297] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 08:33:57,300] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:33:57,602] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 08:33:57,767] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:33:57,768] INFO — log_views: Feedback created by user testuser@example.com for property_id=1
+[2025-10-29 08:33:57,776] INFO — log_views: Feedback created via API by user testuser@example.com
+[2025-10-29 08:33:59,163] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=available price_eur=100.00€
+[2025-10-29 08:33:59,176] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:33:59,186] INFO — log_views: Reservation saved | id=1 user=alex@example.com listing=1 status=pending total=200.00
+[2025-10-29 08:33:59,187] INFO — log_views: Reservation created successfully by user alex@example.com
+[2025-10-29 08:34:00,535] INFO — log_views: SearchHistory saved (API) user=alex@example.com query=Nice
+[2025-10-29 08:34:02,272] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:34:02,337] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=127.0.0.1
+[2025-10-29 08:34:03,659] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:34:03,666] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=N/A
+[2025-10-29 08:34:04,986] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:34:06,378] INFO — log_views: View logged: user=other@example.com listing_id=1 ip=N/A
+[2025-10-29 08:36:00,680] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 08:36:00,684] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:36:01,033] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 08:36:01,185] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:36:01,186] INFO — log_views: Feedback created by user testuser@example.com for property_id=1
+[2025-10-29 08:36:01,193] INFO — log_views: Feedback created via API by user testuser@example.com
+[2025-10-29 08:36:02,608] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=available price_eur=100.00€
+[2025-10-29 08:36:02,621] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:36:02,632] INFO — log_views: Reservation saved | id=1 user=alex@example.com listing=1 status=pending total=200.00
+[2025-10-29 08:36:02,633] INFO — log_views: Reservation created successfully by user alex@example.com
+[2025-10-29 08:36:03,936] INFO — log_views: SearchHistory saved (API) user=alex@example.com query=Nice
+[2025-10-29 08:36:05,583] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:36:05,594] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=127.0.0.1
+[2025-10-29 08:36:06,900] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:36:06,905] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=N/A
+[2025-10-29 08:36:08,225] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:36:09,527] INFO — log_views: View logged: user=other@example.com listing_id=1 ip=N/A
+[2025-10-29 08:40:08,870] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 08:40:08,876] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:40:09,177] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 08:40:09,333] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:40:09,333] INFO — log_views: Feedback created by user testuser@example.com for property_id=1
+[2025-10-29 08:40:09,342] INFO — log_views: Feedback created via API by user testuser@example.com
+[2025-10-29 08:40:10,659] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=available price_eur=100.00€
+[2025-10-29 08:40:10,673] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:40:10,682] INFO — log_views: Reservation saved | id=1 user=alex@example.com listing=1 status=pending total=200.00
+[2025-10-29 08:40:10,682] INFO — log_views: Reservation created successfully by user alex@example.com
+[2025-10-29 08:40:12,002] INFO — log_views: SearchHistory saved (API) user=alex@example.com query=Nice
+[2025-10-29 08:40:13,748] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:40:13,756] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=127.0.0.1
+[2025-10-29 08:40:15,059] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:40:15,065] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=N/A
+[2025-10-29 08:40:16,372] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:40:17,762] INFO — log_views: View logged: user=other@example.com listing_id=1 ip=N/A
+[2025-10-29 08:44:23,495] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 08:44:23,502] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:44:23,973] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 08:44:24,198] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:44:24,198] INFO — log_views: Feedback created by user testuser@example.com for property_id=1
+[2025-10-29 08:44:24,206] INFO — log_views: Feedback created via API by user testuser@example.com
+[2025-10-29 08:44:25,918] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=available price_eur=100.00€
+[2025-10-29 08:44:25,939] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=unavailable price_eur=100.00€
+[2025-10-29 08:44:25,954] INFO — log_views: Reservation saved | id=1 user=alex@example.com listing=1 status=pending total=200.00
+[2025-10-29 08:44:25,954] INFO — log_views: Reservation created successfully by user alex@example.com
+[2025-10-29 08:44:27,719] INFO — log_views: SearchHistory saved (API) user=alex@example.com query=Nice
+[2025-10-29 08:44:30,066] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:44:30,079] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=127.0.0.1
+[2025-10-29 08:44:31,781] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:44:31,788] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=N/A
+[2025-10-29 08:44:33,592] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 08:44:41,454] INFO — log_views: View logged: user=other@example.com listing_id=1 ip=N/A

@@ -7,7 +7,11 @@ class TestSearchHistory:
 
     def setup_method(self):
         self.client = APIClient()
-        self.user = User.objects.create_user(username="searcher", password="pass")
+        self.user = User.objects.create_user(
+            email="alex@example.com",
+            username="alex",
+            password="testpass"
+        )
         self.client.force_authenticate(user=self.user)
 
     def test_search_history_recorded(self):

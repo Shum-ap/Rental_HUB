@@ -9,10 +9,18 @@ class CustomUserManager(BaseUserManager):
 
     use_in_migrations = True
 
-    def create_user(self, email, password=None, **extra_fields):
-        """Create and save a regular user with the given email and password."""
+    def create_user(self, email=None, password=None, **extra_fields):
+        """
+        Create and save a regular user with the given email and password
+        """
+        username = extra_fields.pop("username", None)
+
+        if not email and username:
+            email = f"{username}@example.com"
+
         if not email:
             raise ValueError(_("The Email field must be set"))
+
         email = self.normalize_email(email)
         user = self.model(email=email, **extra_fields)
         user.set_password(password)
@@ -32,11 +40,24 @@ class CustomUserManager(BaseUserManager):
 
         return self.create_user(email, password, **extra_fields)
 
+    def create_superuser(self, email, password=None, **extra_fields):
+        """Create and save a superuser with all permissions."""
+        extra_fields.setdefault("is_staff", True)
+        extra_fields.setdefault("is_superuser", True)
+        extra_fields.setdefault("is_active", True)
+
+        if not extra_fields.get("is_staff"):
+            raise ValueError(_("Superuser must have is_staff=True."))
+        if not extra_fields.get("is_superuser"):
+            raise ValueError(_("Superuser must have is_superuser=True."))
+
+        return self.create_user(email, password, **extra_fields)
+
 
 class User(AbstractUser):
     """Custom User model that uses email as the unique identifier instead of username."""
 
-    username = None
+    username = None  # Отключаем стандартное поле username
     email = models.EmailField(_("Email address"), unique=True)
     first_name = models.CharField(_("First name"), max_length=50)
     last_name = models.CharField(_("Last name"), max_length=50, blank=True)

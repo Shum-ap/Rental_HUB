@@ -1,4 +1,4 @@
-{% load i18n %}
+{% load i18n language_switcher %}
 <!DOCTYPE html>
 <html lang="{{ LANGUAGE_CODE }}">
 <head>
@@ -13,56 +13,115 @@
             --dark: #0f172a;
             --gray: #94a3b8;
         }
-        body {background-color: var(--light); color: var(--dark); font-family: 'Segoe UI', sans-serif;}
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
         header {
             background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
-        nav a {color: white; text-decoration: none; margin-left: 1rem;}
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 1rem;
+            font-weight: 500;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
         .lang-form select {
-            background: white; color: var(--secondary);
-            border-radius: 6px; border: none; padding: 5px 8px;
+            background: white;
+            color: var(--secondary);
+            border-radius: 6px;
+            border: none;
+            padding: 5px 8px;
+            font-weight: 500;
         }
         .hero {
             background: url('https://images.unsplash.com/photo-1566073771259-6a8506099945') center/cover no-repeat;
-            height: 70vh; display: flex; align-items: center; justify-content: center; color: white; position: relative;
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            position: relative;
         }
         .hero::before {
-            content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
             background: rgba(0,0,0,0.5);
         }
-        .hero-content {position: relative; text-align: center; z-index: 1;}
-        .hero-content h1 {font-size: 3rem;}
+        .hero-content {
+            position: relative;
+            text-align: center;
+            z-index: 1;
+        }
+        .hero-content h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
         .listings-grid {
-            display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 2rem; padding: 2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
         }
         .property-card {
-            background: white; border-radius: 10px; overflow: hidden;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.3s;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
         }
-        .property-card:hover {transform: translateY(-5px);}
-        .property-image {width: 100%; height: 200px; object-fit: cover;}
-        .property-info {padding: 1rem;}
-        .property-meta {display: flex; justify-content: space-between; font-size: 0.9rem; color: var(--gray);}
-        .property-price_eur {font-weight: bold; color: var(--primary); margin-top: 0.5rem;}
+        .property-card:hover {
+            transform: translateY(-5px);
+        }
+        .property-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .property-info {
+            padding: 1rem;
+        }
+        .property-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            color: var(--gray);
+        }
+        .property-price_eur {
+            font-weight: bold;
+            color: var(--primary);
+            margin-top: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            background: #0f172a;
+            color: white;
+            padding: 2rem;
+        }
     </style>
 </head>
 <body>
 <header>
     <div class="logo">🏠 Rental Hub</div>
-    <form action="{% url 'set_language' %}" method="post" class="lang-form">
-        {% csrf_token %}
-        <select name="language" onchange="this.form.submit()">
-            {% get_current_language as LANGUAGE_CODE %}
-            {% get_available_languages as LANGUAGES %}
-            {% for lang_code, lang_name in LANGUAGES %}
-                <option value="{{ lang_code }}" {% if lang_code == LANGUAGE_CODE %}selected{% endif %}>
-                    {% if lang_code == 'ru' %}🇷🇺 Русский{% elif lang_code == 'en' %}🇬🇧 English{% elif lang_code == 'de' %}🇩🇪 Deutsch{% else %}{{ lang_name }}{% endif %}
-                </option>
-            {% endfor %}
-        </select>
-    </form>
+
+    {# 👇 наш кастомный тег выбора языка #}
+    {% language_switcher %}
+
     <nav>
         {% if user.is_authenticated %}
             <a href="/profile/">👤 {% trans "Profile" %}</a>
@@ -84,31 +143,33 @@
 
 <section class="listings-grid">
     {% for prop in listings %}
-    <div class="property-card">
-        <a href="{% url 'listing-detail-html' prop.id %}">
-            {% if prop.image %}
-                <img src="{{ prop.image.url }}" alt="{{ prop.title }}" class="property-image">
-            {% else %}
-                <img src="https://via.placeholder.com/300x200?text={% trans 'No Image' %}" alt="{% trans 'No Image' %}" class="property-image">
-            {% endif %}
-        </a>
-        <div class="property-info">
-            <h3>{{ prop.title }}</h3>
-            <p>{{ prop.get_listing_type_display }} — {{ prop.location }}</p>
-            <div class="property-meta">
-                <span>🏠 {{ prop.get_listing_type_display }}</span>
-                <span>⭐ {{ prop.avg_rating|default:"0"|floatformat:1 }}</span>
-                <span>💬 {{ prop.review_count|default:0 }}</span>
+        <div class="property-card">
+            <a href="{% url 'listing-detail-html' prop.id %}">
+                {% if prop.image %}
+                    <img src="{{ prop.image.url }}" alt="{{ prop.title }}" class="property-image">
+                {% else %}
+                    <img src="https://via.placeholder.com/300x200?text={% trans 'No Image' %}" alt="{% trans 'No Image' %}" class="property-image">
+                {% endif %}
+            </a>
+            <div class="property-info">
+                <h3>{{ prop.title }}</h3>
+                <p>{{ prop.get_listing_type_display }} — {{ prop.location }}</p>
+                <div class="property-meta">
+                    <span>🏠 {{ prop.get_listing_type_display }}</span>
+                    <span>⭐ {{ prop.avg_rating|default:"0"|floatformat:1 }}</span>
+                    <span>💬 {{ prop.review_count|default:0 }}</span>
+                </div>
+                <div class="property-price_eur">
+                    💰 {{ prop.price_eur|floatformat:0 }} € / {% trans "night" %}
+                </div>
             </div>
-            <div class="property-price_eur">💰 {{ prop.price_eur|floatformat:0 }} € / {% trans "night" %}</div>
         </div>
-    </div>
     {% empty %}
-    <p style="text-align:center;">{% trans "No active listings yet." %}</p>
+        <p style="text-align:center;">{% trans "No active listings yet." %}</p>
     {% endfor %}
 </section>
 
-<footer style="text-align:center; background:#0f172a; color:white; padding:2rem;">
+<footer>
     <p>&copy; 2025 RentalHub. {% trans "All rights reserved." %}</p>
 </footer>
 </body>

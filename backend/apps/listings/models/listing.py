@@ -12,15 +12,6 @@ logger = logging.getLogger("log_views")
 
 
 class Listing(SoftDeleteModel):
-    """
-    Represents a rental listing (formerly Listing).
-    Includes:
-    - Field validation
-    - Availability control
-    - Popularity scoring
-    - Safe view tracking
-    """
-
     class ListingType(models.TextChoices):
         APARTMENT = "apartment", _("Apartment")
         HOUSE = "house", _("House")
@@ -59,14 +50,13 @@ class Listing(SoftDeleteModel):
         related_name="listings"
     )
     image = models.ImageField(upload_to="properties/", blank=True, null=True)
-
     is_active = models.BooleanField(default=True)
+    is_available = models.BooleanField(default=True)
     status = models.CharField(
         max_length=20,
         choices=AvailabilityStatus.choices,
         default=AvailabilityStatus.AVAILABLE,
     )
-
     view_count = models.PositiveIntegerField(default=0)
     average_rating = models.DecimalField(
         max_digits=3,
@@ -74,7 +64,6 @@ class Listing(SoftDeleteModel):
         default=Decimal("0.00"),
         validators=[MinValueValidator(Decimal("0.00")), MaxValueValidator(Decimal("5.00"))],
     )
-
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
@@ -111,7 +100,6 @@ class Listing(SoftDeleteModel):
             logger.error("Error saving listing '%s' (owner=%s): %s", self.title, self.owner.email, exc)
             raise
 
-    # === Custom availability helpers ===
     def pause_availability(self):
         self.status = self.AvailabilityStatus.PAUSED
         self.save(update_fields=["status"])
@@ -123,7 +111,6 @@ class Listing(SoftDeleteModel):
         logger.info("Listing resumed | %s", self)
 
     def mark_reserved(self):
-        """Used when a booking is created."""
         self.status = self.AvailabilityStatus.RESERVED
         self.save(update_fields=["status"])
         logger.info("Listing reserved | %s", self)

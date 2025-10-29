@@ -9,7 +9,11 @@ class TestViewLogAPI:
 
     def setup_method(self):
         self.client = APIClient()
-        self.user = User.objects.create_user(username='alex', password='testpass')
+        self.user = User.objects.create_user(
+            email="alex@example.com",
+            username="alex",
+            password="testpass"
+        )
         self.client.force_authenticate(user=self.user)
         self.property = Listing.objects.create(
             title='Test Apartment',

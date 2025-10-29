@@ -11,11 +11,6 @@ logger = logging.getLogger("log_views")
 
 
 class ViewLog(SoftDeleteModel):
-    """
-    Tracks listing views by users for analytics and recommendations.
-    Prevents repeated logs from the same user within a short timeframe.
-    """
-
     user = models.ForeignKey(
         settings.AUTH_USER_MODEL,
         on_delete=models.CASCADE,
@@ -46,21 +41,14 @@ class ViewLog(SoftDeleteModel):
         return f"{self.user.email} viewed {self.listing.title} at {self.viewed_at:%Y-%m-%d %H:%M}"
 
     def clean(self):
-        """Validate IP and user agent length."""
         if self.user_agent and len(self.user_agent) > 300:
             raise ValueError(_("User-Agent string is too long."))
         if not self.listing.is_active:
             raise ValueError(_("Cannot log views for inactive listing."))
 
     def save(self, *args, **kwargs):
-        """
-        Save view entry with validation and duplicate prevention.
-        If the same user views the same listing within 10 minutes,
-        the view will not be duplicated.
-        """
         try:
             self.full_clean()
-
 
             recent_view_exists = ViewLog.objects.filter(
                 user=self.user,
@@ -95,10 +83,18 @@ class ViewLog(SoftDeleteModel):
             raise
 
     def delete(self, *args, **kwargs):
-        """Soft delete and log event."""
         try:
             super().delete(*args, **kwargs)
             logger.warning("View log deleted: %s", self)
         except Exception as exc:
             logger.error("Error deleting view log (%s): %s", self, exc)
             raise
+
+
+    @property
+    def property(self):
+        return self.listing
+
+    @property.setter
+    def property(self, value):
+        self.listing = value

@@ -80,7 +80,7 @@
         <p>{{ property.get_listing_type_display }} — {{ property.location }}</p>
         <p>💰 {{ property.price_eur }} € / {% trans "night" %}</p>
         <p>🛏 {% trans "Rooms" %}: {{ property.rooms }}</p>
-        <a href="{% url 'property-detail-html' property.id %}">{% trans "View Details" %}</a>
+        <a href="{% url 'listing-detail-html' property.id %}">{% trans "View Details" %}</a>
     </li>
     {% endfor %}
 </ul>

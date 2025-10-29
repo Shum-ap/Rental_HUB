@@ -47,7 +47,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    # --- Third-party ---
     'rest_framework',
     'rest_framework_simplejwt',
     'corsheaders',
@@ -57,7 +56,6 @@ INSTALLED_APPS = [
     'django_filters',
     'storages',
 
-    # --- Project Apps ---
     'apps.core.apps.CoreConfig',
     'apps.listings.apps.ListingsConfig',
     'apps.reservations.apps.ReservationsConfig',
@@ -66,14 +64,12 @@ INSTALLED_APPS = [
     'apps.log.apps.LogConfig',
     'apps.transactions.apps.TransactionsConfig',
 ]
-
-# === Middleware ===
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.locale.LocaleMiddleware',
+    #'django.middleware.locale.LocaleMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -82,7 +78,6 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'myproject.urls'
 
-# === Templates ===
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -139,6 +134,7 @@ LANGUAGES = [
 LANGUAGE_CODE = 'en'
 TIME_ZONE = 'UTC'
 USE_I18N = True
+USE_L10N = True
 USE_TZ = True
 DATETIME_FORMAT = "Y-m-d H:i"
 DATE_FORMAT = "Y-m-d"

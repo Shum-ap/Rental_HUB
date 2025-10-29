@@ -11,7 +11,11 @@ class TestReservationAPI:
 
     def setup_method(self):
         self.client = APIClient()
-        self.user = User.objects.create_user(username="tenant", password="pass")
+        self.user = User.objects.create_user(
+            email="alex@example.com",
+            username="alex",
+            password="testpass"
+        )
         self.client.force_authenticate(user=self.user)
         self.listing = Listing.objects.create(
             title="Test Property",
