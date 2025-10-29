@@ -4552,3 +4552,123 @@
 [2025-10-29 11:40:07,176] ERROR — django.server: "GET /api/v1/listings/ HTTP/1.1" 500 20627
 [2025-10-29 11:41:11,897] ERROR — django.server: "GET /api/v1/listings/1/ HTTP/1.1" 500 20602
 [2025-10-29 11:41:11,897] ERROR — django.server: "GET /api/v1/listings/1/ HTTP/1.1" 500 20602
+[2025-10-29 12:01:00,923] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 12:01:00,923] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 12:01:06,034] INFO — django.server: "GET / HTTP/1.1" 302 0
+[2025-10-29 12:01:06,034] INFO — django.server: "GET / HTTP/1.1" 302 0
+[2025-10-29 12:01:06,100] INFO — django.server: "GET /en/ HTTP/1.1" 200 8761
+[2025-10-29 12:01:06,100] INFO — django.server: "GET /en/ HTTP/1.1" 200 8761
+[2025-10-29 12:01:22,880] WARNING — django.server: "GET /en/admin/transactions/transaction/ HTTP/1.1" 404 9042
+[2025-10-29 12:01:22,880] WARNING — django.server: "GET /en/admin/transactions/transaction/ HTTP/1.1" 404 9042
+[2025-10-29 12:01:25,977] WARNING — django.server: "GET /en/admin/users/user/add/ HTTP/1.1" 404 9012
+[2025-10-29 12:01:25,977] WARNING — django.server: "GET /en/admin/users/user/add/ HTTP/1.1" 404 9012
+[2025-10-29 12:01:28,393] WARNING — django.server: "GET /en/admin/ HTTP/1.1" 404 8967
+[2025-10-29 12:01:28,393] WARNING — django.server: "GET /en/admin/ HTTP/1.1" 404 8967
+[2025-10-29 12:01:49,029] INFO — django.server: "GET /admin/ HTTP/1.1" 200 12916
+[2025-10-29 12:01:49,029] INFO — django.server: "GET /admin/ HTTP/1.1" 200 12916
+[2025-10-29 12:01:54,611] INFO — django.server: "GET /admin/users/user/15/change/ HTTP/1.1" 200 38718
+[2025-10-29 12:01:54,611] INFO — django.server: "GET /admin/users/user/15/change/ HTTP/1.1" 200 38718
+[2025-10-29 12:01:54,769] INFO — django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-29 12:01:54,769] INFO — django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-29 12:02:04,946] INFO — django.server: "GET /admin/ HTTP/1.1" 200 12916
+[2025-10-29 12:02:04,946] INFO — django.server: "GET /admin/ HTTP/1.1" 200 12916
+[2025-10-29 12:16:55,773] ERROR — django.server: "GET /api/v1/listings/1/ HTTP/1.1" 500 20602
+[2025-10-29 12:16:55,773] ERROR — django.server: "GET /api/v1/listings/1/ HTTP/1.1" 500 20602
+[2025-10-29 12:29:33,162] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\listings\views.py changed, reloading.
+[2025-10-29 12:29:33,162] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\listings\views.py changed, reloading.
+[2025-10-29 12:29:34,234] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 12:29:34,234] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 12:34:12,670] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\listings\views.py changed, reloading.
+[2025-10-29 12:34:12,670] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\listings\views.py changed, reloading.
+[2025-10-29 12:34:13,779] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 12:34:13,779] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 12:34:23,719] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\listings\serializers.py changed, reloading.
+[2025-10-29 12:34:23,719] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\listings\serializers.py changed, reloading.
+[2025-10-29 12:34:24,825] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 12:34:24,825] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 12:35:01,137] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\listings\views.py changed, reloading.
+[2025-10-29 12:35:01,137] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\listings\views.py changed, reloading.
+[2025-10-29 12:35:02,080] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 12:35:02,080] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 12:35:13,977] INFO — django.server: "GET /api/v1/listings/1/ HTTP/1.1" 200 527
+[2025-10-29 12:35:13,977] INFO — django.server: "GET /api/v1/listings/1/ HTTP/1.1" 200 527
+[2025-10-29 12:46:51,876] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\users\views.py changed, reloading.
+[2025-10-29 12:46:51,876] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\users\views.py changed, reloading.
+[2025-10-29 12:46:52,901] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 12:46:52,901] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 12:48:18,896] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\users\serializers.py changed, reloading.
+[2025-10-29 12:48:18,896] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\users\serializers.py changed, reloading.
+[2025-10-29 12:48:19,867] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 12:48:19,867] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 12:51:03,526] WARNING — django.server: "GET /swagger/ HTTP/1.1" 404 4802
+[2025-10-29 12:51:03,526] WARNING — django.server: "GET /swagger/ HTTP/1.1" 404 4802
+[2025-10-29 12:54:42,169] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\users\urls.py changed, reloading.
+[2025-10-29 12:54:42,169] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\users\urls.py changed, reloading.
+[2025-10-29 12:54:43,166] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 12:54:43,166] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 12:56:38,994] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\users\views.py changed, reloading.
+[2025-10-29 12:56:38,994] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\users\views.py changed, reloading.
+[2025-10-29 12:56:39,997] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 12:56:39,997] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 12:57:56,439] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\users\views.py changed, reloading.
+[2025-10-29 12:57:56,439] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\users\views.py changed, reloading.
+[2025-10-29 12:57:57,452] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 12:57:57,452] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 12:58:48,809] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\users\urls.py changed, reloading.
+[2025-10-29 12:58:48,809] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\users\urls.py changed, reloading.
+[2025-10-29 12:58:50,582] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 12:58:50,582] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 13:03:20,935] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\users\views.py changed, reloading.
+[2025-10-29 13:03:20,935] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\users\views.py changed, reloading.
+[2025-10-29 13:03:22,215] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 13:03:22,215] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 13:03:32,586] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\users\serializers.py changed, reloading.
+[2025-10-29 13:03:32,586] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\users\serializers.py changed, reloading.
+[2025-10-29 13:03:33,882] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 13:03:33,882] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 13:03:50,060] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\users\urls.py changed, reloading.
+[2025-10-29 13:03:50,060] INFO — django.utils.autoreload: C:\Users\ICH\PycharmProjects\Rental_HUB\backend\apps\users\urls.py changed, reloading.
+[2025-10-29 13:03:51,056] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 13:03:51,056] INFO — django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-29 13:05:24,665] WARNING — django.server: "POST /api/v1/users/register/ HTTP/1.1" 401 58
+[2025-10-29 13:05:24,665] WARNING — django.server: "POST /api/v1/users/register/ HTTP/1.1" 401 58
+[2025-10-29 13:06:50,450] INFO — django.server: "GET / HTTP/1.1" 302 0
+[2025-10-29 13:06:50,450] INFO — django.server: "GET / HTTP/1.1" 302 0
+[2025-10-29 13:06:50,481] INFO — django.server: "GET /en/ HTTP/1.1" 200 8761
+[2025-10-29 13:06:50,481] INFO — django.server: "GET /en/ HTTP/1.1" 200 8761
+[2025-10-29 13:06:50,577] INFO — django.server: "GET /media/properties/property_59_yvYdaMb.jpg HTTP/1.1" 304 0
+[2025-10-29 13:06:50,577] INFO — django.server: "GET /media/properties/property_59_yvYdaMb.jpg HTTP/1.1" 304 0
+[2025-10-29 13:06:50,581] INFO — django.server: "GET /media/properties/property_24_TYqoW89_4leRtLA.jpg HTTP/1.1" 304 0
+[2025-10-29 13:06:50,581] INFO — django.server: "GET /media/properties/property_24_TYqoW89_4leRtLA.jpg HTTP/1.1" 304 0
+[2025-10-29 13:06:50,583] INFO — django.server: "GET /media/properties/property_95_UIHHrx8.jpg HTTP/1.1" 304 0
+[2025-10-29 13:06:50,583] INFO — django.server: "GET /media/properties/property_95_UIHHrx8.jpg HTTP/1.1" 304 0
+[2025-10-29 13:06:50,653] INFO — django.server: "GET /media/properties/property_93_0kPDvQO.jpg HTTP/1.1" 304 0
+[2025-10-29 13:06:50,653] INFO — django.server: "GET /media/properties/property_93_0kPDvQO.jpg HTTP/1.1" 304 0
+[2025-10-29 13:06:50,653] INFO — django.server: "GET /media/properties/property_55_6es0d0o_7CLq0hD.jpg HTTP/1.1" 304 0
+[2025-10-29 13:06:50,653] INFO — django.server: "GET /media/properties/property_55_6es0d0o_7CLq0hD.jpg HTTP/1.1" 304 0
+[2025-10-29 13:06:50,668] INFO — django.server: "GET /media/properties/property_11_typQ4ZE.jpg HTTP/1.1" 304 0
+[2025-10-29 13:06:50,668] INFO — django.server: "GET /media/properties/property_11_typQ4ZE.jpg HTTP/1.1" 304 0
+[2025-10-29 13:06:58,600] WARNING — django.server: "GET /api/v1/tasks/ HTTP/1.1" 404 22681
+[2025-10-29 13:06:58,600] WARNING — django.server: "GET /api/v1/tasks/ HTTP/1.1" 404 22681
+[2025-10-29 13:09:47,637] INFO — django.server: "GET /api/v1/listings/ HTTP/1.1" 200 27824
+[2025-10-29 13:09:47,637] INFO — django.server: "GET /api/v1/listings/ HTTP/1.1" 200 27824
+[2025-10-29 13:09:47,826] INFO — django.server: "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[2025-10-29 13:09:47,826] INFO — django.server: "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[2025-10-29 13:10:58,877] INFO — django.server: "GET /en/listings/18/ HTTP/1.1" 200 4574
+[2025-10-29 13:10:58,877] INFO — django.server: "GET /en/listings/18/ HTTP/1.1" 200 4574
+[2025-10-29 13:11:02,529] INFO — django.server: "GET /en/profile/ HTTP/1.1" 200 2001
+[2025-10-29 13:11:02,529] INFO — django.server: "GET /en/profile/ HTTP/1.1" 200 2001
+[2025-10-29 13:11:11,873] WARNING — django.server: "GET /admin/logout/ HTTP/1.1" 405 0
+[2025-10-29 13:11:11,873] WARNING — django.server: "GET /admin/logout/ HTTP/1.1" 405 0
+[2025-10-29 13:11:19,547] INFO — django.server: "GET /admin/ HTTP/1.1" 200 12916
+[2025-10-29 13:11:19,547] INFO — django.server: "GET /admin/ HTTP/1.1" 200 12916
+[2025-10-29 13:11:24,504] INFO — django.server: "GET /admin/log/searchhistory/ HTTP/1.1" 200 30527
+[2025-10-29 13:11:24,504] INFO — django.server: "GET /admin/log/searchhistory/ HTTP/1.1" 200 30527
+[2025-10-29 13:11:24,635] INFO — django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-29 13:11:24,635] INFO — django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-10-29 13:13:53,750] INFO — django.server: "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4640
+[2025-10-29 13:13:53,750] INFO — django.server: "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4640
+[2025-10-29 13:13:54,667] INFO — django.server: "GET /api/schema/ HTTP/1.1" 200 199432
+[2025-10-29 13:13:54,667] INFO — django.server: "GET /api/schema/ HTTP/1.1" 200 199432
+[2025-10-29 13:16:44,738] WARNING — django.server: "GET /api/v1/feedbacks/ HTTP/1.1" 401 172
+[2025-10-29 13:16:44,738] WARNING — django.server: "GET /api/v1/feedbacks/ HTTP/1.1" 401 172

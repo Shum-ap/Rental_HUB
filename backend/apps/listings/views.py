@@ -39,7 +39,7 @@ class ListingViewSet(viewsets.ModelViewSet):
         "location": ["icontains"],
     }
     search_fields = ["title", "description", "location"]
-    ordering_fields = ["price_eur", "created_at", "average_rating", "popularity_score"]
+    ordering_fields = ["price_eur", "created_at", "average_rating", "popularity_score_calc"]
     ordering = ["-created_at"]
 
     def get_queryset(self):
@@ -48,12 +48,12 @@ class ListingViewSet(viewsets.ModelViewSet):
 
         qs = qs.filter(is_active=True, is_available=True)
 
-        # Annotate popularity_score for sorting
+        # 🔧 Переименовано, чтобы не конфликтовало с @property
         popularity_expr = ExpressionWrapper(
             F("average_rating") * 10 + F("view_count") / 10.0,
             output_field=FloatField()
         )
-        qs = qs.annotate(popularity_score=popularity_expr)
+        qs = qs.annotate(popularity_score_calc=popularity_expr)
 
         return qs
 

@@ -1947,3 +1947,109 @@ TypeError: Feedback() got unexpected keyword arguments: 'rental_property'
 [2025-10-29 11:25:10,732] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=15
 [2025-10-29 11:25:10,764] INFO — log_views: Listing saved | id=15 title='Apartment in Dresden' owner=landlord4@rentalhub.com status=unavailable price_eur=334.00€
 [2025-10-29 11:25:11,323] INFO — log_views: Reservation saved | id=27 user=admin@rentalhub.com listing=15 status=pending total=334.00
+[2025-10-29 12:03:08,931] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 12:03:08,937] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 12:03:09,364] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 12:03:09,628] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 12:03:09,628] INFO — log_views: Feedback created by user testuser@example.com for property_id=1
+[2025-10-29 12:03:09,635] INFO — log_views: Feedback created via API by user testuser@example.com
+[2025-10-29 12:03:10,950] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=available price_eur=100.00€
+[2025-10-29 12:03:10,963] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=unavailable price_eur=100.00€
+[2025-10-29 12:03:10,971] INFO — log_views: Reservation saved | id=1 user=alex@example.com listing=1 status=pending total=200.00
+[2025-10-29 12:03:10,972] INFO — log_views: Reservation created successfully by user alex@example.com
+[2025-10-29 12:03:12,372] INFO — log_views: SearchHistory saved (API) user=alex@example.com query=Nice
+[2025-10-29 12:03:14,187] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 12:03:14,196] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=127.0.0.1
+[2025-10-29 12:03:15,586] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 12:03:15,592] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=N/A
+[2025-10-29 12:03:17,116] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 12:03:18,589] INFO — log_views: View logged: user=other@example.com listing_id=1 ip=N/A
+[2025-10-29 12:35:13,955] INFO — log_views: View logged: user=landlord2@rentalhub.com listing_id=1 ip=127.0.0.1
+[2025-10-29 12:35:13,965] INFO — log_views: ViewLog created (API) user=landlord2@rentalhub.com property_id=1
+[2025-10-29 12:36:09,257] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 12:36:09,260] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 12:36:09,417] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 12:36:09,521] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 12:36:09,521] INFO — log_views: Feedback created by user testuser@example.com for property_id=1
+[2025-10-29 12:36:09,526] INFO — log_views: Feedback created via API by user testuser@example.com
+[2025-10-29 12:36:10,342] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=available price_eur=100.00€
+[2025-10-29 12:36:10,348] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=unavailable price_eur=100.00€
+[2025-10-29 12:36:10,351] INFO — log_views: Reservation saved | id=1 user=alex@example.com listing=1 status=pending total=200.00
+[2025-10-29 12:36:10,352] INFO — log_views: Reservation created successfully by user alex@example.com
+[2025-10-29 12:36:11,190] INFO — log_views: SearchHistory saved (API) user=alex@example.com query=Nice
+[2025-10-29 12:36:12,284] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 12:36:12,289] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=127.0.0.1
+[2025-10-29 12:36:13,117] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 12:36:13,120] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=N/A
+[2025-10-29 12:36:13,974] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 12:36:14,951] INFO — log_views: View logged: user=other@example.com listing_id=1 ip=N/A
+[2025-10-29 12:48:48,092] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 12:48:48,095] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 12:48:48,251] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 12:48:48,357] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 12:48:48,357] INFO — log_views: Feedback created by user testuser@example.com for property_id=1
+[2025-10-29 12:48:48,363] INFO — log_views: Feedback created via API by user testuser@example.com
+[2025-10-29 12:48:49,161] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=available price_eur=100.00€
+[2025-10-29 12:48:49,168] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=unavailable price_eur=100.00€
+[2025-10-29 12:48:49,172] INFO — log_views: Reservation saved | id=1 user=alex@example.com listing=1 status=pending total=200.00
+[2025-10-29 12:48:49,173] INFO — log_views: Reservation created successfully by user alex@example.com
+[2025-10-29 12:48:49,984] INFO — log_views: SearchHistory saved (API) user=alex@example.com query=Nice
+[2025-10-29 12:48:51,059] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 12:48:51,066] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=127.0.0.1
+[2025-10-29 12:48:51,877] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 12:48:51,880] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=N/A
+[2025-10-29 12:48:52,694] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 12:48:53,493] INFO — log_views: View logged: user=other@example.com listing_id=1 ip=N/A
+[2025-10-29 12:54:48,416] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 12:54:48,420] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 12:54:48,599] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 12:54:48,722] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 12:54:48,723] INFO — log_views: Feedback created by user testuser@example.com for property_id=1
+[2025-10-29 12:54:48,729] INFO — log_views: Feedback created via API by user testuser@example.com
+[2025-10-29 12:54:49,618] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=available price_eur=100.00€
+[2025-10-29 12:54:49,623] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=unavailable price_eur=100.00€
+[2025-10-29 12:54:49,628] INFO — log_views: Reservation saved | id=1 user=alex@example.com listing=1 status=pending total=200.00
+[2025-10-29 12:54:49,628] INFO — log_views: Reservation created successfully by user alex@example.com
+[2025-10-29 12:54:50,499] INFO — log_views: SearchHistory saved (API) user=alex@example.com query=Nice
+[2025-10-29 12:54:51,924] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 12:54:51,931] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=127.0.0.1
+[2025-10-29 12:54:52,926] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 12:54:52,930] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=N/A
+[2025-10-29 12:54:53,904] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 12:54:54,884] INFO — log_views: View logged: user=other@example.com listing_id=1 ip=N/A
+[2025-10-29 12:58:55,027] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 12:58:55,031] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 12:58:55,217] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 12:58:55,343] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 12:58:55,343] INFO — log_views: Feedback created by user testuser@example.com for property_id=1
+[2025-10-29 12:58:55,352] INFO — log_views: Feedback created via API by user testuser@example.com
+[2025-10-29 12:58:56,335] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=available price_eur=100.00€
+[2025-10-29 12:58:56,343] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=unavailable price_eur=100.00€
+[2025-10-29 12:58:56,348] INFO — log_views: Reservation saved | id=1 user=alex@example.com listing=1 status=pending total=200.00
+[2025-10-29 12:58:56,349] INFO — log_views: Reservation created successfully by user alex@example.com
+[2025-10-29 12:58:57,336] INFO — log_views: SearchHistory saved (API) user=alex@example.com query=Nice
+[2025-10-29 12:58:58,685] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 12:58:58,691] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=127.0.0.1
+[2025-10-29 12:58:59,681] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 12:58:59,684] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=N/A
+[2025-10-29 12:59:00,690] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 12:59:01,764] INFO — log_views: View logged: user=other@example.com listing_id=1 ip=N/A
+[2025-10-29 13:00:57,645] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=available price_eur=100.00€
+[2025-10-29 13:00:57,649] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 13:00:57,799] INFO — log_views: Reservation saved | id=1 user=testuser@example.com listing=1 status=confirmed total=400.00
+[2025-10-29 13:00:57,899] INFO — log_views: Listing saved | id=1 title='Test Listing' owner=testuser@example.com status=unavailable price_eur=100.00€
+[2025-10-29 13:00:57,900] INFO — log_views: Feedback created by user testuser@example.com for property_id=1
+[2025-10-29 13:00:57,904] INFO — log_views: Feedback created via API by user testuser@example.com
+[2025-10-29 13:00:58,713] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=available price_eur=100.00€
+[2025-10-29 13:00:58,718] INFO — log_views: Listing saved | id=1 title='Test Property' owner=alex@example.com status=unavailable price_eur=100.00€
+[2025-10-29 13:00:58,722] INFO — log_views: Reservation saved | id=1 user=alex@example.com listing=1 status=pending total=200.00
+[2025-10-29 13:00:58,723] INFO — log_views: Reservation created successfully by user alex@example.com
+[2025-10-29 13:00:59,530] INFO — log_views: SearchHistory saved (API) user=alex@example.com query=Nice
+[2025-10-29 13:01:00,420] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 13:01:00,428] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=127.0.0.1
+[2025-10-29 13:01:01,493] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 13:01:01,497] INFO — log_views: View logged: user=alex@example.com listing_id=1 ip=N/A
+[2025-10-29 13:01:02,511] INFO — log_views: Listing saved | id=1 title='Test Apartment' owner=alex@example.com status=available price_eur=1000.00€
+[2025-10-29 13:01:03,499] INFO — log_views: View logged: user=other@example.com listing_id=1 ip=N/A
+[2025-10-29 13:10:58,868] INFO — log_views: View logged: user=admin@rentalhub.com listing_id=18 ip=127.0.0.1
+[2025-10-29 13:10:58,868] INFO — log_views: ViewLog created (HTML) user=admin@rentalhub.com property_id=18

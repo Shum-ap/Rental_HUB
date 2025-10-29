@@ -6,6 +6,7 @@ from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from drf_spectacular.utils import extend_schema, OpenApiResponse
+
 from apps.reservations.models import Reservation
 from apps.transactions.models import Transaction
 from apps.users.serializers import UserSerializer, UserRegisterSerializer
@@ -59,7 +60,7 @@ class UserRegisterView(APIView):
     """Public endpoint for registration (open access)."""
 
     permission_classes = [AllowAny]
-    authentication_classes = []
+    authentication_classes = []  # Отключаем авторизацию
 
     @extend_schema(
         summary="Register a new user",
@@ -73,4 +74,7 @@ class UserRegisterView(APIView):
         serializer = UserRegisterSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         user = serializer.save()
-        return Response(UserSerializer(user).data, status=status.HTTP_201_CREATED)
+        return Response({
+            "message": "User registered successfully",
+            "user": UserSerializer(user).data,
+        }, status=status.HTTP_201_CREATED)
